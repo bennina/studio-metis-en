@@ -68,7 +68,7 @@ function generateBriefHTML(data: BriefData): string {
   validUntil.setDate(validUntil.getDate() + data.validityDays);
 
   return `<!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
