@@ -1,0 +1,279 @@
+{
+  "slug": "servizi/brand-identity",
+  "seo": {
+    "title": "Brand Identity & Posizionamento | Metis web agency | Consulenza Digitale e Sviluppo Web",
+    "description": "Costruiamo brand identity per PMI e professionisti: posizionamento, tone of voice, visual kit e linee guida per comunicare con coerenza su sito e social.",
+    "canonicalUrl": "https://www.metiswebagency.it/servizi/brand-identity"
+  },
+  "sections": [
+    {
+      "id": "id-cover",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": {
+        "radius": "justTopLeft",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Brand identity",
+        "title": "Brand identity che mette ordine:<br><b>posizionamento</b>, voce e immagine",
+        "subtitle": "Se comunichi in modo incoerente, sembri improvvisato anche se lavori bene.",
+        "body": "Partiamo da chi sei e da cosa ti rende diverso. Poi trasformiamo tutto in un sistema visivo e verbale coerente: palette, tipografia, tone of voice e linee guida. Così ogni contenuto “suona” come te.",
+        "tone": "primary"
+      },
+      "primaryCta": {
+        "label": "Richiedi una consulenza",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Vedi i pacchetti",
+        "href": "/pacchetti"
+      }
+    },
+    {
+      "id": "id-simple-content",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Quando serve davvero",
+        "title": "Non è questione di “logo”.<br>È questione di <b>percezione</b>.",
+        "subtitle": "Se vuoi farti scegliere, devi essere riconoscibile e chiaro.",
+        "body": "Una brand identity efficace evita tre problemi tipici: comunicazioni diverse ogni settimana, messaggi generici (“qualità, professionalità…”), e grafiche che cambiano a caso. Mettiamo regole e materiali pratici, così pubblichi più veloce e con più impatto.",
+        "columns": [
+          {
+            "title": "<b>Posizionamento</b>",
+            "subtitle": "Chi sei, per chi, perché",
+            "description": "Definiamo promessa, differenze e target. Serve per scrivere e progettare tutto il resto."
+          },
+          {
+            "title": "<b>Identità visiva</b>",
+            "subtitle": "Kit pronto all’uso",
+            "description": "Logo (se serve), palette, tipografia, regole di utilizzo e asset per web/social."
+          },
+          {
+            "title": "<b>Tone of voice</b>",
+            "subtitle": "Parole coerenti",
+            "description": "Linee guida di scrittura: cosa dire, cosa evitare, esempi di headline, bio e CTA."
+          }
+        ],
+        "tone": "accent"
+      },
+      "primaryCta": {
+        "label": "Valuta la tua identità",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Scopri il metodo",
+        "href": "/metodo"
+      }
+    },
+    {
+      "id": "id-text-media",
+      
+      "type": "cover",
+      "layout": {
+        "paddingY": "lg",
+        "alignText": "right",
+        "mediaPosition": "left"
+      },
+      "background": "subtleGradients",
+      "content": {
+        "tone": "white",
+        "eyebrow": "Output",
+        "title": "Un sistema che puoi usare subito",
+        "subtitle": "Non un PDF che resta nel cassetto.",
+        "body": "Consegniamo materiali operativi: kit grafico, template, linee guida e micro-esempi. Se vuoi, possiamo applicarli direttamente su sito e contenuti, così il brand diventa reale e coerente in ogni touchpoint."
+      },
+      "secondaryCta": {
+        "label": "Richiedi una consulenza",
+        "href": "/contatti"
+      }
+    },
+    {
+      "id": "servizi-elenco",
+      "type": "wall-card",
+      "header": {
+        "eyebrow": "Cosa includiamo",
+        "title": "Brand identity su misura (non “pack” uguale per tutti)",
+        "subtitle": "Scegliamo insieme il livello di profondità.",
+        "body": "In base a quanto sei avanti (o indietro), lavoriamo da un minimo kit fino a linee guida complete."
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": {
+        "label": "Parliamone",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Vedi i servizi",
+        "href": "/servizi"
+      },
+      "items": [
+        {
+          "id": "brand-mini-kit",
+          "eyebrow": "Start",
+          "title": "Mini brand kit",
+          "description": "Palette, tipografia, regole base e template: perfetto se devi “metterti in ordine” velocemente.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "brand-restyling",
+          "eyebrow": "Refresh",
+          "title": "Restyling e coerenza",
+          "description": "Rivediamo logo/segni e sistemiamo ciò che non funziona, senza buttare via la tua storia.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "brand-posizionamento",
+          "eyebrow": "Strategia",
+          "title": "Posizionamento & messaging",
+          "description": "Promessa, differenze, target, messaggi chiave: la base per sito, Ads e contenuti.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "brand-tone-voice",
+          "eyebrow": "Voce",
+          "title": "Tone of voice",
+          "description": "Linee guida di scrittura con esempi: headline, bio, CTA, risposte a obiezioni, stile social.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "brand-social-kit",
+          "eyebrow": "Social",
+          "title": "Template e kit social",
+          "description": "Template post/storie, copertine, formati e regole: per pubblicare veloce senza perdere coerenza.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "brand-brandbook",
+          "eyebrow": "Sistema",
+          "title": "Linee guida complete",
+          "description": "Un documento chiaro con regole e casi d’uso: utile se lavori con più persone o fornitori.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        }
+      ]
+    },
+    {
+      "id": "form-contatti",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Vuoi capire se ha senso per te?",
+        "title": "<b>Scrivici su WhatsApp</b>",
+        "subtitle": "Ti diciamo subito se è fattibile, tempi e prossimi step.",
+        "description": "Per una risposta rapida, mandaci 3 cose:<br><br><b>01</b> settore / servizio<br><b>02</b> obiettivo (contatti, vendite, visibilità)<br><b>03</b> link del sito (se esiste)."
+      },
+      "primaryCta": {
+        "label": "Scrivici su WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Preferisci email o telefono?",
+        "title": "<b>Raccontaci il progetto</b>",
+        "description": "Ti ricontattiamo con una proposta chiara, senza giri di parole."
+      },
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Nome e cognome",
+          "placeholder": "Es. Elisabetta Monaco",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "nome@azienda.it",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "name": "phone",
+          "label": "Telefono (facoltativo)",
+          "placeholder": "+39 ...",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "name": "company",
+          "label": "Azienda / Attività",
+          "placeholder": "Es. Studio / Impresa / Negozio",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "label": "Sito web (se esiste)",
+          "placeholder": "https://...",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Obiettivo e contesto",
+          "placeholder": "Es. voglio più richieste da Google / voglio rifare il sito / voglio lanciare una campagna...",
+          "rows": 4,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "privacy",
+          "name": "privacy",
+          "label": "Ho letto e accetto l’informativa privacy*",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "name": "newsletter",
+          "label": "Voglio ricevere aggiornamenti (facoltativo)",
+          "required": false
+        }
+      ],
+      "submitLabel": "Invia richiesta",
+      "secondaryText": "<span class=\"text-sm\">Leggi la nostra <a href=\"https://www.iubenda.com/privacy-policy/65260546\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-primary-900\">Privacy policy</a></span><br>Di solito rispondiamo entro 24/48 ore.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "slug": "servizi/siti-web",
+  "seo": {
+    "title": "Siti Web che portano contatti | Metis web agency | Consulenza Digitale e Sviluppo Web",
+    "description": "Progettiamo e sviluppiamo siti web veloci, chiari e orientati alla conversione: struttura, copy, SEO tecnica e tracciamento (GA4/GTM) per trasformare visite in contatti.",
+    "canonicalUrl": "https://www.metiswebagency.it/servizi/siti-web"
+  },
+  "sections": [
+    {
+      "id": "id-cover",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": {
+        "radius": "justTopLeft",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Siti web per PMI e professionisti",
+        "title": "Un <b>sito web</b> non deve solo essere bello.<br>Deve <b>farti trovare</b> e portare <b>richieste</b>.",
+        "subtitle": "Costruiamo una base solida: messaggio chiaro, pagine essenziali, performance e tracciamento.",
+        "body": "Partiamo da obiettivi e target, poi trasformiamo la strategia in un sito veloce e credibile: struttura, copy, CTA e SEO tecnica. Il risultato è una presenza online che lavora anche quando tu non ci sei.",
+        "tone": "primary"
+      },
+      "primaryCta": {
+        "label": "Richiedi una consulenza",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Scopri il metodo",
+        "href": "/metodo"
+      }
+    },
+    {
+      "id": "id-simple-content",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Cosa cambia davvero",
+        "title": "Il punto non è <b>“essere online”</b>.<br>È essere <b>scelti</b>.",
+        "subtitle": "Un sito efficace fa tre cose: spiega, guida, converte.",
+        "body": "Se oggi il tuo sito non porta contatti, quasi sempre il problema è uno (o più) di questi: messaggio confuso, pagine inutili, CTA deboli, prestazioni lente, nessun tracciamento. Noi mettiamo ordine e costruiamo un percorso semplice: da visita a richiesta.",
+        "columns": [
+          {
+            "title": "<b>Struttura</b> che si capisce",
+            "subtitle": "Architettura + contenuti essenziali",
+            "description": "Definiamo le pagine che servono davvero (e in che ordine), con un messaggio coerente per target e obiettivo."
+          },
+          {
+            "title": "<b>Performance</b> e SEO tecnica",
+            "subtitle": "Velocità, accessibilità, indicizzazione",
+            "description": "Ottimizziamo Core Web Vitals, metadata, sitemap/robots e basi SEO per farti trovare su Google (e nelle risposte AI)."
+          },
+          {
+            "title": "<b>Conversione</b> e tracciamento",
+            "subtitle": "CTA, form, GA4/GTM",
+            "description": "Impostiamo eventi e misurazioni: sai cosa funziona, dove perdi contatti e cosa migliorare."
+          }
+        ],
+        "tone": "accent"
+      },
+      "primaryCta": {
+        "label": "Parliamone",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Vedi i pacchetti",
+        "href": "/pacchetti"
+      }
+    },
+    {
+      "id": "id-text-media",
+      "type": "cover",
+      "layout": {
+        "paddingY": "lg",
+        "alignText": "right",
+        "mediaPosition": "left"
+      },
+      "background": "subtleGradients",
+      "content": {
+        "tone": "white",
+        "eyebrow": "Come lavoriamo",
+        "title": "Sito prima. Poi visibilità.<br>Non il contrario.",
+        "subtitle": "Se mandi traffico su un sito confuso, stai solo pagando per perdere opportunità.",
+        "body": "Prima costruiamo fondamenta e messaggio. Poi attiviamo SEO e campagne con tracciamento pulito. Così ogni euro speso ha un perché, e puoi decidere se scalare o correggere rotta."
+      },
+      "secondaryCta": {
+        "label": "Vedi il metodo in 3 step",
+        "href": "/metodo"
+      }
+    },
+    {
+      "id": "servizi-elenco",
+      "type": "wall-card",
+      "header": {
+        "eyebrow": "Tipologie di sito",
+        "title": "Scegliamo la struttura giusta (in base al tuo obiettivo)",
+        "subtitle": "Non esiste “il sito perfetto”: esiste il sito adatto al tuo caso.",
+        "body": "Ogni soluzione nasce da obiettivi e target. Qui sotto trovi le opzioni più comuni: le adattiamo al tuo settore e al budget."
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": {
+        "label": "Richiedi una consulenza",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Scopri i percorsi",
+        "href": "/pacchetti"
+      },
+      "items": [
+        {
+          "id": "siti-web-one-page",
+          "eyebrow": "Essenziale",
+          "title": "One page che converte",
+          "description": "Ideale per partire: un messaggio forte, sezioni in ordine logico, proof e CTA chiare. Perfetta per campagne e attività locali.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "siti-web-corporate",
+          "eyebrow": "Istituzionale",
+          "title": "Sito corporate / professionale",
+          "description": "Per aziende e studi: pagine servizi, chi-siamo credibile, struttura SEO e contenuti orientati a richieste qualificate.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "siti-web-servizi-local",
+          "eyebrow": "Local",
+          "title": "Sito per servizi locali",
+          "description": "Pensato per farti trovare in Sicilia, Campania, Puglia e Lazio: pagine per aree/servizi, CTA veloci, tracciamento e ottimizzazione continua.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "siti-web-lead-system",
+          "eyebrow": "Lead",
+          "title": "Sito + sistema contatti",
+          "description": "Form, email automation di base, integrazioni (CRM, calendly, WhatsApp), eventi GA4 e report: così gestisci richieste senza caos.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "siti-web-restyling",
+          "eyebrow": "Rilancio",
+          "title": "Restyling e ottimizzazione",
+          "description": "Se il sito esiste ma non funziona: audit, nuova gerarchia contenuti, copy, CTA e performance. Si lavora su ciò che serve, non su ciò che “si vede”.",
+          "cta": {
+            "label": "Valuta il sito",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "siti-web-tech-seo",
+          "eyebrow": "Tecnico",
+          "title": "SEO tecnica & tracking setup",
+          "description": "Pulizia index, redirect, sitemap/robots, metadata, GA4/GTM e eventi di conversione. Fondamentale prima di investire in Ads.",
+          "cta": {
+            "label": "Imposta il tracking",
+            "href": "/contatti"
+          }
+        }
+      ]
+    },
+    {
+      "id": "form-contatti",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Vuoi capire se ha senso per te?",
+        "title": "<b>Scrivici su WhatsApp</b>",
+        "subtitle": "Ti diciamo subito se è fattibile, tempi e prossimi step.",
+        "description": "Per una risposta rapida, mandaci 3 cose:<br><br><b>01</b> settore / servizio<br><b>02</b> obiettivo (contatti, vendite, visibilità)<br><b>03</b> link del sito (se esiste)."
+      },
+      "primaryCta": {
+        "label": "Scrivici su WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Preferisci email o telefono?",
+        "title": "<b>Raccontaci il progetto</b>",
+        "description": "Ti ricontattiamo con una proposta chiara, senza giri di parole."
+      },
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Nome e cognome",
+          "placeholder": "Es. Elisabetta Monaco",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "nome@azienda.it",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "name": "phone",
+          "label": "Telefono (facoltativo)",
+          "placeholder": "+39 ...",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "name": "company",
+          "label": "Azienda / Attività",
+          "placeholder": "Es. Studio / Impresa / Negozio",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "label": "Sito web (se esiste)",
+          "placeholder": "https://...",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Obiettivo e contesto",
+          "placeholder": "Es. voglio più richieste da Google / voglio rifare il sito / voglio lanciare una campagna...",
+          "rows": 4,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "privacy",
+          "name": "privacy",
+          "label": "Ho letto e accetto l’informativa privacy*",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "name": "newsletter",
+          "label": "Voglio ricevere aggiornamenti (facoltativo)",
+          "required": false
+        }
+      ],
+      "submitLabel": "Invia richiesta",
+      "secondaryText": "<span class=\"text-sm\">Leggi la nostra <a href=\"https://www.iubenda.com/privacy-policy/65260546\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-primary-900\">Privacy policy</a></span><br>Di solito rispondiamo entro 24/48 ore.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "slug": "",
+  "seo": {
+    "title": "Siti web e pubblicità che portano contatti | Metis Web Agency",
+    "description": "Aiutiamo PMI e professionisti a farsi trovare online e a ricevere richieste: prima mettiamo ordine su messaggio e offerta, poi realizziamo il sito, poi lo facciamo lavorare con pubblicità e dati. Sicilia e Italia. Remote-first.",
+    "canonicalUrl": "https://www.metiswebagency.it/"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "cover",
+      "background": "neutralGradients",
+      "layout": {
+        "radius": "justBottomRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Metis web agency di Elisabetta Monaco",
+        "title": "<span class=\"text-8xl\"> Se non ti trovano online, è come se non esistessi.</span>",
+        "subtitle": "Oggi le persone cercano su Google e sui social prima di chiamare. Se non capiscono subito cosa fai, scelgono qualcun altro.",
+        "body": "Ti aiutiamo a farti capire e a ricevere richieste reali.\nPrima mettiamo ordine su messaggio e offerta.\nPoi realizziamo il sito.\nInfine portiamo persone in target con pubblicità e misurazione.",
+        "tone": "primary"
+      },
+      "primaryCta": {
+        "label": "Scrivici su WhatsApp",
+        "href": "https://wa.me/393494459317",
+        "target": "_blank"
+      },
+      "secondaryCta": {
+        "label": "Vedi i pacchetti",
+        "href": "/pacchetti"
+      }
+    },
+
+    {
+      "id": "perche-digitale",
+      "type": "simple-content",
+      "paddingY": "xl",
+      "content": {
+        "eyebrow": "Perché serve",
+        "title": "<span class=\"text-7xl\">La presenza digitale <b>non è un lusso</b>. È una necessità.</span>",
+        "subtitle": "Anche se lavori bene, se online sei assente o poco chiaro, perdi occasioni ogni settimana.",
+        "body": "Prima di contattarti, le persone ti cercano online. Se non trovano risposte semplici su chi sei, cosa fai e come lavorare con te, passano oltre.",
+        "tone": "black"
+      }
+    },
+
+    {
+      "id": "dire-chi-sei",
+      "type": "cover",
+      "background": "secondaryGradients",
+      "layout": {
+        "paddingY": "none",
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "center"
+      },
+      "content": {
+        "eyebrow": "Perché serve",
+        "title": "Le persone ti cercano prima di chiamare",
+        "subtitle": "Vogliono capire chi sei, cosa fai e se possono fidarsi. Se non trovano risposte, non ti contattano.",
+        "body": "Un sito web chiaro e una presenza online curata ti aiutano a dare fiducia e a farti scegliere. È il modo più semplice per spiegarti bene, anche quando tu non sei disponibile.",
+        "tone": "white"
+      }
+    },
+
+    {
+      "id": "solo-se-hai-le-basi",
+      "type": "cover",
+      "background": "neutralGradients",
+      "layout": {
+        "radius": "justLeft",
+        "alignX": "left",
+        "alignY": "center"
+      },
+      "content": {
+        "eyebrow": "Perché serve",
+        "title": "La pubblicità funziona solo se hai le basi",
+        "subtitle": "Se porti traffico su una pagina confusa, stai pagando per far scappare le persone.",
+        "body": "Le campagne Google e Meta possono portare visibilità, ma prima serve una pagina che spiega bene cosa fai e invita a contattarti. Senza messaggio chiaro e contatti visibili, la pubblicità diventa uno spreco.",
+        "tone": "secondary"
+      }
+    },
+
+    {
+      "id": "perche-ti-cercano",
+      "type": "cover",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "center"
+      },
+      "content": {
+        "eyebrow": "Perché serve",
+        "title": "Un sito fatto bene ti fa risparmiare tempo",
+        "subtitle": "Spiega al posto tuo e filtra le richieste. Così ti contattano persone più in target.",
+        "body": "Quando il sito web è chiaro, le persone arrivano già con le idee più precise. Capiscono cosa offri, per chi è e come contattarti. Tu perdi meno tempo e lavori meglio.",
+        "tone": "white"
+      }
+    },
+
+    {
+      "id": "step-prima-del-sito",
+      "type": "wall-card",
+      "header": {
+        "tone": "secondary",
+        "eyebrow": "Prima del sito",
+        "title": "Il sito non è il primo passo. Prima serve capire cosa dire.",
+        "subtitle": "Altrimenti è come mettere i vestiti di qualcun altro.",
+        "body": "Se copi lo stile di un concorrente o fai un sito solo “bello”, rischi di non raccontare chi sei davvero. Noi partiamo da ciò che ti rende chiaro, credibile e riconoscibile."
+      },
+      "layout": {
+        "cardVariant": "secondary",
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "items": [
+        {
+          "id": "step-1",
+          "eyebrow": "01",
+          "title": "Mettiamo a fuoco cosa offri e a chi",
+          "description": "Chiarezza su servizi, priorità, zona coperta, tempi e differenze rispetto ai competitor. Così la comunicazione non è generica."
+        },
+        {
+          "id": "step-2",
+          "eyebrow": "02",
+          "title": "Scriviamo un messaggio semplice",
+          "description": "In poche frasi deve essere chiaro cosa fai, per chi lo fai e cosa deve fare la persona che legge."
+        },
+        {
+          "id": "step-3",
+          "eyebrow": "03",
+          "title": "Decidiamo cosa serve davvero",
+          "description": "Non mille pagine. Solo quelle utili a portare contatti e fiducia: home, servizi, chi siamo, contatti, prove e lavori."
+        }
+      ],
+      "primaryCta": {
+        "label": "Vedi i servizi",
+        "href": "/servizi"
+      },
+      "secondaryCta": {
+        "label": "Vedi i pacchetti",
+        "href": "/pacchetti"
+      }
+    },
+
+    {
+      "id": "servizi-chiari-dev-post",
+      "type": "wall-card",
+      "header": {
+        "tone": "primary",
+        "eyebrow": "Servizi",
+        "title": "Cosa facciamo, in modo semplice. Prima, durante e dopo.",
+        "subtitle": "Così sai cosa stai acquistando e cosa succede dopo la messa online.",
+        "body": "Molti pensano che il lavoro finisca quando il sito è online. In realtà è lì che inizia a lavorare davvero."
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 2,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "items": [
+        {
+          "id": "servizio-prima",
+          "eyebrow": "Prima",
+          "title": "Strategia e messaggio",
+          "description": "Obiettivi, target, offerta e testi chiari. Definiamo cosa dire e come dirlo, senza parole difficili.",
+          "cta": {
+            "label": "Scopri",
+            "href": "/servizi/strategia-digitale"
+          }
+        },
+        {
+          "id": "servizio-dev",
+          "eyebrow": "Durante",
+          "title": "Dev, sito e landing",
+          "description": "Progettiamo e sviluppiamo pagine veloci e semplici da usare. Percorso chiaro, contatti subito visibili e struttura pensata per convertire.",
+          "cta": {
+            "label": "Scopri",
+            "href": "/servizi/siti-web"
+          }
+        },
+        {
+          "id": "servizio-post",
+          "eyebrow": "Dopo",
+          "title": "Pubblicità, SEO e misurazione",
+          "description": "Portiamo persone in target con campagne Google e Meta. Misuriamo ciò che conta, come WhatsApp, chiamate e form. Poi miglioriamo in base ai dati.",
+          "cta": {
+            "label": "Scopri",
+            "href": "/servizi/copy-seo-contenuti"
+          }
+        },
+        {
+          "id": "servizio-post-2",
+          "eyebrow": "Dopo",
+          "title": "Manutenzione e supporto",
+          "description": "Aggiornamenti, sicurezza e piccoli interventi. Così il sito resta ordinato, veloce e affidabile nel tempo.",
+          "cta": {
+            "label": "Scopri",
+            "href": "/servizi/manutenzione"
+          }
+        }
+      ],
+      "primaryCta": {
+        "label": "Vai ai servizi",
+        "href": "/servizi"
+      },
+      "secondaryCta": {
+        "label": "Parliamone su WhatsApp",
+        "href": "https://wa.me/393494459317",
+        "target": "_blank"
+      }
+    },
+
+    {
+      "id": "pacchetti-home",
+      "type": "wall-card",
+      "background": "secondaryGradients",
+      "header": {
+        "tone": "white",
+        "eyebrow": "Pacchetti",
+        "title": "Pacchetti semplici per capire subito cosa stai comprando",
+        "subtitle": "Scegli in base a dove ti trovi oggi.",
+        "body": "Questi pacchetti servono per evitare progetti infiniti e preventivi confusi. Sono pensati per arrivare al risultato con un perimetro definito."
+      },
+      "items": [
+        {
+          "id": "pack-base",
+          "eyebrow": "Per chi parte da zero",
+          "title": "Sito Essenziale",
+          "description": "Mettiamo ordine su messaggio e offerta, poi realizziamo un sito chiaro con le pagine che servono davvero.\nObiettivo: farti capire e farti contattare.",
+          "meta": {
+            "priceLabel": "a partire da",
+            "priceValue": "€ 2.000"
+          },
+          "cta": {
+            "label": "Vedi cosa include",
+            "href": "/pacchetti/parti-col-piede-giusto"
+          }
+        },
+        {
+          "id": "pack-sprint",
+          "eyebrow": "Per chi ha già un sito",
+          "title": "Sblocca i contatti",
+          "description": "Analizziamo cosa non funziona e sistemiamo le parti che bloccano le richieste.\nHome, servizi, contatti, call to action e tracciamento.",
+          "meta": {
+            "priceLabel": "a partire da",
+            "priceValue": "€ 1.000"
+          },
+          "cta": {
+            "label": "Vedi dettagli",
+            "href": "/pacchetti/fai-lavorare-il-sito"
+          }
+        }
+      ],
+      "layout": {
+        "radius": "justRight",
+        "cardVariant": "secondary",
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 2,
+        "gap": "sm",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": {
+        "label": "Vai alla pagina pacchetti",
+        "href": "/pacchetti"
+      }
+    },
+
+    {
+      "id": "faq",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Domande frequenti",
+        "columns": [
+          {
+            "title": "<span class='text-6xl font-bold'>Due dubbi che sentiamo spesso</span>"
+          },
+          {
+            "title": "<span class='text-4xl'>Risposte semplici per capire come lavoriamo</span>",
+            "description": "Quando ci si affida a un’agenzia digitale è normale avere dubbi. Qui trovi le risposte alle domande che ci fanno più spesso.\nSe vuoi, puoi scriverci quando vuoi anche direttamente su WhatsApp."
+          }
+        ],
+        "accordions": [
+          {
+            "title": "Ho già i social, mi serve il sito?",
+            "content": "I social aiutano, ma cambiano continuamente e non sei tu a decidere cosa vede la gente.\nIl sito è casa tua. Spiega bene, dà fiducia e porta contatti."
+          },
+          {
+            "title": "La pubblicità funziona sempre?",
+            "content": "Funziona se mandi le persone sulla pagina giusta e se misuri i risultati.\nSe la pagina è confusa, paghi per farle scappare."
+          },
+          {
+            "title": "Quanto tempo ci vuole?",
+            "content": "Dipende dal punto di partenza.\nDi solito prima si mette ordine e si sistema il sito, poi si lavora su visibilità e ottimizzazione."
+          },
+          {
+            "title": "Come capiamo se sta andando bene?",
+            "content": "Guardiamo le richieste, non i like.\nMisuriamo WhatsApp, chiamate, form e contatti reali."
+          }
+        ],
+        "tone": "accent"
+      }
+    },
+
+    {
+      "id": "form-contatti",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Hai una domanda veloce",
+        "title": "Scrivici su WhatsApp",
+        "subtitle": "Ti diciamo subito se ha senso, tempi e prossimi step.",
+        "description": "Per una risposta rapida mandaci tre cose.\nIl tuo settore.\nIl tuo obiettivo.\nIl link del sito se esiste."
+      },
+      "primaryCta": {
+        "label": "Scrivici su WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Preferisci una valutazione più precisa",
+        "title": "Raccontaci il progetto",
+        "description": "Ti ricontattiamo con una proposta chiara, senza giri di parole."
+      },
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Nome e cognome",
+          "placeholder": "Es. Elisabetta Monaco",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "nome@azienda.it",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "name": "phone",
+          "label": "Telefono",
+          "placeholder": "Es. +39 349 445 9317",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "name": "company",
+          "label": "Azienda o attività",
+          "placeholder": "Es. Studio o impresa",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "label": "Sito web se esiste",
+          "placeholder": "https://",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Obiettivo e contesto",
+          "placeholder": "Es. voglio più richieste, voglio vendere, voglio sistemare il sito perché non porta contatti",
+          "rows": 4,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "privacy",
+          "name": "privacy",
+          "label": "Ho letto e accetto l’informativa privacy",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "name": "newsletter",
+          "label": "Voglio ricevere aggiornamenti",
+          "required": false
+        }
+      ],
+      "submitLabel": "Invia richiesta",
+      "secondaryText": "Di solito rispondiamo entro 24 o 48 ore.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

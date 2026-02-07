@@ -1,0 +1,139 @@
+{
+  "slug": "pacchetti/vendi-online-con-metodo",
+  "seo": {
+    "title": "Vendi online con metodo | Metis web agency | E-commerce che Regge nel Tempo",
+    "description": "Percorso e-commerce: strategia, catalogo, UX, contenuti, checkout, tracking e ottimizzazione. Per trasformare l’online in un canale vendite reale, non un sito pieno di prodotti.",
+    "canonicalUrl": "https://www.metiswebagency.it/pacchetti/vendi-online-con-metodo"
+  },
+  "sections": [
+    {
+      "id": "id-cover",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": { "radius": "justTopLeft", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Pacchetto • Per chi vuole vendere online",
+        "title": "Vendi online con metodo:<br><b>un e-commerce che non crolla dopo il lancio</b>",
+        "subtitle": "Catalogo, UX, contenuti e tracking. Poi crescita misurabile.",
+        "body": "Un e-commerce non si regge su “mettere prodotti” e fare qualche sponsorizzata. Serve struttura: categorie sensate, pagine prodotto che vendono, checkout pulito, tracking e un piano di acquisizione che non butta budget.",
+        "tone": "primary"
+      },
+      "primaryCta": { "label": "Richiedi una consulenza", "href": "/contatti?intent=vendi-online-con-metodo" },
+      "secondaryCta": { "label": "Vedi gli altri pacchetti", "href": "/pacchetti" }
+    },
+
+    {
+      "id": "id-simple-content",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Per chi è",
+        "title": "Se vuoi trasformare l’online in un <b>asset reale</b>",
+        "subtitle": "Non un progetto “una tantum”, ma un canale che cresce e si ottimizza.",
+        "body": "Questo percorso è per chi vuole vendere, capire i numeri e migliorare nel tempo. Se l’obiettivo è solo “avere l’e-commerce”, non è la scelta giusta. Se l’obiettivo è costruire un canale vendite, sì.",
+        "columns": [
+          {
+            "subtitle": "Focus",
+            "description": "Struttura catalogo, UX, pagine prodotto, checkout, tracciamento e acquisizione."
+          },
+          {
+            "subtitle": "Risultato",
+            "description": "Un e-commerce pronto per campagne e SEO, con KPI chiari e margine di ottimizzazione continua."
+          }
+        ],
+        "tone": "accent"
+      },
+      "primaryCta": { "label": "Parliamone", "href": "/contatti?intent=vendi-online-con-metodo" },
+      "secondaryCta": { "label": "Scopri il metodo", "href": "/metodo" }
+    },
+
+    {
+      "id": "id-simple-price",
+      "type": "simple-content",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justLeft",
+        "alignX": "left",
+        "alignY": "center"
+      },
+      "paddingY": "xl",
+      "content": {
+        "eyebrow": "a partire da",
+        "title": "<b>€ 6.000 </b>+ gestione mensile",
+        "body": "Costruiamo un e-commerce pronto a vendere.",
+
+        "tone": "white"
+      },
+      "secondaryCta": {
+        "label": "Scrivici",
+        "href": "/contatti?intent=parti-col-piede-giusto"
+      }
+    },
+    {
+      "id": "id-text-media",
+      "type": "text-media",
+      "layout": { "paddingY": "lg", "alignText": "left", "mediaPosition": "right" },
+      "media": { "src": "/images/hero/vendi-online-con-metodo.png", "alt": "Vendi online con metodo | Metis web agency" },
+      "content": {
+        "eyebrow": "Il principale problema? L'abbandono del carrello",
+        "title": "Bisogna capire perchè alla fine <b>l'utente non compra</b>",
+        "subtitle": "Se non misuri e non ottimizzi, l’e-commerce si spegne.",
+        "body": "Impostiamo tracking e funnel in modo serio: così capisci cosa sta vendendo, cosa blocca l’acquisto e dove intervenire. Il lavoro vero inizia dopo il lancio: test, iterazioni, crescita."
+      },
+      "primaryCta": { "label": "Richiedi una consulenza", "href": "/contatti?intent=vendi-online-con-metodo" }
+    },
+
+    {
+      "id": "servizi-elenco",
+      "type": "wall-card",
+      "header": { "eyebrow": "Cosa include", "title": "Le fondamenta che fanno la differenza" },
+      "layout": { "align": "left", "columnsMobile": 1, "columnsDesktop": 3, "gap": "md", "ctaPlacement": "footer" },
+      "items": [
+        { "id": "include-01", "eyebrow": "01", "title": "Strategia e assortimento", "description": "Obiettivi, margini, prodotti traino, categorie e priorità. Sì: si decide cosa vendere e come." },
+        { "id": "include-02", "eyebrow": "02", "title": "Struttura catalogo", "description": "Categorie sensate, filtri utili, percorsi chiari. Navigazione = conversione." },
+        { "id": "include-03", "eyebrow": "03", "title": "Pagine prodotto che vendono", "description": "Copy, foto, varianti, FAQ, trust. La pagina prodotto è la tua “venditrice”." },
+        { "id": "include-04", "eyebrow": "04", "title": "Checkout pulito", "description": "Riduzione attrito: pagamenti, spedizioni, info chiare. Meno abbandoni, più acquisti." },
+        { "id": "include-05", "eyebrow": "05", "title": "Tracking e KPI", "description": "GA4/GTM + eventi e funnel: capisci dove perdi e cosa migliorare." },
+        { "id": "include-06", "eyebrow": "06", "title": "Acquisizione e ottimizzazione", "description": "SEO e/o Ads con logica: campagne, remarketing, analisi e miglioramenti continui." }
+      ],
+      "primaryCta": { "label": "Richiedi una consulenza", "href": "/contatti?intent=vendi-online-con-metodo" },
+      "secondaryCta": { "label": "Vedi gli altri pacchetti", "href": "/pacchetti" }
+    },
+
+    {
+      "id": "form-contatti",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": { "radius": "justRight", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Hai una domanda veloce?",
+        "title": "<b>Scrivici su WhatsApp</b>",
+        "subtitle": "Ti diciamo subito se ha senso e da dove partire.",
+        "description": "Per una risposta rapida, mandaci 3 cose:</br></br><b>01 -</b> settore </br><b>02 -</b> obiettivo (contatti / vendite / visibilità) </br><b>03 -</b> link del sito (se esiste)."
+      },
+      "primaryCta": { "label": "Scrivici su WhatsApp", "target": "_blank", "href": "https://wa.me/393494459317" },
+      "form": {
+        "eyebrow": "Preferisci una valutazione più precisa?",
+        "title": "<b>Raccontaci il progetto</b>",
+        "description": "Ti ricontattiamo con una proposta chiara, senza giri di parole."
+      },
+      "fields": [
+        { "type": "text", "id": "name", "name": "name", "label": "Nome e cognome", "placeholder": "Es. Elisabetta Monaco", "required": true },
+        { "type": "email", "id": "email", "name": "email", "label": "Email", "placeholder": "nome@azienda.it", "required": true },
+        { "type": "text", "id": "phone", "name": "phone", "label": "Telefono (per ricontatto)", "placeholder": "Es. +39 349 445 9317", "required": true },
+        { "type": "text", "id": "company", "name": "company", "label": "Azienda / Attività", "placeholder": "Es. Studio / Impresa / Negozio", "required": false },
+        { "type": "text", "id": "website", "name": "website", "label": "Sito web (se esiste)", "placeholder": "https://...", "required": false },
+        { "type": "textarea", "id": "message", "name": "message", "label": "Obiettivo e contesto", "placeholder": "Es. voglio più richieste da Google / voglio vendere online / voglio rifare il sito perché non converte...", "rows": 4, "required": true },
+        { "type": "checkbox", "id": "privacy", "name": "privacy", "label": "Ho letto e accetto l’informativa privacy*", "required": true },
+        { "type": "checkbox", "id": "newsletter", "name": "newsletter", "label": "Voglio ricevere aggiornamenti (facoltativo)", "required": false }
+      ],
+      "submitLabel": "Invia richiesta",
+      "secondaryText": "<span class=\"text-sm\">Leggi la nostra <a href=\"https://www.iubenda.com/privacy-policy/65260546\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-primary-900\">Privacy policy</a></span><br>Di solito rispondiamo entro 24/48 ore.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

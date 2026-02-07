@@ -1,0 +1,422 @@
+{
+  "slug": "servizi/manutenzione",
+  "seo": {
+    "title": "Manutenzione Sito Web | Aggiornamenti, Sicurezza e Performance | Metis",
+    "description": "Manutenzione professionale per siti web: aggiornamenti, backup, sicurezza, monitoraggio performance e interventi rapidi. Così il tuo sito resta veloce, sicuro e affidabile nel tempo.",
+    "canonicalUrl": "https://www.metiswebagency.it/servizi/manutenzione"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": {
+        "radius": "justBottomRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Manutenzione siti web",
+        "title": "<span class=\"text-8xl\">Il sito non finisce quando è online.<br>Va <b>tenuto in ordine</b>.</span>",
+        "subtitle": "Aggiornamenti, sicurezza, backup e velocità: così il tuo sito resta affidabile nel tempo.",
+        "body": "Un sito non aggiornato diventa lento, vulnerabile e perde posizioni su Google.\nNoi lo teniamo stabile con controlli regolari, interventi rapidi e monitoraggio continuo.",
+        "tone": "primary"
+      },
+      "primaryCta": {
+        "label": "Attiva la manutenzione",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Scrivici su WhatsApp",
+        "href": "https://wa.me/393494459317",
+        "target": "_blank"
+      }
+    },
+
+    {
+      "id": "perche-serve",
+      "type": "simple-content",
+      "paddingY": "xl",
+      "content": {
+        "eyebrow": "Perché è importante",
+        "title": "<span class=\"text-7xl\">Un sito abbandonato perde <b>valore</b> ogni giorno</span>",
+        "subtitle": "Non si tratta solo di evitare problemi. Si tratta di mantenere le performance.",
+        "body": "Quando un sito non viene aggiornato, diventa vulnerabile, lento e poco affidabile. Google abbassa il ranking, i visitatori scappano e il rischio di attacchi aumenta.",
+        "columns": [
+          {
+            "title": "<b>Sicurezza</b>",
+            "subtitle": "Protezione dai rischi",
+            "description": "Plugin, CMS e librerie obsoleti sono porte aperte per hacker. Gli aggiornamenti regolari proteggono il sito e i dati dei tuoi clienti."
+          },
+          {
+            "title": "<b>Performance</b>",
+            "subtitle": "Velocità e stabilità",
+            "description": "Un sito lento fa scappare le persone prima ancora che vedano cosa offri. Monitoriamo e ottimizziamo per mantenere tempi di caricamento bassi."
+          },
+          {
+            "title": "<b>SEO</b>",
+            "subtitle": "Visibilità su Google",
+            "description": "Google premia i siti veloci, sicuri e aggiornati. Un sito trascurato perde posizioni e traffico organico."
+          }
+        ],
+        "tone": "black"
+      }
+    },
+
+    {
+      "id": "cosa-facciamo",
+      "type": "wall-card",
+      "header": {
+        "tone": "secondary",
+        "eyebrow": "Cosa include",
+        "title": "Manutenzione completa: tecnica, sicurezza e performance",
+        "subtitle": "Tutto quello che serve per tenere il sito stabile e veloce.",
+        "body": "Non aspettiamo che si rompa qualcosa. Preveniamo i problemi con controlli regolari e interventi programmati."
+      },
+      "layout": {
+        "cardVariant": "secondary",
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "items": [
+        {
+          "id": "aggiornamenti",
+          "eyebrow": "01",
+          "title": "Aggiornamenti regolari",
+          "description": "CMS, plugin, librerie e dipendenze sempre aggiornati. Così eviti vulnerabilità e bug noti."
+        },
+        {
+          "id": "backup",
+          "eyebrow": "02",
+          "title": "Backup automatici",
+          "description": "Copie di sicurezza giornaliere o settimanali. Se succede qualcosa, ripristiniamo tutto in pochi minuti."
+        },
+        {
+          "id": "sicurezza",
+          "eyebrow": "03",
+          "title": "Monitoraggio sicurezza",
+          "description": "Controllo malware, tentativi di accesso e vulnerabilità. Interveniamo subito se rileviamo anomalie."
+        },
+        {
+          "id": "performance",
+          "eyebrow": "04",
+          "title": "Ottimizzazione performance",
+          "description": "Monitoraggio velocità, Core Web Vitals e tempi di risposta. Interventi mirati per mantenere il sito veloce."
+        },
+        {
+          "id": "uptime",
+          "eyebrow": "05",
+          "title": "Monitoraggio uptime",
+          "description": "Controlliamo che il sito sia sempre online. Se va giù, ricevi notifica immediata e interveniamo."
+        },
+        {
+          "id": "fix",
+          "eyebrow": "06",
+          "title": "Interventi rapidi",
+          "description": "Bug, errori o piccoli problemi tecnici: li risolviamo in tempi brevi senza farti perdere traffico."
+        }
+      ],
+      "primaryCta": {
+        "label": "Richiedi preventivo",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Vedi i pacchetti",
+        "href": "/pacchetti"
+      }
+    },
+
+    {
+      "id": "per-chi",
+      "type": "cover",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "center"
+      },
+      "content": {
+        "eyebrow": "Per chi è",
+        "title": "Per chi vuole un sito che funziona sempre",
+        "subtitle": "Senza sorprese, senza perdite di tempo, senza rischi.",
+        "body": "Se il tuo sito è importante per il business, non puoi permetterti downtime, attacchi o perdita di dati.\nLa manutenzione non è un costo, è un investimento per proteggere ciò che hai costruito.",
+        "tone": "white"
+      }
+    },
+
+    {
+      "id": "come-lavoriamo",
+      "type": "simple-content",
+      "paddingY": "xl",
+      "content": {
+        "eyebrow": "Come lavoriamo",
+        "title": "<span class=\"text-6xl font-bold\">Controlli programmati e interventi rapidi</span>",
+        "subtitle": "Non improvvisiamo. Seguiamo un processo chiaro e tracciabile.",
+        "columns": [
+          {
+            "title": "<span class='text-4xl'>Piano mensile o trimestrale</span>",
+            "description": "Decidiamo insieme la frequenza di interventi in base alle esigenze del sito: mensile per siti ad alto traffico, trimestrale per siti più semplici."
+          },
+          {
+            "title": "<b>Controlli regolari</b>",
+            "subtitle": "Ogni mese o trimestre",
+            "description": "Aggiornamenti, backup, sicurezza, performance e uptime. Tutto viene controllato e documentato."
+          },
+          {
+            "title": "<b>Report chiaro</b>",
+            "subtitle": "Cosa abbiamo fatto",
+            "description": "Ricevi un report semplice con le attività svolte, eventuali problemi risolti e raccomandazioni."
+          },
+          {
+            "title": "<b>Interventi extra</b>",
+            "subtitle": "Quando serve",
+            "description": "Se serve un fix urgente o una modifica, interveniamo in tempi brevi. Niente ticket infiniti, risposte chiare."
+          }
+        ],
+        "tone": "accent"
+      }
+    },
+
+    {
+      "id": "cosa-non-include",
+      "type": "simple-content",
+      "paddingY": "lg",
+      "background": "subtleGradients",
+      "content": {
+        "eyebrow": "Chiarezza sui limiti",
+        "title": "<span class=\"text-5xl font-bold\">Cosa NON è manutenzione</span>",
+        "subtitle": "Così sai esattamente cosa aspettarti.",
+        "body": "La manutenzione copre sicurezza, stabilità e performance.\nNon include nuove funzionalità, restyling o sviluppo di nuove pagine.\nQuesti sono progetti separati con preventivo dedicato.",
+        "columns": [
+          {
+            "title": "✅ <b>Incluso</b>",
+            "description": "Aggiornamenti, backup, sicurezza, monitoraggio, fix bug, ottimizzazione performance, interventi urgenti."
+          },
+          {
+            "title": "❌ <b>Non incluso</b>",
+            "description": "Nuove funzionalità, restyling grafico, nuove pagine o sezioni, sviluppo custom, consulenza strategica."
+          }
+        ],
+        "tone": "black"
+      }
+    },
+
+    {
+      "id": "prezzi",
+      "type": "wall-card",
+      "background": "secondaryGradients",
+      "header": {
+        "tone": "white",
+        "eyebrow": "Piani",
+        "title": "Piani chiari, nessun costo nascosto",
+        "subtitle": "Scegli in base alla complessità del sito e alla frequenza di interventi.",
+        "body": "Puoi partire, pausare o cambiare piano quando vuoi. Nessun vincolo annuale."
+      },
+      "items": [
+        {
+          "id": "piano-base",
+          "eyebrow": "Piano base",
+          "title": "Siti semplici",
+          "description": "Per siti vetrina o piccoli blog con basso traffico.\nControlli trimestrali, backup, aggiornamenti e 2h di interventi inclusi.",
+          "meta": {
+            "priceLabel": "a partire da",
+            "priceValue": "€ 150/trimestre"
+          },
+          "cta": {
+            "label": "Richiedi preventivo",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "piano-standard",
+          "eyebrow": "Piano standard",
+          "title": "Siti professionali",
+          "description": "Per siti aziendali, professionisti o piccoli e-commerce.\nControlli mensili, backup, monitoraggio performance e 4h di interventi inclusi.",
+          "meta": {
+            "priceLabel": "a partire da",
+            "priceValue": "€ 120/mese"
+          },
+          "cta": {
+            "label": "Richiedi preventivo",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "piano-premium",
+          "eyebrow": "Piano premium",
+          "title": "E-commerce e siti complessi",
+          "description": "Per e-commerce, portali o siti con alto traffico.\nControlli settimanali, monitoraggio avanzato, interventi prioritari e 8h incluse.",
+          "meta": {
+            "priceLabel": "a partire da",
+            "priceValue": "€ 300/mese"
+          },
+          "cta": {
+            "label": "Richiedi preventivo",
+            "href": "/contatti"
+          }
+        }
+      ],
+      "layout": {
+        "radius": "justRight",
+        "cardVariant": "secondary",
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "sm",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": {
+        "label": "Parliamone su WhatsApp",
+        "href": "https://wa.me/393494459317",
+        "target": "_blank"
+      },
+      "secondaryCta": {
+        "label": "Vai ai pacchetti",
+        "href": "/pacchetti"
+      }
+    },
+
+    {
+      "id": "faq",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Domande frequenti",
+        "columns": [
+          {
+            "title": "<span class='text-6xl font-bold'>Dubbi sulla manutenzione?</span>"
+          },
+          {
+            "title": "<span class='text-4xl'>Risposte chiare</span>",
+            "description": "Qui trovi le domande che ci fanno più spesso sulla manutenzione siti web.\nSe hai altri dubbi, scrivici direttamente."
+          }
+        ],
+        "accordions": [
+          {
+            "title": "Posso fare manutenzione da solo?",
+            "content": "Puoi, ma richiede tempo, competenze tecniche e strumenti di monitoraggio.\nSe salti aggiornamenti o non controlli la sicurezza, rischi problemi seri.\nNoi lo facciamo in modo sistematico e tracciato."
+          },
+          {
+            "title": "Cosa succede se non faccio manutenzione?",
+            "content": "Il sito diventa vulnerabile ad attacchi, perde velocità e posizioni su Google.\nIn caso di problemi, recuperare i dati può essere impossibile senza backup recenti."
+          },
+          {
+            "title": "Posso iniziare e poi fermarmi?",
+            "content": "Sì, puoi attivare, pausare o cambiare piano quando vuoi.\nNon ci sono vincoli annuali. Ti chiediamo solo un preavviso di 30 giorni."
+          },
+          {
+            "title": "Quanto tempo ci vuole per intervenire in caso di problema?",
+            "content": "Per problemi urgenti (sito giù, attacco, errore critico) interveniamo entro 4-8 ore.\nPer fix non critici, entro 24-48 ore lavorative."
+          },
+          {
+            "title": "Fate manutenzione anche su siti non fatti da voi?",
+            "content": "Sì, lavoriamo su qualsiasi sito.\nSe non lo abbiamo sviluppato noi, serve una fase di audit iniziale per capire la struttura tecnica."
+          }
+        ],
+        "tone": "accent"
+      }
+    },
+
+    {
+      "id": "form-contatti",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Hai domande?",
+        "title": "Scrivici su WhatsApp",
+        "subtitle": "Ti diciamo subito quale piano serve e quanto costa.",
+        "description": "Per una risposta rapida mandaci:<br><br><b>01</b> Link del sito<br><b>02</b> Piattaforma (WordPress, custom, altro)<br><b>03</b> Cosa ti serve (manutenzione base, supporto urgente, altro)"
+      },
+      "primaryCta": {
+        "label": "Scrivici su WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Preferisci una proposta scritta?",
+        "title": "Raccontaci il progetto",
+        "description": "Ti rispondiamo con un preventivo chiaro e senza impegno."
+      },
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Nome e cognome",
+          "placeholder": "Es. Elisabetta Monaco",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "nome@azienda.it",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "name": "phone",
+          "label": "Telefono",
+          "placeholder": "Es. +39 349 445 9317",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "name": "company",
+          "label": "Azienda o attività",
+          "placeholder": "Es. Studio o impresa",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "label": "Sito web attuale",
+          "placeholder": "https://",
+          "required": true
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Cosa ti serve",
+          "placeholder": "Es. manutenzione mensile, fix urgente, monitoraggio performance",
+          "rows": 4,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "privacy",
+          "name": "privacy",
+          "label": "Ho letto e accetto l'informativa privacy",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "name": "newsletter",
+          "label": "Voglio ricevere aggiornamenti",
+          "required": false
+        }
+      ],
+      "submitLabel": "Invia richiesta",
+      "secondaryText": "<span class=\"text-sm\">Leggi la nostra <a href=\"https://www.iubenda.com/privacy-policy/65260546\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-primary-900\">Privacy policy</a></span><br>Di solito rispondiamo entro 24 o 48 ore.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

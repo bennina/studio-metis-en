@@ -1,0 +1,278 @@
+{
+  "slug": "servizi/landing-lead-generation",
+  "seo": {
+    "title": "Landing Page per Lead Generation | Metis web agency | Consulenza Digitale e Sviluppo Web",
+    "description": "Landing page progettate per campagne e offerte: messaggio chiaro, CTA efficaci, tracciamento conversioni (GA4/GTM) e ottimizzazione per generare contatti reali.",
+    "canonicalUrl": "https://www.metiswebagency.it/servizi/landing-lead-generation"
+  },
+  "sections": [
+    {
+      "id": "id-cover",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": {
+        "radius": "justTopLeft",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Landing page & campagne",
+        "title": "Landing page che trasformano <b>click</b> in <b>contatti</b>",
+        "subtitle": "Una pagina sola, un obiettivo solo: richiesta, prenotazione o preventivo.",
+        "body": "Quando fai Ads o promuovi un’offerta, il traffico deve atterrare su una pagina fatta per convertire. Noi costruiamo landing veloci, chiare e misurabili: copy, struttura, proof e tracciamento conversioni.",
+        "tone": "primary"
+      },
+      "primaryCta": {
+        "label": "Richiedi una landing",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Vedi il metodo",
+        "href": "/metodo"
+      }
+    },
+    {
+      "id": "id-simple-content",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Perché non funziona",
+        "title": "Se mandi traffico sulla home, spesso <b>stai sprecando budget</b>",
+        "subtitle": "La landing elimina distrazioni e guida l’utente verso un’azione.",
+        "body": "Una landing fatta bene parte da un’offerta chiara e da un’azione misurabile. Niente fronzoli: headline che si capisce, contenuti essenziali, prova sociale, CTA ripetute nei punti giusti e tracciamento pulito.",
+        "columns": [
+          {
+            "title": "<b>Messaggio unico</b>",
+            "subtitle": "Offerta + promessa + prova",
+            "description": "Allineiamo annuncio e pagina: stessa promessa, stessi termini, stessa aspettativa. Così aumenti qualità dei lead e conversioni."
+          },
+          {
+            "title": "<b>Tracciamento conversioni</b>",
+            "subtitle": "GA4/GTM + eventi",
+            "description": "Misuri richieste, click WhatsApp, chiamate e invii form. Sapere cosa funziona è parte del lavoro, non un optional."
+          },
+          {
+            "title": "<b>Ottimizzazione</b>",
+            "subtitle": "CRO & test",
+            "description": "Dopo il go-live, leggiamo i dati e miglioriamo: CTA, sezioni, moduli, velocità. Piccoli fix = grandi differenze."
+          }
+        ],
+        "tone": "accent"
+      },
+      "primaryCta": {
+        "label": "Valuta la tua campagna",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Scopri i pacchetti",
+        "href": "/pacchetti"
+      }
+    },
+    {
+      "id": "id-text-media",
+      "type": "cover",
+      "layout": {
+        "paddingY": "lg",
+        "alignText": "right",
+        "mediaPosition": "left"
+      },
+      "background": "subtleGradients",
+      "content": {
+        "tone": "white",
+        "eyebrow": "Cosa consegniamo",
+        "title": "Una pagina pronta per <b>vendere</b>",
+        "subtitle": "Design, copy e tecnologia devono lavorare insieme.",
+        "body": "Realizziamo layout e contenuti orientati alla conversione, implementiamo form e CTA, e configuriamo gli eventi in GA4/GTM. Se serve, prepariamo anche le varianti per A/B test e l’integrazione con email/CRM."
+      },
+      "secondaryCta": {
+        "label": "Richiedi una consulenza",
+        "href": "/contatti"
+      }
+    },
+    {
+      "id": "servizi-elenco",
+      "type": "wall-card",
+      "header": {
+        "eyebrow": "Casi d’uso",
+        "title": "Landing per obiettivi diversi",
+        "subtitle": "Stessa logica: un obiettivo, una pagina, una misurazione.",
+        "body": "Scegliamo struttura e contenuti in base all’azione che vuoi ottenere."
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": {
+        "label": "Richiedi una landing",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Vedi i servizi",
+        "href": "/servizi"
+      },
+      "items": [
+        {
+          "id": "landing-google-ads",
+          "eyebrow": "Google",
+          "title": "Landing per Google Ads",
+          "description": "Per intercettare domanda consapevole: promessa chiara, elementi di fiducia, CTA dirette e tracciamento conversioni.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "landing-social-ads",
+          "eyebrow": "Social",
+          "title": "Landing per campagne Social",
+          "description": "Per traffico “freddo”: più contesto, più proof, più guida. Moduli snelli e microcopy che toglie dubbi.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "landing-preventivo",
+          "eyebrow": "Lead",
+          "title": "Pagina “Richiedi preventivo”",
+          "description": "Per servizi: struttura che qualifica la richiesta, raccoglie i dati giusti e riduce il tempo perso su contatti non in target.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "landing-evento",
+          "eyebrow": "Evento",
+          "title": "Pagina evento / webinar",
+          "description": "Iscrizioni, agenda, speaker, posti limitati e reminder. Tutto tracciato per capire quali canali portano registrazioni.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "landing-lead-magnet",
+          "eyebrow": "Contenuti",
+          "title": "Lead magnet (PDF / guida)",
+          "description": "Pagina + thank you page + invio email: trasformi contenuto in contatto e costruisci un database proprietario.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "landing-local",
+          "eyebrow": "Local",
+          "title": "Landing per attività locali",
+          "description": "Per Sicilia, Campania, Puglia e Lazio: CTA immediate (call/WhatsApp), mappa servizi, recensioni e trust locali.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        }
+      ]
+    },
+    {
+      "id": "form-contatti",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Vuoi capire se ha senso per te?",
+        "title": "<b>Scrivici su WhatsApp</b>",
+        "subtitle": "Ti diciamo subito se è fattibile, tempi e prossimi step.",
+        "description": "Per una risposta rapida, mandaci 3 cose:<br><br><b>01</b> settore / servizio<br><b>02</b> obiettivo (contatti, vendite, visibilità)<br><b>03</b> link del sito (se esiste)."
+      },
+      "primaryCta": {
+        "label": "Scrivici su WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Preferisci email o telefono?",
+        "title": "<b>Raccontaci il progetto</b>",
+        "description": "Ti ricontattiamo con una proposta chiara, senza giri di parole."
+      },
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Nome e cognome",
+          "placeholder": "Es. Elisabetta Monaco",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "nome@azienda.it",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "name": "phone",
+          "label": "Telefono (facoltativo)",
+          "placeholder": "+39 ...",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "name": "company",
+          "label": "Azienda / Attività",
+          "placeholder": "Es. Studio / Impresa / Negozio",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "label": "Sito web (se esiste)",
+          "placeholder": "https://...",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Obiettivo e contesto",
+          "placeholder": "Es. voglio più richieste da Google / voglio rifare il sito / voglio lanciare una campagna...",
+          "rows": 4,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "privacy",
+          "name": "privacy",
+          "label": "Ho letto e accetto l’informativa privacy*",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "name": "newsletter",
+          "label": "Voglio ricevere aggiornamenti (facoltativo)",
+          "required": false
+        }
+      ],
+      "submitLabel": "Invia richiesta",
+      "secondaryText": "<span class=\"text-sm\">Leggi la nostra <a href=\"https://www.iubenda.com/privacy-policy/65260546\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-primary-900\">Privacy policy</a></span><br>Di solito rispondiamo entro 24/48 ore.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

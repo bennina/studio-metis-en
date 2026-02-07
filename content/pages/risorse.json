@@ -1,0 +1,278 @@
+{
+  "slug": "risorse",
+  "seo": {
+    "title": "Risorse | Metis web agency | Guide su Siti, SEO, Ads e Analytics",
+    "description": "Risorse pratiche per PMI e professionisti: siti che convertono, SEO, campagne Google/Meta e tracciamento (GA4/GTM). Guide, checklist e percorsi per crescere online con metodo.",
+    "canonicalUrl": "https://www.metiswebagency.it/risorse"
+  },
+  "sections": [
+    {
+      "id": "studio-metis",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": {
+        "radius": "justTopLeft",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Risorse • Metis web agency di <b>Elisabetta Monaco</b>",
+        "title": "Guide pratiche per far lavorare <b>sito</b>, <b>SEO</b> e <b>pubblicità</b>",
+        "subtitle": "Contenuti chiari, esempi e checklist.",
+        "body": "Queste risorse sono pensate per PMI e professionisti che vogliono risultati misurabili: più visibilità, più richieste, più vendite. Se non sai da dove iniziare, parti dai percorsi guidati e applica il metodo, un passo alla volta.",
+        "tone": "primary"
+      },
+      "primaryCta": {
+        "label": "Inizia dai percorsi",
+        "href": "#percorsi"
+      },
+      "secondaryCta": {
+        "label": "Richiedi una consulenza",
+        "href": "/contatti"
+      }
+    },
+    {
+  "id": "ho-un-sito",
+  "type": "simple-content",
+  "content": {
+    "title": "<b>Ho un sito</b>",
+    "subtitle": "ma non porta contatti",
+    "columns": [
+      {
+        "title": "<span class='text-2xl font-bold'>01 — Capire cosa blocca i risultati</span>",
+        "description": "Analizziamo cosa sta succedendo davvero: traffico, pagine visitate, CTA, form e richieste. Spesso il problema non è “mancanza di traffico”, ma mancanza di percorso e chiarezza."
+      },
+      {
+        "title": "<span class='text-2xl font-bold'>02 — Messaggio e posizionamento</span>",
+        "description": "Se in 10 secondi non si capisce cosa fai, per chi lo fai e perché sceglierti, il sito non converte. Qui mettiamo ordine su proposta di valore e contenuti essenziali."
+      },
+      {
+        "title": "<span class='text-2xl font-bold'>03 — Struttura, copy e CTA</span>",
+        "description": "Rivediamo le pagine chiave (Home/Servizi/Contatti) e costruiamo un percorso semplice: cosa deve leggere, cosa deve capire e cosa deve fare l’utente. CTA chiare, senza ambiguità."
+      },
+      {
+        "title": "<span class='text-2xl font-bold'>04 — Tracciamento (GA4/GTM) e conversioni</span>",
+        "description": "Senza misurazione si va a sensazione. Impostiamo eventi e conversioni utili (form, click, chiamate, WhatsApp) per capire dove si perde l’utente e cosa migliorare."
+      },
+      {
+        "title": "<span class='text-2xl font-bold'>05 — Visibilità mirata e ottimizzazione</span>",
+        "description": "Solo dopo la base: SEO e/o Ads per portare persone giuste sulle pagine giuste. Poi ottimizziamo sui dati, non sulle opinioni."
+      }
+    ]
+  }
+},
+    {
+      "id": "devo-rifare-il-sito",
+      "type": "simple-content",
+      "content": {
+        "title": "<b>Devo rifare il sito</b>",
+        "subtitle": "ma da dove parto?",
+        "columns": [
+          {
+        "title": "<span class='text-2xl font-bold'>01 — Prima: obiettivo e priorità</span>",
+        "description": "Rifare il sito senza obiettivo è solo un restyling. Definiamo cosa deve ottenere: richieste, appuntamenti, preventivi, vendite. E cosa va fatto prima, senza sprechi."
+      },
+      {
+        "title": "<span class='text-2xl font-bold'>02 — Architettura delle pagine (quella che serve)</span>",
+        "description": "Costruiamo una struttura chiara: pagine servizi fatte bene, percorsi per tipologia cliente e una pagina contatti che converte. Meno pagine inutili, più pagine strategiche."
+      },
+      {
+        "title": "<span class='text-2xl font-bold'>03 — Contenuti: cosa dire e come dirlo</span>",
+        "description": "Scriviamo contenuti che rispondono alle domande reali del cliente. Titoli, prove, esempi, FAQ. Il tono deve essere credibile e concreto, non “da brochure”."
+      },
+      {
+        "title": "<span class='text-2xl font-bold'>04 — SEO tecnica e performance</span>",
+        "description": "Velocità, mobile, metadati, immagini, struttura headings, indicizzazione. Un sito lento o confuso costa contatti anche se è bello."
+      },
+      {
+        "title": "<span class='text-2xl font-bold'>05 — Pubblicazione + misurazione</span>",
+        "description": "Mettiamo GA4/GTM e conversioni fin da subito. Pubblicare non è la fine: è l’inizio. Da lì si misura e si migliora."
+      }
+    
+        ]
+      }
+    },
+    {
+      "id": "percorso-3",
+      "type": "simple-content",
+      "content": {
+        "title": "Voglio investire in<br><b>pubblicità online</b>",
+        "subtitle": "ma non voglio buttare soldi",
+        
+        "columns": [
+          
+          {
+        "title": "<span class='text-2xl font-bold'>01 — Prima di spendere: landing e offerta</span>",
+        "description": "La maggior parte degli sprechi nasce da qui: mandare traffico su pagine sbagliate. Prima prepariamo una landing chiara, con un’offerta leggibile e una CTA semplice."
+      },
+      {
+        "title": "<span class='text-2xl font-bold'>02 — Tracciamento serio (GA4/GTM)</span>",
+        "description": "Se non tracci contatti e azioni, non sai cosa sta funzionando. Impostiamo eventi e conversioni utili: form, click, chiamate, WhatsApp, acquisti."
+      },
+      {
+        "title": "<span class='text-2xl font-bold'>03 — Campagne: poco ma fatto bene</span>",
+        "description": "Partiamo con una struttura pulita: keyword/intenti o segmenti chiari, annunci coerenti e budget controllato. Niente campagne “tutto dentro”."
+      },
+      {
+        "title": "<span class='text-2xl font-bold'>04 — Leggere i numeri giusti</span>",
+        "description": "Click e impression non bastano. Guardiamo costi per contatto, qualità lead, tasso di conversione e ritorno. Se serve, si interviene su pagina e messaggio, non solo sugli annunci."
+      },
+      {
+        "title": "<span class='text-2xl font-bold'>05 — Ottimizzazione continua</span>",
+        "description": "Testiamo, tagliamo sprechi e miglioriamo ciò che funziona. L’obiettivo è rendere l’investimento più efficiente nel tempo, non “spendere di più”."
+      }
+        ]
+      }
+    },
+
+    {
+  "id": "id-wall-card-categorie-risorse",
+  "type": "wall-card",
+  "header": {
+    "tone": "primary",
+    "title": "Scegli l’argomento",
+    "subtitle": "Risorse pratiche, pensate per PMI e professionisti.",
+    "body": "Ogni categoria raccoglie guide e checklist per aiutarti a prendere decisioni sensate, evitare sprechi e migliorare risultati in modo misurabile."
+  },
+  "items": [
+    {
+      "id": "cat-sito-conversione",
+      "title": "Sito & Conversione",
+      "description": "Struttura delle pagine, CTA, landing, moduli contatto e percorsi utente. Qui trovi come trasformare un sito “vetrina” in uno strumento che guida le persone e genera richieste reali."
+    },
+    {
+      "id": "cat-seo-contenuti",
+      "title": "SEO & Contenuti",
+      "description": "Come farti trovare su Google e come farti scegliere con le parole giuste. Intenti di ricerca, pagine servizi, blog utile (non riempitivo) e contenuti pensati per portare traffico qualificato."
+    },
+    {
+      "id": "cat-ads-budget",
+      "title": "Ads & Budget",
+      "description": "Google Ads e Meta Ads senza bruciare soldi. Quando ha senso partire, cosa preparare prima (landing, offerta, tracciamento), come leggere i numeri e ottimizzare per contatti o vendite."
+    },
+    {
+      "id": "cat-analytics-tracking",
+      "title": "Analytics & Tracking",
+      "description": "GA4, Google Tag Manager, eventi e conversioni. La parte “noiosa” che fa la differenza: capire cosa funziona davvero, misurare i contatti e prendere decisioni basate sui dati."
+    },
+    {
+      "id": "cat-brand-posizionamento",
+      "title": "Brand & Posizionamento",
+      "description": "Messaggio, identità e coerenza. Qui trovi come definire una proposta di valore chiara, un tono di voce credibile e un’immagine coordinata che rende il brand riconoscibile su sito e canali."
+    },
+    {
+      "id": "cat-incentivi-bandi",
+      "title": "Incentivi & Bandi",
+      "description": "Come orientarti tra opportunità e requisiti senza farti illusioni. Spieghiamo cosa serve per una verifica corretta e quali documenti/informazioni raccogliere prima di muoverti (sempre con il supporto del commercialista/consulente)."
+    }
+  ],
+  "primaryCta": {
+    "label": "Richiedi una consulenza",
+    "href": "/contatti"
+  }
+},
+
+    {
+      "id": "form-contatti",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Hai una domanda veloce?",
+        "title": "<b>Scrivici su WhatsApp</b>",
+        "subtitle": "Ti diciamo subito se ha senso, tempi e prossimi step.",
+        "description": "Per una risposta rapida, mandaci 3 cose</br></br><b>01 -</b> Il tuo settore </br><b>02 -</b>  obiettivo (contatti / vendite / visibilità) </br><b>03 -</b>  link del sito (se esiste)."
+      },
+      "primaryCta": {
+        "label": "Scrivici su WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+
+      "form": {
+        "eyebrow": "Preferisci una valutazione più precisa?",
+        "title": "<b>Raccontaci il progetto</b>",
+        "description": "Ti ricontattiamo con una proposta chiara, senza giri di parole."
+      },
+
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Nome e cognome",
+          "placeholder": "Es. Elisabetta Monaco",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "nome@azienda.it",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "name": "phone",
+          "label": "Telefono (per ricontatto)",
+          "placeholder": "Es. +39 349 445 9317",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "name": "company",
+          "label": "Azienda / Attività",
+          "placeholder": "Es. Studio / Impresa / Negozio",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "label": "Sito web (se esiste)",
+          "placeholder": "https://...",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Obiettivo e contesto",
+          "placeholder": "Es. voglio più richieste da Google / voglio vendere online / voglio rifare il sito perché non converte...",
+          "rows": 4,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "privacy",
+          "name": "privacy",
+          "label": "Ho letto e accetto l’informativa privacy*",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "name": "newsletter",
+          "label": "Voglio ricevere aggiornamenti (facoltativo)",
+          "required": false
+        }
+      ],
+
+      "submitLabel": "Invia richiesta",
+      "secondaryText": "<span class=\"text-sm\">Leggi la nostra <a href=\"https://www.iubenda.com/privacy-policy/65260546\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-primary-900\">Privacy policy</a></span><br>Di solito rispondiamo entro 24/48 ore.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

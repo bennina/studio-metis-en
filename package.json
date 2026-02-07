@@ -1,0 +1,112 @@
+{
+  "name": "@metis-ui/core",
+  "version": "2.0.0",
+  "private": false,
+  "description": "Metis UI - React/Next.js component library with atomic design and theming support",
+  "author": "Metis Web Agency <info@metiswebagency.it>",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metis-web-agency/metis-ui"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "ui",
+    "components",
+    "atomic-design",
+    "tailwindcss",
+    "theme",
+    "design-system"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./theme": {
+      "types": "./dist/theme/index.d.ts",
+      "import": "./dist/theme/index.mjs",
+      "require": "./dist/theme/index.js"
+    },
+    "./atoms": {
+      "types": "./dist/components/atoms/index.d.ts",
+      "import": "./dist/components/atoms/index.mjs",
+      "require": "./dist/components/atoms/index.js"
+    },
+    "./molecules": {
+      "types": "./dist/components/molecules/index.d.ts",
+      "import": "./dist/components/molecules/index.mjs",
+      "require": "./dist/components/molecules/index.js"
+    },
+    "./sections": {
+      "types": "./dist/components/sections/index.d.ts",
+      "import": "./dist/components/sections/index.mjs",
+      "require": "./dist/components/sections/index.js"
+    },
+    "./styles.css": "./dist/styles.css",
+    "./license": {
+      "types": "./dist/license/index.d.ts",
+      "import": "./dist/license/index.mjs",
+      "require": "./dist/license/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "build:lib": "tsup",
+    "start": "node server.js",
+    "pages:check": "node scripts/pages-check.mjs",
+    "lint": "eslint",
+    "prepublishOnly": "npm run build:lib"
+  },
+  "dependencies": {
+    "@heroui/accordion": "^2.2.26",
+    "@heroui/system": "^2.4.25",
+    "@heroui/theme": "^2.4.25",
+    "dompurify": "^3.3.1",
+    "framer-motion": "^12.29.2",
+    "lucide-react": "^0.555.0",
+    "mysql2": "^3.14.0",
+    "next": "16.0.4",
+    "nodemailer": "^6.10.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@next/third-parties": "14.2.5",
+    "@nextui-org/react": "^2.4.6",
+    "@nextui-org/system": "^2.2.5",
+    "@nextui-org/theme": "^2.2.9",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/nodemailer": "^7.0.4",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.22",
+    "baseline-browser-mapping": "^2.9.11",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4",
+    "tsup": "^8.5.1",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

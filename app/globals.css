@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --font-sans: "Barlow", sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Arial, sans-serif;
+    --font-semi-condensed: "Barlow Semi Condensed", sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Arial, sans-serif;
+  --font-condensed: "Barlow Condensed", sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+h1,
+h2,
+.title {
+  font-family: var(--font-sans);
+}
+
+/* 2) Tailwind v4 */
+@import "tailwindcss";
+
+/* 3) Tailwind v4 Theme Configuration */
+@theme {
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
+
+  /* Border radius */
+  --radius-none: 0px;
+  --radius-sm: 4px;
+  --radius-lg: 8px;
+  --radius-xl: 16px;
+
+  /* Font families */
+  --font-heading: "Barlow", sans-serif, system-ui;
+  --font-body: "Barlow", sans-serif, system-ui;
+  --font-hylights: "Barlow Condensed", sans-serif, system-ui;
+
+  /* Font sizes */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-body: 18px;
+  --text-lg: 20px;
+  --text-xl: 24px;
+  --text-h6: 18px;
+  --text-h5: 20px;
+  --text-h4: 24px;
+  --text-h3: 28px;
+  --text-h2: 36px;
+  --text-h1: 48px;
+
+  /* Colors */
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  /* Neutral */
+  --color-neutral-100: #f6f5f3;
+  --color-neutral-200: #e6e4e1;
+  --color-neutral-300: #d0cec9;
+  --color-neutral-400: #b6b3ab;
+  --color-neutral-500: #918d84;
+  --color-neutral-600: #595750;
+  --color-neutral-700: #32312c;
+  --color-neutral-800: #20201d;
+  --color-neutral-900: #151512;
+
+  /* Primary */
+  --color-primary-100: #F6E9EC;
+  --color-primary-200: #EBC8D0;
+  --color-primary-300: #DFA4B1;
+  --color-primary-400: #C96F82;
+  --color-primary-500: #A9445B;
+  --color-primary-600: #862F44;
+  --color-primary-700: #5F1F30;
+  --color-primary-800: #401522;
+  --color-primary-900: #2A0C15;
+
+  /* Secondary */
+  --color-secondary-100: #E9EDF5;
+  --color-secondary-200: #C9D3E6;
+  --color-secondary-300: #A7B7D8;
+  --color-secondary-400: #7390C0;
+  --color-secondary-500: #436BA8;
+  --color-secondary-600: #2E4E83;
+  --color-secondary-700: #1F355B;
+  --color-secondary-800: #14233D;
+  --color-secondary-900: #0B1323;
+
+  /* Accent */
+  --color-accent-100: #E6FAF7;
+  --color-accent-200: #BFF2EA;
+  --color-accent-300: #8BE6D7;
+  --color-accent-400: #4ED4C0;
+  --color-accent-500: #1CBBA4;
+  --color-accent-600: #0E927F;
+  --color-accent-700: #0B6D5F;
+  --color-accent-800: #07473E;
+  --color-accent-900: #042B26;
+
+  /* Semantic colors */
+  --color-background: #151512;
+  --color-surface: #20201d;
+  --color-foreground: #f6f5f3;
+  --color-muted: #918d84;
+}
+
+/* 4) Design tokens come CSS variables (legacy support) */
+:root {
+  /* Spacing / dimension */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+
+  /* Border radius */
+  --radius-none: 0px;
+  --radius-sm: 4px;
+  --radius-lg: 8px;
+  --radius-xl: 16px;
+
+  /* Colors */
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  /* NEUTRAL */
+  --color-neutral-100: #f6f5f3;
+  --color-neutral-200: #e6e4e1;
+  --color-neutral-300: #d0cec9;
+  --color-neutral-400: #b6b3ab;
+  --color-neutral-500: #918d84;
+  --color-neutral-600: #595750;
+  --color-neutral-700: #32312c;
+  --color-neutral-800: #20201d;
+  --color-neutral-900: #151512;
+
+  /* PRIMARY (Burgundy / Oxblood) */
+--color-primary-100: #F6E9EC;
+--color-primary-200: #EBC8D0;
+--color-primary-300: #DFA4B1;
+--color-primary-400: #C96F82;
+--color-primary-500: #A9445B;
+--color-primary-600: #862F44;
+--color-primary-700: #5F1F30;
+--color-primary-800: #401522;
+--color-primary-900: #2A0C15;
+
+  /* SECONDARY (Navy / Ink) */
+--color-secondary-100: #E9EDF5;
+--color-secondary-200: #C9D3E6;
+--color-secondary-300: #A7B7D8;
+--color-secondary-400: #7390C0;
+--color-secondary-500: #436BA8;
+--color-secondary-600: #2E4E83;
+--color-secondary-700: #1F355B;
+--color-secondary-800: #14233D;
+--color-secondary-900: #0B1323;
+
+/* ACCENT (Teal / Tech) */
+--color-accent-100: #E6FAF7;
+--color-accent-200: #BFF2EA;
+--color-accent-300: #8BE6D7;
+--color-accent-400: #4ED4C0;
+--color-accent-500: #1CBBA4;
+--color-accent-600: #0E927F;
+--color-accent-700: #0B6D5F;
+--color-accent-800: #07473E;
+--color-accent-900: #042B26;
+
+
+  /* Opacity */
+  --opacity-low: 0.1;
+  --opacity-md: 0.5;
+  --opacity-high: 0.9;
+  --opacity-none: 0;
+
+  /* Font families */
+  --font-heading: var(--font-sans);
+  --font-body: var(--font-sans);
+  --font-hylights: var(--font-condensed);
+
+  /* Line heights */
+  --line-height-heading: 1.1; /* 110% */
+  --line-height-body: 1.4; /* 140% */
+
+  /* Letter spacing */
+  --letter-spacing-default: 0;
+  --letter-spacing-increased: 0.01em;
+  --letter-spacing-decreased: -0.05em;
+
+  /* Font sizes – approssimando i tuoi calcoli */
+  --text-body: 18px;
+
+  --text-6xl: calc(var(--text-body) * 4);
+  --text-5xl: calc(var(--text-body) * 3);
+  --text-4xl: calc(var(--text-body) * 2.5);
+  --text-3xl: calc(var(--text-body) * 1.55);
+  --text-2xl: calc(var(--text-body) * 1.15);
+  --text-xl: calc(var(--text-body) * 1.1);
+  --text-lg: calc(var(--text-body) * 0.95);
+  --text-md: calc(var(--text-body) * 0.85);
+  --text-sm: calc(var(--text-body) * 0.75);
+  --text-xs: calc(var(--text-body) * 0.65);
+
+  color-scheme: dark;
+}
+
+/* 4) Base: applica davvero la font al body */
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-neutral-200);
+  color: var(--color-neutral-900); /* text-slate-50 */
+}
+
+/* 5) Utility per Mynerve (highlights) */
+@layer utilities {
+  .font-hylight {
+    font-family: var(--font-condensed);
+  }
+}

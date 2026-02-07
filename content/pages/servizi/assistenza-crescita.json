@@ -1,0 +1,278 @@
+{
+  "slug": "servizi/assistenza-crescita",
+  "seo": {
+    "title": "Assistenza & Crescita | Metis web agency | Consulenza Digitale e Sviluppo Web",
+    "description": "Supporto continuo per siti e campagne: manutenzione, aggiornamenti, SEO continuativa, report GA4/GTM, ottimizzazione performance e crescita misurabile.",
+    "canonicalUrl": "https://www.metiswebagency.it/servizi/assistenza-crescita"
+  },
+  "sections": [
+    {
+      "id": "id-cover",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": {
+        "radius": "justTopLeft",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Assistenza & crescita",
+        "title": "Non ti lasciamo con un sito fermo.<br>Lo facciamo <b>crescere</b>.",
+        "subtitle": "Manutenzione, contenuti, dati e ottimizzazione: continuità = risultati.",
+        "body": "Un sito pubblicato e poi abbandonato torna invisibile. Noi lavoriamo con cicli brevi: monitoraggio, interventi mirati e report. Così sai sempre cosa stiamo facendo e cosa sta migliorando.",
+        "tone": "primary"
+      },
+      "primaryCta": {
+        "label": "Attiva l’assistenza",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Scopri i pacchetti",
+        "href": "/pacchetti"
+      }
+    },
+    {
+      "id": "id-simple-content",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Per chi è",
+        "title": "Per chi vuole <b>continuità</b>, non “progetti spot”",
+        "subtitle": "Quando hai già un sito, la differenza la fa il lavoro nel tempo.",
+        "body": "Ci occupiamo di mantenere stabile la parte tecnica e di far crescere la parte marketing: SEO, contenuti, performance, CRO e (se serve) campagne. L’obiettivo è semplice: più richieste, con controllo dei numeri.",
+        "columns": [
+          {
+            "title": "<b>Manutenzione</b> e sicurezza",
+            "subtitle": "Stabile, aggiornato, veloce",
+            "description": "Aggiornamenti, monitoraggi, fix e performance: riduci rischi e perdita di traffico."
+          },
+          {
+            "title": "<b>SEO continuativa</b>",
+            "subtitle": "Crescita organica",
+            "description": "Interventi mensili su pagine e contenuti: migliori posizionamenti e aumenti richieste."
+          },
+          {
+            "title": "<b>Report</b> e decisioni",
+            "subtitle": "GA4/GTM + insight",
+            "description": "Numeri leggibili e azioni conseguenti: sai cosa funziona e cosa conviene fare dopo."
+          }
+        ],
+        "tone": "accent"
+      },
+      "primaryCta": {
+        "label": "Richiedi una proposta",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Vedi i servizi",
+        "href": "/servizi"
+      }
+    },
+    {
+      "id": "id-text-media",
+      "type": "cover",
+      "layout": {
+        "paddingY": "lg",
+        "alignText": "right",
+        "mediaPosition": "left"
+      },
+      "background": "subtleGradients",
+      "content": {
+        "tone": "white",
+        "eyebrow": "Metodo di lavoro",
+        "title": "Sprint mensili: pochi interventi, alto impatto",
+        "subtitle": "Niente attività infinite senza priorità.",
+        "body": "Ogni mese scegliamo 2–5 azioni con il miglior rapporto impatto/tempo: migliorare una pagina, correggere tracking, ottimizzare una campagna, pubblicare contenuti utili. È il modo più sostenibile per crescere con 20h/settimana (anche dal vostro lato)."
+      },
+      "secondaryCta": {
+        "label": "Scopri il metodo",
+        "href": "/metodo"
+      }
+    },
+    {
+      "id": "servizi-elenco",
+      "type": "wall-card",
+      "header": {
+        "eyebrow": "Cosa possiamo gestire",
+        "title": "Assistenza completa, modulare",
+        "subtitle": "Scegliamo insieme cosa tenere sotto controllo.",
+        "body": "Puoi partire da un pacchetto minimo e aggiungere moduli quando serve."
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": {
+        "label": "Attiva l’assistenza",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Vedi i pacchetti",
+        "href": "/pacchetti"
+      },
+      "items": [
+        {
+          "id": "assistenza-manutenzione",
+          "eyebrow": "Tecnico",
+          "title": "Manutenzione & performance",
+          "description": "Aggiornamenti, bugfix, monitoraggio uptime e interventi su velocità/Core Web Vitals.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "assistenza-tracking-report",
+          "eyebrow": "Dati",
+          "title": "Tracking & report",
+          "description": "GA4/GTM, eventi, dashboard e lettura dati: report utili per decidere le prossime azioni.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "assistenza-seo",
+          "eyebrow": "SEO",
+          "title": "SEO continuativa",
+          "description": "Interventi su pagine e contenuti, internal linking, snippet, e monitoraggio keyword per crescere in modo stabile.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "assistenza-contenuti",
+          "eyebrow": "Contenuti",
+          "title": "Contenuti e aggiornamenti",
+          "description": "Nuove sezioni, articoli, pagine servizi: mantieni il sito vivo e utile per Google e per le persone.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "assistenza-ads",
+          "eyebrow": "Ads",
+          "title": "Ottimizzazione campagne",
+          "description": "Controllo budget, keyword/audience, creatività e landing. Obiettivo: ridurre sprechi e aumentare contatti.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "assistenza-cro",
+          "eyebrow": "CRO",
+          "title": "Conversione & test",
+          "description": "Miglioriamo CTA, moduli e sezioni con micro-test e iterazioni basate sui dati.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        }
+      ]
+    },
+    {
+      "id": "form-contatti",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Vuoi capire se ha senso per te?",
+        "title": "<b>Scrivici su WhatsApp</b>",
+        "subtitle": "Ti diciamo subito se è fattibile, tempi e prossimi step.",
+        "description": "Per una risposta rapida, mandaci 3 cose:<br><br><b>01</b> settore / servizio<br><b>02</b> obiettivo (contatti, vendite, visibilità)<br><b>03</b> link del sito (se esiste)."
+      },
+      "primaryCta": {
+        "label": "Scrivici su WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Preferisci email o telefono?",
+        "title": "<b>Raccontaci il progetto</b>",
+        "description": "Ti ricontattiamo con una proposta chiara, senza giri di parole."
+      },
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Nome e cognome",
+          "placeholder": "Es. Elisabetta Monaco",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "nome@azienda.it",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "name": "phone",
+          "label": "Telefono (facoltativo)",
+          "placeholder": "+39 ...",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "name": "company",
+          "label": "Azienda / Attività",
+          "placeholder": "Es. Studio / Impresa / Negozio",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "label": "Sito web (se esiste)",
+          "placeholder": "https://...",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Obiettivo e contesto",
+          "placeholder": "Es. voglio più richieste da Google / voglio rifare il sito / voglio lanciare una campagna...",
+          "rows": 4,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "privacy",
+          "name": "privacy",
+          "label": "Ho letto e accetto l’informativa privacy*",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "name": "newsletter",
+          "label": "Voglio ricevere aggiornamenti (facoltativo)",
+          "required": false
+        }
+      ],
+      "submitLabel": "Invia richiesta",
+      "secondaryText": "<span class=\"text-sm\">Leggi la nostra <a href=\"https://www.iubenda.com/privacy-policy/65260546\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-primary-900\">Privacy policy</a></span><br>Di solito rispondiamo entro 24/48 ore.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

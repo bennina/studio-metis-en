@@ -1,0 +1,278 @@
+{
+  "slug": "servizi/e-commerce",
+  "seo": {
+    "title": "E-commerce con metodo | Metis web agency | Consulenza Digitale e Sviluppo Web",
+    "description": "Progettiamo e-commerce pensati per vendere: scelta piattaforma, UX e checkout, schede prodotto SEO, pagamenti e spedizioni, tracciamento e ottimizzazione.",
+    "canonicalUrl": "https://www.metiswebagency.it/servizi/e-commerce"
+  },
+  "sections": [
+    {
+      "id": "id-cover",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": {
+        "radius": "justTopLeft",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "E-commerce",
+        "title": "E-commerce che regge nel tempo:<br><b>vendite</b>, dati, ottimizzazione",
+        "subtitle": "Non basta “mettere online un catalogo”. Serve un sistema che converte.",
+        "body": "Ti aiutiamo a scegliere la piattaforma giusta, strutturare catalogo e contenuti, impostare pagamenti/spedizioni e tracciare le conversioni. Poi lavoriamo su acquisizione e miglioramento continuo: così l’online diventa un asset reale.",
+        "tone": "primary"
+      },
+      "primaryCta": {
+        "label": "Parliamo del tuo e-commerce",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Vedi i pacchetti",
+        "href": "/pacchetti"
+      }
+    },
+    {
+      "id": "id-simple-content",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Prima di partire",
+        "title": "Se non hai margini, logistica e offerta chiara,<br>l’e-commerce diventa <b>solo costi</b>.",
+        "subtitle": "Noi partiamo da numeri e processi, non da “grafica”.",
+        "body": "Valutiamo modello, catalogo e priorità. Poi costruiamo un’esperienza semplice: ricerca, schede prodotto, checkout e post-acquisto. Infine misuriamo: cosa vende, da dove arrivano le vendite, dove perdi carrello.",
+        "columns": [
+          {
+            "title": "<b>Piattaforma</b> giusta",
+            "subtitle": "Shopify / Woo / custom",
+            "description": "Scegliamo in base a catalogo, budget, gestione interna e obiettivi. Evitiamo soluzioni “overkill”."
+          },
+          {
+            "title": "<b>Conversione</b>",
+            "subtitle": "Checkout e fiducia",
+            "description": "Riduciamo frizioni: spedizioni chiare, pagamenti, resi, trust elements e microcopy."
+          },
+          {
+            "title": "<b>Dati</b>",
+            "subtitle": "Tracking e report",
+            "description": "Setup GA4/GTM, eventi e-commerce e dashboard: sai cosa sta succedendo e cosa migliorare."
+          }
+        ],
+        "tone": "accent"
+      },
+      "primaryCta": {
+        "label": "Valuta fattibilità",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Scopri il metodo",
+        "href": "/metodo"
+      }
+    },
+    {
+      "id": "id-text-media",
+      "type": "cover",
+      "layout": {
+        "paddingY": "lg",
+        "alignText": "right",
+        "mediaPosition": "left"
+      },
+      "background": "subtleGradients",
+      "content": {
+        "tone": "white",
+        "eyebrow": "Dopo il go-live",
+        "title": "Il lavoro vero inizia quando si accendono i dati",
+        "subtitle": "Senza ottimizzazione continua, le vendite si fermano.",
+        "body": "Lavoriamo su acquisizione (SEO/Ads), schede prodotto e CRO. Ogni mese scegliamo poche azioni ad alto impatto: migliorare conversioni, aumentare AOV, ridurre abbandoni e capire cosa scalare."
+      },
+      "secondaryCta": {
+        "label": "Richiedi una consulenza",
+        "href": "/contatti"
+      }
+    },
+    {
+      "id": "servizi-elenco",
+      "type": "wall-card",
+      "header": {
+        "eyebrow": "Cosa includiamo",
+        "title": "E-commerce in moduli, per priorità",
+        "subtitle": "Costruiamo per fasi: prima vendere, poi crescere.",
+        "body": "Scegliamo gli step in base al tuo catalogo e a quanto puoi gestire internamente."
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": {
+        "label": "Parliamone",
+        "href": "/contatti"
+      },
+      "secondaryCta": {
+        "label": "Vedi i servizi",
+        "href": "/servizi"
+      },
+      "items": [
+        {
+          "id": "ecommerce-setup",
+          "eyebrow": "Start",
+          "title": "Setup store e catalogo",
+          "description": "Struttura categorie, prodotti, varianti, metodi di pagamento e spedizioni. Configurazione pulita e gestibile.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "ecommerce-ux-checkout",
+          "eyebrow": "Conversione",
+          "title": "UX & checkout",
+          "description": "Ottimizzazione navigazione e carrello: riduce abbandoni e aumenta conversioni con interventi mirati.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "ecommerce-seo-prodotti",
+          "eyebrow": "SEO",
+          "title": "Schede prodotto e SEO",
+          "description": "Template, testi, metadata e internal linking per farti trovare su Google con query commerciali.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "ecommerce-tracking",
+          "eyebrow": "Dati",
+          "title": "Tracking e-commerce (GA4/GTM)",
+          "description": "Eventi acquisto, add-to-cart, checkout, funnel e dashboard: capisci cosa vende e cosa no.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "ecommerce-migrazione",
+          "eyebrow": "Rilancio",
+          "title": "Migrazione e rilancio",
+          "description": "Se cambi piattaforma o rifai lo store: redirect, SEO, catalogo e tracking per non perdere traffico e vendite.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        },
+        {
+          "id": "ecommerce-growth",
+          "eyebrow": "Crescita",
+          "title": "Ottimizzazione continua",
+          "description": "SEO/Ads, CRO, email automation e miglioramenti mensili: un approccio sostenibile, non “fuochi d’artificio”.",
+          "cta": {
+            "label": "Parliamone",
+            "href": "/contatti"
+          }
+        }
+      ]
+    },
+    {
+      "id": "form-contatti",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Vuoi capire se ha senso per te?",
+        "title": "<b>Scrivici su WhatsApp</b>",
+        "subtitle": "Ti diciamo subito se è fattibile, tempi e prossimi step.",
+        "description": "Per una risposta rapida, mandaci 3 cose:<br><br><b>01</b> settore / servizio<br><b>02</b> obiettivo (contatti, vendite, visibilità)<br><b>03</b> link del sito (se esiste)."
+      },
+      "primaryCta": {
+        "label": "Scrivici su WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Preferisci email o telefono?",
+        "title": "<b>Raccontaci il progetto</b>",
+        "description": "Ti ricontattiamo con una proposta chiara, senza giri di parole."
+      },
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Nome e cognome",
+          "placeholder": "Es. Elisabetta Monaco",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "nome@azienda.it",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "name": "phone",
+          "label": "Telefono (facoltativo)",
+          "placeholder": "+39 ...",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "name": "company",
+          "label": "Azienda / Attività",
+          "placeholder": "Es. Studio / Impresa / Negozio",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "label": "Sito web (se esiste)",
+          "placeholder": "https://...",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Obiettivo e contesto",
+          "placeholder": "Es. voglio più richieste da Google / voglio rifare il sito / voglio lanciare una campagna...",
+          "rows": 4,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "privacy",
+          "name": "privacy",
+          "label": "Ho letto e accetto l’informativa privacy*",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "name": "newsletter",
+          "label": "Voglio ricevere aggiornamenti (facoltativo)",
+          "required": false
+        }
+      ],
+      "submitLabel": "Invia richiesta",
+      "secondaryText": "<span class=\"text-sm\">Leggi la nostra <a href=\"https://www.iubenda.com/privacy-policy/65260546\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-primary-900\">Privacy policy</a></span><br>Di solito rispondiamo entro 24/48 ore.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}
