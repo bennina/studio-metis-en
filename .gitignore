@@ -1,0 +1,8 @@
+/node_modules
+/dist
+/.next
+/deploy
+/deploy.tgz
+/deploytsconfig.tsbuildinfo
+tsconfig.tsbuildinfo
+*.tsbuildinfo

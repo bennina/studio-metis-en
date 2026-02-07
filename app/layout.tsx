@@ -118,7 +118,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const gtmId = process.env.NEXT_PUBLIC_GTM_ID || "GTM-M72LCFTP"; // metti il tuo vero ID
+  const gtmId = process.env.NEXT_PUBLIC_GTM_ID || "GTM-5MQB66KP"; // metti il tuo vero ID
 
   return (
     <html lang="it">
