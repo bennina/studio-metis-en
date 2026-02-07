@@ -1,0 +1,310 @@
+{
+  "slug": "services/growth-support",
+  "seo": {
+    "title": "Ongoing Growth Support (Monthly) | SEO, Ads & Optimization | Metis Web Agency",
+    "description": "Monthly growth support for SMEs: continuous SEO, content and Ads optimization with clean tracking (GA4/GTM), reporting and conversion improvements—so results compound over time.",
+    "canonicalUrl": "https://www.metiswebagency.com/services/growth-support"
+  },
+  "sections": [
+    {
+      "id": "cover-growth-support-en",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": {
+        "radius": "justTopLeft",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Service • Ongoing growth support",
+        "title": "Your growth system:<br><b>SEO, Ads & optimization</b> — every month",
+        "subtitle": "Websites and campaigns don’t “work once”. They work when you improve them consistently.",
+        "body": "Most businesses launch a website or run campaigns… then stop. Results plateau because nothing evolves: pages aren’t updated, tracking gets messy, content doesn’t compound and campaigns don’t learn. We run a monthly rhythm focused on leads and measurable improvements.",
+        "tone": "primary"
+      },
+      "primaryCta": {
+        "label": "Request a monthly plan",
+        "href": "/contact"
+      },
+      "secondaryCta": {
+        "label": "View all services",
+        "href": "/services"
+      }
+    },
+
+    {
+      "id": "when-needed-growth-support-en",
+      "type": "simple-content",
+      "content": {
+        "tone": "accent",
+        "eyebrow": "When you need this",
+        "title": "If you want steady results, you need steady work",
+        "subtitle": "Growth happens with iterations: small improvements that compound.",
+        "body": "This is for teams that want a reliable partner: priorities, execution, measurement and reporting—without chaos.",
+        "columns": [
+          {
+            "title": "",
+            "subtitle": "Typical scenario",
+            "description": "You already have a website (and maybe Ads), but leads aren’t consistent. Content is sporadic, SEO is “basic”, and decisions are made without clean data."
+          },
+          {
+            "title": "",
+            "subtitle": "What you get",
+            "description": "A monthly growth cadence: ongoing SEO & content, Ads optimization when relevant, conversion improvements, clean GA4/GTM key events and simple reporting."
+          }
+        ]
+      },
+      "primaryCta": {
+        "label": "Request a monthly plan",
+        "href": "/contact"
+      },
+      "secondaryCta": {
+        "label": "See packages",
+        "href": "/packages"
+      }
+    },
+
+    {
+      "id": "from-chaos-to-rhythm-growth-en",
+      "type": "cover",
+      "layout": {
+        "paddingY": "lg",
+        "alignText": "right",
+        "mediaPosition": "left"
+      },
+      "background": "subtleGradients",
+      "content": {
+        "tone": "white",
+        "eyebrow": "From chaos to a rhythm",
+        "title": "A clear monthly workflow (so you always know what’s next)",
+        "subtitle": "Priorities, execution, measurement—repeat.",
+        "body": "Each month we pick the highest-impact actions based on your goal: leads, sales or visibility. We ship improvements, track results, and decide the next iteration using real data—not opinions."
+      },
+      "secondaryCta": {
+        "label": "Let’s talk",
+        "href": "/contact"
+      }
+    },
+
+    {
+      "id": "use-cases-growth-support-en",
+      "type": "wall-card",
+      "header": {
+        "eyebrow": "What we do monthly",
+        "title": "Ongoing work that compounds results",
+        "subtitle": "Not random tasks: a system built around your goal.",
+        "body": "We adapt the monthly plan to your stage and budget. Below are the most common areas we work on."
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": {
+        "label": "Request a monthly plan",
+        "href": "/contact"
+      },
+      "secondaryCta": {
+        "label": "View all services",
+        "href": "/services"
+      },
+      "items": [
+        {
+          "id": "growth-seo-ongoing-en",
+          "eyebrow": "SEO",
+          "title": "Ongoing SEO improvements",
+          "description": "Technical checks, internal linking, page updates and intent alignment to increase qualified organic traffic over time.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "growth-content-plan-en",
+          "eyebrow": "Content",
+          "title": "Content plan & publishing",
+          "description": "Sustainable editorial cadence: topics based on real queries, service page expansions, FAQs and “quotable” answers.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "growth-cro-en",
+          "eyebrow": "Conversion",
+          "title": "Conversion rate optimization",
+          "description": "Improve CTAs, forms, messaging and page structure. Small changes that increase enquiries without increasing traffic.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "growth-ads-optimization-en",
+          "eyebrow": "Ads",
+          "title": "Campaign optimization",
+          "description": "Budget allocation, search terms, creatives and landing alignment. Focused on CPL, lead quality and measurable outcomes.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "growth-tracking-reporting-en",
+          "eyebrow": "Tracking",
+          "title": "GA4/GTM key events + reporting",
+          "description": "Clean measurement for forms, calls, WhatsApp and bookings, plus simple monthly reporting to guide decisions.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "growth-landing-iterations-en",
+          "eyebrow": "Lead gen",
+          "title": "Landing page iterations",
+          "description": "Ongoing improvements and variants for high-performing offers: messaging, proof, sections and friction reduction.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        }
+      ]
+    },
+
+    {
+      "id": "other-services-growth-en",
+      "type": "wall-card",
+      "layout": { "ctaPlacement": "footer" },
+      "header": {
+        "tone": "primary",
+        "eyebrow": "Related services",
+        "title": "Growth works best when these pieces are in place",
+        "subtitle": "",
+        "body": ""
+      },
+      "items": [
+        {
+          "id": "landing-related-en",
+          "eyebrow": "Lead",
+          "title": "Landing pages & lead generation",
+          "description": "Focused pages for offers and campaigns, built to convert and measure.",
+          "cta": { "label": "Learn more", "href": "/services/landing-pages-lead-generation" }
+        },
+        {
+          "id": "seo-copy-related-en",
+          "eyebrow": "Content",
+          "title": "SEO copywriting & content",
+          "description": "Service pages and content that rank and convert—built for intent.",
+          "cta": { "label": "Learn more", "href": "/services/seo-copy-content" }
+        },
+        {
+          "id": "ads-tracking-related-en",
+          "eyebrow": "Performance",
+          "title": "Ads management & tracking",
+          "description": "Google/Meta Ads with clean GA4/GTM key events and conversion measurement.",
+          "cta": { "label": "Learn more", "href": "/services/ads-tracking" }
+        },
+        {
+          "id": "strategy-related-en",
+          "eyebrow": "Foundation",
+          "title": "Digital strategy",
+          "description": "Goals, priorities and a plan to keep execution focused.",
+          "cta": { "label": "Learn more", "href": "/services/digital-strategy" }
+        }
+      ],
+      "primaryCta": {
+        "label": "View all services",
+        "href": "/services"
+      },
+      "secondaryCta": {
+        "label": "See the method",
+        "href": "/method"
+      }
+    },
+
+    {
+      "id": "contact-form-growth-en",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Want a fast answer?",
+        "title": "<b>Message us on WhatsApp</b>",
+        "subtitle": "We’ll tell you if it makes sense and what the next steps are.",
+        "description": "To assess quickly, send 3 things:</br></br><b>01 -</b> industry </br><b>02 -</b> goal (leads / sales / visibility) </br><b>03 -</b> website link (if any)."
+      },
+      "primaryCta": {
+        "label": "Chat on WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Prefer a more precise evaluation?",
+        "title": "<b>Tell us about your project</b>",
+        "description": "We’ll get back with a clear proposal—no fluff."
+      },
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Full name",
+          "placeholder": "e.g., Elisabetta Monaco",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "name@company.com",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "name": "phone",
+          "label": "Phone (for a callback)",
+          "placeholder": "e.g., +39 349 445 9317",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "name": "company",
+          "label": "Company / Business",
+          "placeholder": "e.g., Studio / Company",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "label": "Website (if any)",
+          "placeholder": "https://...",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Goal & context",
+          "placeholder": "e.g., I want consistent leads / I need ongoing SEO + Ads optimization / I want monthly reporting and improvements...",
+          "rows": 4,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "privacy",
+          "name": "privacy",
+          "label": "I have read and accept the privacy policy*",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "name": "newsletter",
+          "label": "Send me updates (optional)",
+          "required": false
+        }
+      ],
+      "submitLabel": "Send request",
+      "secondaryText": "<span class=\"text-sm\">Read our <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Privacy policy</a></span><br>We usually reply within 24/48 hours.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

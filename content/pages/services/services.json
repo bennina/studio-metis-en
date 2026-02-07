@@ -1,0 +1,266 @@
+{
+  "slug": "services",
+  "seo": {
+    "title": "Services | Digital Consulting & Web Development for SMEs | Metis Web Agency",
+    "description": "Digital strategy, conversion-focused websites & landing pages, SEO, Google/Meta Ads, brand identity, e-commerce, GA4/GTM tracking and ongoing growth support for small businesses.",
+    "canonicalUrl": "https://www.metiswebagency.com/services"
+  },
+  "sections": [
+    {
+      "id": "cover-services-en",
+      "type": "cover",
+      "background": "subtleGradients",
+      "layout": {
+        "radius": "justTopLeft",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Services",
+        "title": "We don’t do “random tasks”.<br>We build a <b>system</b> that brings <b>visibility</b> and <b>leads</b>.",
+        "subtitle": "Strategy, website, content and campaigns must work together.",
+        "body": "When every piece is disconnected, the outcome is predictable: you’re online, but nothing happens.<br><br>Here are the services we use to turn digital into a working tool: solid foundations, a clear message, clean tracking, and measurable growth.",
+        "tone": "accent"
+      },
+      "primaryCta": { "label": "Request a consultation", "href": "/contact" },
+      "secondaryCta": { "label": "See the method", "href": "/method" }
+    },
+
+    {
+      "id": "approach-en",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "How we work",
+        "title": "First we decide <b>what to say</b> and <b>who we say it to</b>.<br>Then we build. Then we drive traffic.",
+        "subtitle": "The point isn’t “being online”. The point is getting found — and converting.",
+        "columns": [
+          {
+            "title": "<span class='text-2xl font-bold'>If you start from the website, you may be skipping the most important step.</span>",
+            "description": "Without positioning, message and priorities, a website becomes a collection of nice pages that don’t generate enquiries."
+          },
+          {
+            "title": "<span class='text-2xl font-bold'>If you start with Ads without foundations, you’re paying to send traffic into the void.</span>",
+            "description": "Conversion-first and clean tracking, then visibility. That’s how every euro has a reason — and a measurable outcome."
+          }
+        ],
+        "tone": "secondary"
+      },
+      "secondaryCta": { "label": "View packages", "href": "/packages" }
+    },
+
+    {
+      "id": "services-wall-en",
+      "type": "wall-card",
+      "header": {
+        "tone": "primary",
+        "eyebrow": "What we do",
+        "title": "Services (designed as a system)",
+        "subtitle": "You can start from one need — but the goal stays the same: results.",
+        "body": "We select only what you actually need based on your goal (leads, sales, positioning, growth)."
+      },
+      "items": [
+        {
+      "id": "service-websites-en",
+      "eyebrow": "Website",
+      "title": "Conversion-focused websites",
+      "description": "Fast, clear websites built to generate enquiries: structure, copy, technical SEO and GA4/GTM tracking.",
+      "cta": { "label": "Learn more", "href": "/services/websites" }
+    },
+        {
+          "id": "service-landing-leads-en",
+          "eyebrow": "Acquisition",
+          "title": "Landing pages & lead generation",
+          "cta": {
+            "label": "Learn more",
+            "href": "/services/landing-pages-lead-generation"
+          },
+          "description": "Pages designed to convert: message, proof, offer, form and tracking. Perfect for Ads or a focused service offer."
+        },
+        {
+          "id": "service-seo-content-en",
+          "eyebrow": "Organic visibility",
+          "title": "SEO, copy & content",
+          "cta": {
+            "label": "Learn more",
+            "href": "/services/seo-copy-content"
+          },
+          "description": "Words that sell and pages that rank: on-page SEO, persuasive copy, service pages and content that answers the right queries."
+        },
+        {
+          "id": "service-ads-tracking-en",
+          "eyebrow": "Performance",
+          "title": "Ads management & conversion tracking",
+          "cta": { "label": "Learn more", "href": "/services/ads-tracking" },
+          "description": "Google/Meta Ads + GA4/GTM key events. We track what matters and optimize based on real conversion data."
+        },
+        {
+          "id": "service-growth-support-en",
+          "eyebrow": "Continuity",
+          "title": "Ongoing growth support (monthly)",
+          "cta": { "label": "Learn more", "href": "/services/growth-support" },
+          "description": "Continuous optimization across SEO, content and campaigns with reporting and iteration—so results compound over time."
+        },
+        {
+          "id": "service-digital-strategy-en",
+          "eyebrow": "Foundation",
+          "title": "Digital strategy",
+          "cta": {
+            "label": "Learn more",
+            "href": "/services/digital-strategy"
+          },
+          "description": "We define goals, audience and value proposition. We clarify priorities so execution stays focused and measurable."
+        }
+      ],
+      "primaryCta": {
+        "label": "Let’s talk about your goal",
+        "href": "/contact"
+      },
+      "secondaryCta": { "label": "See the method", "href": "/method" }
+    },
+
+    {
+      "id": "standards-en",
+      "type": "cover",
+      "layout": {
+        "paddingY": "lg",
+        "alignText": "right",
+        "mediaPosition": "left"
+      },
+      "background": "subtleGradients",
+      "content": {
+        "eyebrow": "Baseline standards",
+        "title": "What we never treat as an “extra”",
+        "subtitle": "The foundations that prevent waste and enable growth.",
+        "body": "<b>Performance & clarity</b> (fast, readable pages)<br><b>Technical SEO basics</b> (metadata, structure, indexability)<br><b>Clean tracking</b> (GA4/GTM: useful events, not noise)<br><b>CTA & conversion</b> (clear actions, simple paths)<br><b>Measurability</b> (reports and data-driven decisions)",
+        "tone": "white"
+      },
+      "secondaryCta": {
+        "label": "Help me choose the right starting point",
+        "href": "/contact"
+      }
+    },
+
+    {
+      "id": "where-to-start-en",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Where do we start?",
+        "title": "If you don’t know which service to pick — don’t start from the services.",
+        "subtitle": "Start from the problem. We translate it into a plan with priorities and steps.",
+        "columns": [
+          {
+            "title": "<span class='text-2xl font-bold'>Case 1 — I have a website but it doesn’t generate leads</span>",
+            "description": "Quick audit, message/CTA rewrite, improve key pages, GA4/GTM tracking, then activate visibility (SEO/Ads) with reporting."
+          },
+          {
+            "title": "<span class='text-2xl font-bold'>Case 2 — I need a new website</span>",
+            "description": "Strategy and structure before design: positioning, page map, copy, then development and technical SEO. So the website is born to “work”."
+          },
+          {
+            "title": "<span class='text-2xl font-bold'>Case 3 — I want Ads without wasting money</span>",
+            "description": "Landing page + conversion-first, then campaigns. Budget and creatives improve when the page is ready and tracking is clean."
+          }
+        ],
+        "tone": "accent"
+      },
+      "primaryCta": { "label": "Start here", "href": "/contact" },
+      "secondaryCta": { "label": "View packages", "href": "/packages" }
+    },
+
+    {
+      "id": "contact-form-en",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": { "radius": "justRight", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Want clarity fast?",
+        "title": "<b>Message us on WhatsApp</b>",
+        "subtitle": "We’ll tell you if it makes sense, timing, and next steps.",
+        "description": "For a fast reply, send 3 things<br><br><b>01 —</b> industry<br><b>02 —</b> goal (leads / sales / visibility)<br><b>03 —</b> website link (if any)."
+      },
+      "primaryCta": {
+        "label": "Chat on WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Prefer a more precise evaluation?",
+        "title": "<b>Tell us about your project</b>",
+        "description": "We’ll get back with a clear proposal — no unnecessary back and forth."
+      },
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Full name",
+          "placeholder": "e.g., Elisabetta Monaco",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "name@company.com",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "name": "phone",
+          "label": "Phone (for a callback)",
+          "placeholder": "e.g., +39 ...",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "name": "company",
+          "label": "Company / Business",
+          "placeholder": "e.g., Studio / Company",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "label": "Website (if any)",
+          "placeholder": "https://...",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Goal & context",
+          "placeholder": "e.g., I want more leads from Google / I need a new website / I want Ads without waste...",
+          "rows": 4,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "privacy",
+          "name": "privacy",
+          "label": "I have read and accept the privacy policy*",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "name": "newsletter",
+          "label": "Send me updates (optional)",
+          "required": false
+        }
+      ],
+      "submitLabel": "Send request",
+      "secondaryText": "<span class=\"text-sm\">Read our <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Privacy policy</a></span><br>We usually reply within 24/48 hours.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "email-sent",
+  "seo": {
+    "title": "Message sent | Digital Consulting & Web Development for SMEs | Metis Web Agency",
+    "description": "Thanks for reaching out. We’ll get back to you within 24–48 hours with next steps. If it’s urgent, message us on WhatsApp.",
+    "canonicalUrl": "https://www.metiswebagency.com/email-sent"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "cover",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justLeft",
+        "alignX": "left",
+        "alignY": "center"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "tone": "secondary",
+        "eyebrow": "Message sent",
+        "title": "<b>Thank you</b> for contacting us",
+        "subtitle": "We’ll reply within 24–48 hours with a clear proposal and the next steps.",
+        "body": "If you want to speed things up, send us on WhatsApp your <b>industry</b>, your <b>goal</b> (leads / sales / visibility) and your <b>website link</b> (if any)."
+      },
+      "primaryCta": {
+        "label": "Back to homepage",
+        "href": "/"
+      },
+      "secondaryCta": {
+        "label": "Message us on WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      }
+    }
+  ]
+}

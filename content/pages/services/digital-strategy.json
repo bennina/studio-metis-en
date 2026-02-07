@@ -1,0 +1,254 @@
+{
+  "slug": "services/digital-strategy",
+  "seo": {
+    "title": "Digital Strategy for SMEs | Goals, Priorities & Action Plan | Metis Web Agency",
+    "description": "Digital strategy for small businesses: goals, audience, positioning and a practical action plan. We bring direction to your website, content and campaigns—so every step is measurable.",
+    "canonicalUrl": "https://www.metiswebagency.com/services/digital-strategy"
+  },
+  "sections": [
+    {
+      "id": "cover-digital-strategy-en",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": {
+        "radius": "justTopLeft",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Service • Digital strategy",
+        "title": "Bring direction to your digital:<br><b>goals, priorities, action plan</b>",
+        "subtitle": "Before rebuilding a website or investing in Ads, you need to know what you’re building.",
+        "body": "If you’re doing a bit of everything but nothing changes, it’s rarely “the algorithm”. It’s missing direction: unclear message, wrong audience, and a journey that doesn’t convert. We start there and build a concrete plan with sensible choices, KPIs and clear priorities.",
+        "tone": "primary"
+      },
+      "primaryCta": {
+        "label": "Request a consultation",
+        "href": "/contact"
+      },
+      "secondaryCta": {
+        "label": "View all services",
+        "href": "/services"
+      }
+    },
+
+    {
+      "id": "when-needed-digital-strategy-en",
+      "type": "simple-content",
+      "content": {
+        "tone": "accent",
+        "eyebrow": "When you need this",
+        "title": "If you don’t know what to do first, you’re already wasting time and budget",
+        "subtitle": "Strategy prevents useless redesigns and campaigns that burn money.",
+        "body": "This isn’t theory. It’s a decision map: what to do, what not to do, and where to invest for your specific goal.",
+        "columns": [
+          {
+            "title": "",
+            "subtitle": "Typical scenario",
+            "description": "You have a website but it doesn’t generate enquiries. Or you’re posting/running Ads without a clear offer, positioning or clean tracking."
+          },
+          {
+            "title": "",
+            "subtitle": "What you get",
+            "description": "Goals, audience, value proposition, page/content structure, operational priorities and KPIs. A plan you can execute (with us or in-house)."
+          }
+        ]
+      },
+      "primaryCta": {
+        "label": "Request a consultation",
+        "href": "/contact"
+      },
+      "secondaryCta": {
+        "label": "View all services",
+        "href": "/services"
+      }
+    },
+
+    {
+      "id": "from-chaos-to-path-digital-strategy-en",
+      "type": "cover",
+      "layout": {
+        "paddingY": "lg",
+        "alignText": "right",
+        "mediaPosition": "left"
+      },
+      "background": "subtleGradients",
+      "content": {
+        "tone": "white",
+        "eyebrow": "From chaos to a path",
+        "title": "A clear plan that holds up over time",
+        "subtitle": "Digital works when the pieces talk to each other.",
+        "body": "We connect positioning, content, website and acquisition channels into one journey. Every piece has a job: what attracts, what convinces, what converts—and what must be measured to improve."
+      },
+      "secondaryCta": {
+        "label": "Let’s talk",
+        "href": "/contact"
+      }
+    },
+
+    {
+      "id": "other-services-digital-strategy-en",
+      "type": "wall-card",
+      "layout": {
+        "ctaPlacement": "footer"
+      },
+      "header": {
+        "tone": "primary",
+        "eyebrow": "Related services",
+        "title": "Once direction is clear, these services fit naturally",
+        "subtitle": "",
+        "body": ""
+      },
+      "items": [
+        {
+          "id": "landing-related-en",
+          "eyebrow": "Lead",
+          "title": "Landing pages & lead generation",
+          "description": "Focused pages for offers and campaigns, built to convert and measure.",
+          "cta": {
+            "label": "Learn more",
+            "href": "/services/landing-pages-lead-generation"
+          }
+        },
+        {
+          "id": "seo-copy-related-en",
+          "eyebrow": "Content",
+          "title": "SEO copywriting & content",
+          "description": "Pages and content that rank and convert—built around real search intent.",
+          "cta": {
+            "label": "Learn more",
+            "href": "/services/seo-copy-content"
+          }
+        },
+        {
+          "id": "ads-tracking-related-en",
+          "eyebrow": "Performance",
+          "title": "Ads management & tracking",
+          "description": "Google/Meta Ads with clean GA4/GTM key events and conversion measurement.",
+          "cta": {
+            "label": "Learn more",
+            "href": "/services/ads-tracking"
+          }
+        },
+        {
+          "id": "growth-support-related-en",
+          "eyebrow": "Continuity",
+          "title": "Ongoing growth support",
+          "description": "Monthly optimization across SEO/content/Ads, with reporting and iteration.",
+          "cta": {
+            "label": "Learn more",
+            "href": "/services/growth-support"
+          }
+        }
+      ],
+      "primaryCta": {
+        "label": "View all services",
+        "href": "/services"
+      },
+      "secondaryCta": {
+        "label": "See the method",
+        "href": "/method"
+      }
+    },
+
+    {
+      "id": "contact-form-digital-strategy-en",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Want a fast answer?",
+        "title": "<b>Message us on WhatsApp</b>",
+        "subtitle": "We’ll tell you if it makes sense and what the next steps are.",
+        "description": "To assess quickly, send 3 things:</br></br><b>01 -</b> industry </br><b>02 -</b> goal (leads / sales / visibility) </br><b>03 -</b> website link (if any)."
+      },
+      "primaryCta": {
+        "label": "Chat on WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Prefer a more precise evaluation?",
+        "title": "<b>Tell us about your project</b>",
+        "description": "We’ll get back with a clear proposal—no fluff."
+      },
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Full name",
+          "placeholder": "e.g., Elisabetta Monaco",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "name@company.com",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "name": "phone",
+          "label": "Phone (for a callback)",
+          "placeholder": "e.g., +39 349 445 9317",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "name": "company",
+          "label": "Company / Business",
+          "placeholder": "e.g., Studio / Company",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "label": "Website (if any)",
+          "placeholder": "https://...",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Goal & context",
+          "placeholder": "e.g., I want a clear plan / I’m unsure what to prioritize / I need a strategy before Ads or a website rebuild...",
+          "rows": 4,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "privacy",
+          "name": "privacy",
+          "label": "I have read and accept the privacy policy*",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "name": "newsletter",
+          "label": "Send me updates (optional)",
+          "required": false
+        }
+      ],
+      "submitLabel": "Send request",
+      "secondaryText": "<span class=\"text-sm\">Read our <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Privacy policy</a></span><br>We usually reply within 24/48 hours.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "slug": "services/landing-pages-lead-generation",
+  "seo": {
+    "title": "Landing Pages for Lead Generation | Metis Web Agency",
+    "description": "High-converting landing pages for campaigns and offers: clear messaging, strong CTAs, GA4/GTM key events, and continuous optimization to generate real leads.",
+    "canonicalUrl": "https://www.metiswebagency.com/services/landing-pages-lead-generation"
+  },
+  "sections": [
+    {
+      "id": "cover-landing-en",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": { "radius": "justTopLeft", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Landing pages & campaigns",
+        "title": "Landing pages that turn <b>clicks</b> into <b>real leads</b>",
+        "subtitle": "One page, one goal: enquiry, booking, or quote request.",
+        "body": "When you run Ads or promote an offer, traffic must land on a page built to convert. We build fast, clear, measurable landing pages: copy, structure, proof and conversion tracking.",
+        "tone": "primary"
+      },
+      "primaryCta": { "label": "Request a landing page", "href": "/contact" },
+      "secondaryCta": { "label": "See the method", "href": "/method" }
+    },
+
+    {
+      "id": "why-it-fails-en",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Why it doesn’t work",
+        "title": "If you send paid traffic to your homepage, you’re often <b>wasting budget</b>",
+        "subtitle": "A landing page removes distractions and guides the user to one action.",
+        "body": "A strong landing page starts from a clear offer and a measurable action. No fluff: a headline people understand, essential content, proof, repeated CTAs in the right spots, and clean tracking.",
+        "columns": [
+          {
+            "title": "<b>One message</b>",
+            "subtitle": "Offer + promise + proof",
+            "description": "We align ad and page: same promise, same terms, same expectations. This improves lead quality and conversion rate."
+          },
+          {
+            "title": "<b>Conversion tracking</b>",
+            "subtitle": "GA4/GTM + key events",
+            "description": "We track enquiries, WhatsApp clicks, calls and form submissions. Knowing what works is part of the job—not an add-on."
+          },
+          {
+            "title": "<b>Optimization</b>",
+            "subtitle": "CRO & testing",
+            "description": "After go-live, we read the data and improve: CTA, sections, forms, speed. Small fixes = big differences."
+          }
+        ],
+        "tone": "accent"
+      },
+      "primaryCta": { "label": "Review my campaign", "href": "/contact" },
+      "secondaryCta": { "label": "Explore packages", "href": "/packages" }
+    },
+
+    {
+      "id": "deliverables-en",
+      "type": "cover",
+      "layout": { "paddingY": "lg", "alignText": "right", "mediaPosition": "left" },
+      "background": "subtleGradients",
+      "content": {
+        "tone": "white",
+        "eyebrow": "What we deliver",
+        "title": "A page built to <b>convert</b>",
+        "subtitle": "Design, copy and technology must work together.",
+        "body": "We create conversion-focused layout and content, implement forms and CTAs, and configure events in GA4/GTM. If needed, we prepare A/B variants and integrate with email/CRM."
+      },
+      "secondaryCta": { "label": "Request a consultation", "href": "/contact" }
+    },
+
+    {
+      "id": "use-cases-en",
+      "type": "wall-card",
+      "header": {
+        "eyebrow": "Use cases",
+        "title": "Landing pages for different goals",
+        "subtitle": "Same logic: one goal, one page, one measurement.",
+        "body": "We choose structure and content based on the action you want to generate."
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": { "label": "Request a landing page", "href": "/contact" },
+      "secondaryCta": { "label": "View services", "href": "/services" },
+      "items": [
+        {
+          "id": "landing-google-ads-en",
+          "eyebrow": "Google",
+          "title": "Landing pages for Google Ads",
+          "description": "Capture high-intent demand: clear promise, trust elements, direct CTAs and clean conversion tracking.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "landing-social-ads-en",
+          "eyebrow": "Social",
+          "title": "Landing pages for social campaigns",
+          "description": "For colder traffic: more context, more proof, more guidance. Lean forms and microcopy that removes doubts.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "landing-quote-en",
+          "eyebrow": "Lead",
+          "title": "“Request a quote” page",
+          "description": "For service businesses: a structure that qualifies the lead, collects the right data and reduces time wasted on non-fit enquiries.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "landing-event-en",
+          "eyebrow": "Event",
+          "title": "Event / webinar landing page",
+          "description": "Registrations, agenda, speakers, limited seats and reminders—fully tracked to understand which channels drive sign-ups.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "landing-lead-magnet-en",
+          "eyebrow": "Content",
+          "title": "Lead magnet (PDF / guide)",
+          "description": "Landing + thank-you page + email delivery: turn content into contacts and build a first-party list.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "landing-local-en",
+          "eyebrow": "Local",
+          "title": "Landing pages for local service businesses",
+          "description": "For local intent: immediate CTAs (call/WhatsApp), services overview, reviews and trust signals—built to convert fast.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        }
+      ]
+    },
+
+    {
+      "id": "contact-landing-en",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": { "radius": "justRight", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Want to see if it makes sense?",
+        "title": "<b>Message us on WhatsApp</b>",
+        "subtitle": "We’ll tell you feasibility, timing and next steps.",
+        "description": "For a fast reply, send 3 things:<br><br><b>01</b> industry / offer<br><b>02</b> goal (leads, sales, visibility)<br><b>03</b> website link (if any)."
+      },
+      "primaryCta": {
+        "label": "Chat on WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Prefer email or a call?",
+        "title": "<b>Tell us about your project</b>",
+        "description": "We’ll get back with a clear proposal—no fluff."
+      },
+      "fields": [
+        { "type": "text", "id": "name", "name": "name", "label": "Full name", "placeholder": "e.g., Elisabetta Monaco", "required": true },
+        { "type": "email", "id": "email", "name": "email", "label": "Email", "placeholder": "name@company.com", "required": true },
+        { "type": "text", "id": "phone", "name": "phone", "label": "Phone (optional)", "placeholder": "+39 ...", "required": false },
+        { "type": "text", "id": "company", "name": "company", "label": "Company / Business", "placeholder": "e.g., Studio / Company", "required": false },
+        { "type": "text", "id": "website", "name": "website", "label": "Website (if any)", "placeholder": "https://...", "required": false },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Goal & context",
+          "placeholder": "e.g., I want more leads from Google / I need a landing page for an offer / I’m launching a campaign...",
+          "rows": 4,
+          "required": true
+        },
+        { "type": "checkbox", "id": "privacy", "name": "privacy", "label": "I have read and accept the privacy policy*", "required": true },
+        { "type": "checkbox", "id": "newsletter", "name": "newsletter", "label": "Send me updates (optional)", "required": false }
+      ],
+      "submitLabel": "Send request",
+      "secondaryText": "<span class=\"text-sm\">Read our <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Privacy policy</a></span><br>We usually reply within 24/48 hours.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "slug": "services/seo-copy-content",
+  "seo": {
+    "title": "SEO Copywriting & Content for Small Businesses | Metis Web Agency",
+    "description": "We write website and landing page copy that ranks and converts: keyword intent mapping, page structure, conversion-focused copy, and SEO content built for modern search (and AI answers).",
+    "canonicalUrl": "https://www.metiswebagency.com/services/seo-copy-content"
+  },
+  "sections": [
+    {
+      "id": "cover-seo-copy-en",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": {
+        "radius": "justTopLeft",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "SEO, copywriting & content",
+        "title": "Copy that helps you get <b>found</b> — and get <b>chosen</b>",
+        "subtitle": "Copy isn’t filler. It’s what turns your service into a decision.",
+        "body": "We write pages and content with one clear goal: make people understand who you are, what you do, and why you’re the right choice—fast. With SEO and structure so Google (and AI) can surface you. With proof and CTAs so people contact you.",
+        "tone": "primary"
+      },
+      "primaryCta": {
+        "label": "Request website copy",
+        "href": "/contact"
+      },
+      "secondaryCta": {
+        "label": "See the method",
+        "href": "/method"
+      }
+    },
+
+    {
+      "id": "why-you-need-it-en",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Why it matters",
+        "title": "The problem isn’t having pages.<br>It’s having pages that <b>say little</b> and <b>don’t guide</b>.",
+        "subtitle": "SEO without copy doesn’t convert. Copy without SEO doesn’t get seen.",
+        "body": "We start from search intent and translate it into structure, headings, sections and CTAs. Every page has a job: capture demand, explain clearly, reduce doubts, and drive one action.",
+        "columns": [
+          {
+            "title": "<b>Keyword + intent map</b>",
+            "subtitle": "What people actually search",
+            "description": "We map queries, intent and competition so you don’t write “by gut feeling”—you write to be found."
+          },
+          {
+            "title": "<b>Structure</b> & hierarchy",
+            "subtitle": "H1/H2, sections, CTAs",
+            "description": "We organize information to be understood in 10 seconds and remembered for the right reasons."
+          },
+          {
+            "title": "<b>AI-search ready content</b>",
+            "subtitle": "Clear, quotable answers",
+            "description": "Definitions, FAQs, useful details and clean writing increase your chances of appearing in generated answers."
+          }
+        ],
+        "tone": "accent"
+      },
+      "primaryCta": {
+        "label": "Review my current content",
+        "href": "/contact"
+      },
+      "secondaryCta": {
+        "label": "View packages",
+        "href": "/packages"
+      }
+    },
+
+    {
+      "id": "text-media-seo-copy-en",
+      "type": "text-media",
+      "layout": {
+        "paddingY": "lg",
+        "alignText": "right",
+        "mediaPosition": "left"
+      },
+      "media": {
+        "src": "/images/hero/studio-metis-copy-seo.png",
+        "alt": "SEO copywriting and content | Metis Web Agency"
+      },
+      "content": {
+        "eyebrow": "How we work",
+        "title": "Writing = strategy + structure + tone",
+        "subtitle": "Your voice must be coherent, not just “nice”.",
+        "body": "We define positioning and tone of voice, then write for outcomes: service pages, landing pages, FAQs and blog content. When needed, we also support technical SEO basics (metadata, internal linking, URL structure) to maximize impact."
+      },
+      "primaryCta": {
+        "label": "Request a consultation",
+        "href": "/contact"
+      }
+    },
+
+    {
+      "id": "deliverables-seo-copy-en",
+      "type": "wall-card",
+      "header": {
+        "eyebrow": "What we can write",
+        "title": "Concrete deliverables — not “creative words”",
+        "subtitle": "Every text must have a function.",
+        "body": "We choose what you actually need based on your industry and the stage you’re in."
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": {
+        "label": "Request copy & content",
+        "href": "/contact"
+      },
+      "secondaryCta": {
+        "label": "View services",
+        "href": "/services"
+      },
+      "items": [
+        {
+          "id": "copy-service-pages-en",
+          "eyebrow": "Website",
+          "title": "Service page copy",
+          "description": "Headlines, sections and CTAs that clearly explain what you do, for whom, and why you’re different—built for SMEs and professionals.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "copy-landing-ads-en",
+          "eyebrow": "Campaigns",
+          "title": "Landing + Ads copy",
+          "description": "Messaging aligned with your offer and your ads: higher conversion rate and lower cost per lead.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "copy-content-refresh-en",
+          "eyebrow": "SEO",
+          "title": "Content refresh (existing pages)",
+          "description": "We cut the fluff, rewrite what confuses, improve CTAs and internal links—without rebuilding everything from scratch.",
+          "cta": { "label": "Review my website", "href": "/contact" }
+        },
+        {
+          "id": "copy-editorial-plan-en",
+          "eyebrow": "Content",
+          "title": "Editorial plan + SEO articles",
+          "description": "Topics that match real queries and build authority, with priorities and a sustainable calendar.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "copy-faq-answers-en",
+          "eyebrow": "AI-ready",
+          "title": "FAQs + “quotable” answers",
+          "description": "Frequently asked questions, definitions and clear explanations—useful for people and AI search engines.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "copy-microcopy-en",
+          "eyebrow": "Conversion",
+          "title": "Microcopy (forms, buttons, errors)",
+          "description": "Small words, big impact: reduce friction and increase form submissions and enquiries.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        }
+      ]
+    },
+
+    {
+      "id": "contact-seo-copy-en",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Want to see if it makes sense?",
+        "title": "<b>Message us on WhatsApp</b>",
+        "subtitle": "We’ll tell you feasibility, timing and next steps.",
+        "description": "For a fast reply, send 3 things:<br><br><b>01</b> industry / service<br><b>02</b> goal (leads, sales, visibility)<br><b>03</b> website link (if any)."
+      },
+      "primaryCta": {
+        "label": "Chat on WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Prefer email or a call?",
+        "title": "<b>Tell us about your project</b>",
+        "description": "We’ll get back with a clear proposal—no fluff."
+      },
+      "fields": [
+        { "type": "text", "id": "name", "name": "name", "label": "Full name", "placeholder": "e.g., Elisabetta Monaco", "required": true },
+        { "type": "email", "id": "email", "name": "email", "label": "Email", "placeholder": "name@company.com", "required": true },
+        { "type": "text", "id": "phone", "name": "phone", "label": "Phone (optional)", "placeholder": "+39 ...", "required": false },
+        { "type": "text", "id": "company", "name": "company", "label": "Company / Business", "placeholder": "e.g., Studio / Company", "required": false },
+        { "type": "text", "id": "website", "name": "website", "label": "Website (if any)", "placeholder": "https://...", "required": false },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Goal & context",
+          "placeholder": "e.g., I want more leads from Google / I need copy for service pages / I want SEO content that converts...",
+          "rows": 4,
+          "required": true
+        },
+        { "type": "checkbox", "id": "privacy", "name": "privacy", "label": "I have read and accept the privacy policy*", "required": true },
+        { "type": "checkbox", "id": "newsletter", "name": "newsletter", "label": "Send me updates (optional)", "required": false }
+      ],
+      "submitLabel": "Send request",
+      "secondaryText": "<span class=\"text-sm\">Read our <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Privacy policy</a></span><br>We usually reply within 24/48 hours.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

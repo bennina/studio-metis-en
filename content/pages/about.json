@@ -1,0 +1,271 @@
+{
+  "slug": "about",
+  "seo": {
+    "title": "About Us | Digital Consulting & Web Development for SMEs | Metis Web Agency",
+    "description": "Metis Web Agency by Elisabetta Monaco: digital consulting and web development for SMEs and professionals. Method, clarity and consistency to turn digital into a real business tool.",
+    "canonicalUrl": "https://www.metiswebagency.com/about"
+  },
+  "sections": [
+    {
+      "id": "id-cover",
+      "type": "cover",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justTopLeft",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "The web agency for small and medium businesses",
+        "title": "<b>Metis Web Agency</b><br>Digital built to serve your business.",
+        "subtitle": "<b>We don’t sell “a website”.</b></br>We build a journey that helps people find you, trust you and contact you.",
+        "body": "We work with SMEs and professionals who want to invest wisely. We start from goals and audience, define a clear message, then turn it into coherent pages and content.",
+        "tone": "secondary"
+      },
+      "secondaryCta": {
+        "label": "See how we work",
+        "href": "/method"
+      }
+    },
+    {
+      "id": "id-our-mission",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Our mission",
+        "title": "We turn digital into a <b>business tool</b>",
+        "subtitle": "Clear goals, a coherent presence, <b>measurable results</b>.",
+        "columns": [
+          {
+            "title": "The point isn’t just <b>“being online”</b> if nobody can find you.<br><br>That’s why we work on strategy, website and visibility as one connected journey."
+          },
+          {
+            "description": "We help SMEs and professionals stop improvising. We start from audience and positioning, build a lean and convincing website, then activate SEO/Ads and clean tracking (GA4/GTM) to understand what actually works."
+          }
+        ]
+      },
+      "secondaryCta": {
+        "label": "See packages",
+        "href": "/packages"
+      }
+    },
+    {
+      "id": "id-digital-communication-smes",
+      "type": "text-media",
+      "layout": {
+        "paddingY": "lg",
+        "alignText": "right",
+        "mediaPosition": "left"
+      },
+      "content": {
+        "eyebrow": "Digital communication for SMEs",
+        "title": "Advertising isn’t <em>“for big brands”</em>.<br><br>It’s a <b>basic need</b> if you want to grow.",
+        "subtitle": "If you run a business, being known isn’t optional.",
+        "body": "We believe in digital that is accessible and practical. You don’t need to do what everyone else does—you need to do the right things, in the right order.<br><br>That’s why we combine strategy, development and visibility into a clear, measurable journey that’s sustainable over time.",
+        "tone": "accent"
+      },
+      "paddingY": "lg",
+      "media": {
+        "src": "/images/la-comunizione-per-le-piccole-medie-imprese.png",
+        "alt": "Digital communication for SMEs | Metis Web Agency"
+      },
+      "secondaryCta": {
+        "label": "See packages",
+        "href": "/packages"
+      },
+      "primaryCta": {
+        "label": "See how we work",
+        "href": "/method"
+      }
+    },
+    {
+      "id": "id-budget-incentives",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Budget & incentives",
+        "title": "<b>Advertising</b> isn’t just a cost,<br>it can become a more sustainable investment",
+        "subtitle": "When it’s built with method, it can be optimized—even financially.",
+        "body": "In many cases, marketing and advertising expenses can be treated as business costs when they are relevant and properly documented. That doesn’t mean “magic”—it means setting strategy, tracking and reporting the right way so every euro has a reason and a result.<br><br>When available, there may also be incentives and grants linked to digital transformation. We can check if there’s anything useful for your case and help you prepare what’s needed—working alongside your accountant.",
+        "tone": "accent"
+      },
+      "secondaryCta": {
+        "label": "Learn how it works",
+        "href": "/lp/a-luxury-for-all"
+      }
+    },
+    {
+      "id": "id-who-its-for",
+      "type": "simple-content",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justLeft",
+        "alignX": "left",
+        "alignY": "center"
+      },
+      "paddingY": "xl",
+      "content": {
+        "tone": "white",
+        "eyebrow": "Who is this for?",
+        "columns": [
+          {
+            "title": "<span class='text-6xl text-white font-bold'>It’s easy to know if we’re a fit</span><br><span class='text-base text-white/80'>Better to be clear from the start—so we work well together.</span>"
+          },
+          {
+            "title": "If you only want a <b>“brochure website”</b> to publish and forget, we’re not the right partner.<br><br>If you want a journey with <b>clear goals</b>, consistency and measurable results, then we’re aligned."
+          }
+        ]
+      },
+      "primaryCta": {
+        "label": "Request a consultation",
+        "href": "/contact?intent=consultation"
+      },
+      "secondaryCta": {
+        "label": "See packages",
+        "href": "/packages"
+      }
+    },
+    {
+      "id": "id-method-3-steps",
+      "type": "wall-card",
+      "header": {
+        "tone": "primary",
+        "eyebrow": "Our method",
+        "title": "A 3-step process, no improvisation",
+        "subtitle": "Clear goals, concrete deliverables, continuous improvement.",
+        "body": "We work in phases. Each step produces clear outputs—so you always know what we’re doing and why."
+      },
+      "items": [
+        {
+          "id": "method-step-01",
+          "eyebrow": "Step 01",
+          "title": "Strategy & direction",
+          "description": "We align goals and priorities, define audience and message. We structure what matters and decide what’s really needed to get results.",
+          "cta": {
+            "label": "See strategy",
+            "href": "/method#strategy"
+          }
+        },
+        {
+          "id": "method-step-02",
+          "eyebrow": "Step 02",
+          "title": "Build & convert",
+          "description": "We build a website or landing with copy, CTAs and tracking (GA4/GTM). The foundation must be fast, clear and designed to turn visits into enquiries.",
+          "cta": {
+            "label": "See development",
+            "href": "/method#build"
+          }
+        },
+        {
+          "id": "method-step-03",
+          "eyebrow": "Step 03",
+          "title": "Visibility & optimization",
+          "description": "We activate SEO and/or Ads, measure what works and optimize. The goal: grow results and reduce waste over time.",
+          "cta": {
+            "label": "See growth & Ads",
+            "href": "/method#growth"
+          }
+        }
+      ],
+      "primaryCta": {
+        "label": "Explore the method",
+        "href": "/method"
+      }
+    },
+    {
+      "id": "form-contact",
+      "type": "form-card",
+      "background": "primaryGradients",
+      "layout": {
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "content": {
+        "tone": "primary",
+        "eyebrow": "Have a quick question?",
+        "title": "<b>Message us on WhatsApp</b>",
+        "subtitle": "We’ll tell you if it makes sense, timing and next steps.",
+        "description": "For a fast reply, send 3 things</br></br><b>01 -</b> your industry </br><b>02 -</b> goal (leads / sales / visibility) </br><b>03 -</b> website link (if any)."
+      },
+      "primaryCta": {
+        "label": "Message us on WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Prefer a more precise evaluation?",
+        "title": "<b>Tell us about your project</b>",
+        "description": "We’ll get back with a clear proposal—no fluff."
+      },
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Full name",
+          "placeholder": "e.g., Elisabetta Monaco",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "name@company.com",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "name": "phone",
+          "label": "Phone (for a callback)",
+          "placeholder": "e.g., +39 349 445 9317",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "name": "company",
+          "label": "Company / Business",
+          "placeholder": "e.g., Studio / Company",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "label": "Website (if any)",
+          "placeholder": "https://...",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Goal & context",
+          "placeholder": "e.g., I want more enquiries from Google / I want to sell online / I need a rebuild because it doesn’t convert...",
+          "rows": 4,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "privacy",
+          "name": "privacy",
+          "label": "I have read and accept the privacy policy*",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "name": "newsletter",
+          "label": "Send me updates (optional)",
+          "required": false
+        }
+      ],
+      "submitLabel": "Send request",
+      "secondaryText": "<span class=\"text-sm\">Read our <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Privacy policy</a></span><br>We usually reply within 24/48 hours.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

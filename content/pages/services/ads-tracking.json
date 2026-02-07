@@ -1,0 +1,254 @@
+{
+  "slug": "services/ads-tracking",
+  "seo": {
+    "title": "Ads Management & Conversion Tracking (GA4/GTM) | Metis Web Agency",
+    "description": "Google/Meta Ads with clean GA4/GTM tracking: key events, conversion setup, landing alignment and ongoing optimization to generate measurable leads—without wasted budget.",
+    "canonicalUrl": "https://www.metiswebagency.com/services/ads-tracking"
+  },
+  "sections": [
+    {
+      "id": "cover-ads-tracking-en",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": {
+        "radius": "justTopLeft",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Service • Ads & Tracking",
+        "title": "Ads that bring <b>measurable leads</b>:<br><b>tracking, clarity, optimization</b>",
+        "subtitle": "Before increasing budget, make sure you can measure what actually works.",
+        "body": "If your Ads feel like a slot machine, it’s usually not “the platform”. It’s missing measurement: unclear offers, weak landing pages, and messy tracking. We set up clean GA4/GTM tracking, align ads + landing, and optimize based on real conversion data.",
+        "tone": "primary"
+      },
+      "primaryCta": {
+        "label": "Request an Ads review",
+        "href": "/contact"
+      },
+      "secondaryCta": {
+        "label": "View all services",
+        "href": "/services"
+      }
+    },
+
+    {
+      "id": "when-needed-ads-tracking-en",
+      "type": "simple-content",
+      "content": {
+        "tone": "accent",
+        "eyebrow": "When you need this",
+        "title": "If you can’t measure conversions, you’re already wasting budget",
+        "subtitle": "Tracking turns Ads from “spend” into decisions.",
+        "body": "This isn’t theory. It’s the foundation that lets you scale with confidence—or stop spending on what doesn’t convert.",
+        "columns": [
+          {
+            "title": "",
+            "subtitle": "Typical scenario",
+            "description": "You’re running Google/Meta Ads but leads are inconsistent, low quality, or you can’t tell which campaign actually generates enquiries."
+          },
+          {
+            "title": "",
+            "subtitle": "What you get",
+            "description": "Clean GA4/GTM setup, key events, conversion actions, landing alignment, a simple reporting dashboard and a clear optimization plan."
+          }
+        ]
+      },
+      "primaryCta": {
+        "label": "Request an Ads review",
+        "href": "/contact"
+      },
+      "secondaryCta": {
+        "label": "View all services",
+        "href": "/services"
+      }
+    },
+
+    {
+      "id": "from-chaos-to-system-ads-en",
+      "type": "cover",
+      "layout": {
+        "paddingY": "lg",
+        "alignText": "right",
+        "mediaPosition": "left"
+      },
+      "background": "subtleGradients",
+      "content": {
+        "tone": "white",
+        "eyebrow": "From chaos to a system",
+        "title": "A setup that holds up over time",
+        "subtitle": "Ads work when message, landing and tracking speak the same language.",
+        "body": "We connect the dots: offer → ad message → landing page → measurable action. So every campaign has a role: what attracts, what convinces, what converts—and what needs to be measured to improve."
+      },
+      "secondaryCta": {
+        "label": "Let’s talk",
+        "href": "/contact"
+      }
+    },
+
+    {
+      "id": "other-services-ads-en",
+      "type": "wall-card",
+      "layout": {
+        "ctaPlacement": "footer"
+      },
+      "header": {
+        "tone": "primary",
+        "eyebrow": "Other services",
+        "title": "To maximize Ads results, these often fit perfectly",
+        "subtitle": "",
+        "body": ""
+      },
+      "items": [
+        {
+          "id": "landing-en",
+          "eyebrow": "Lead",
+          "title": "Landing pages & lead generation",
+          "description": "Conversion-focused landing pages that turn clicks into enquiries, with clean measurement.",
+          "cta": {
+            "label": "Learn more",
+            "href": "/services/landing-pages-lead-generation"
+          }
+        },
+        {
+          "id": "seo-copy-content-en",
+          "eyebrow": "Content",
+          "title": "SEO copywriting & content",
+          "description": "Copy and content that ranks and converts—so you’re not dependent on paid traffic forever.",
+          "cta": {
+            "label": "Learn more",
+            "href": "/services/seo-copy-content"
+          }
+        },
+        {
+          "id": "growth-support-en",
+          "eyebrow": "Continuity",
+          "title": "Ongoing growth support",
+          "description": "Monthly optimization across SEO/content/Ads, with reporting and iteration.",
+          "cta": {
+            "label": "Learn more",
+            "href": "/services/growth-support"
+          }
+        },
+        {
+          "id": "digital-strategy-en",
+          "eyebrow": "Foundation",
+          "title": "Digital strategy",
+          "description": "Goals, priorities, positioning and a plan—so execution stays focused and measurable.",
+          "cta": {
+            "label": "Learn more",
+            "href": "/services/digital-strategy"
+          }
+        }
+      ],
+      "primaryCta": {
+        "label": "View all services",
+        "href": "/services"
+      },
+      "secondaryCta": {
+        "label": "See the method",
+        "href": "/method"
+      }
+    },
+
+    {
+      "id": "contact-form-ads-en",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Want a fast answer?",
+        "title": "<b>Message us on WhatsApp</b>",
+        "subtitle": "We’ll tell you if it makes sense and what the next steps are.",
+        "description": "To assess quickly, send 3 things:</br></br><b>01 -</b> industry </br><b>02 -</b> goal (leads / sales / visibility) </br><b>03 -</b> website link (if any)."
+      },
+      "primaryCta": {
+        "label": "Chat on WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Prefer a more precise review?",
+        "title": "<b>Tell us about your project</b>",
+        "description": "We’ll get back with a clear proposal—no fluff."
+      },
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Full name",
+          "placeholder": "e.g., Elisabetta Monaco",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "name@company.com",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "name": "phone",
+          "label": "Phone (for a callback)",
+          "placeholder": "e.g., +39 349 445 9317",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "name": "company",
+          "label": "Company / Business",
+          "placeholder": "e.g., Studio / Company",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "label": "Website (if any)",
+          "placeholder": "https://...",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Goal & context",
+          "placeholder": "e.g., I want more leads from Google / I’m running Ads but tracking is unclear / I want to lower CPL...",
+          "rows": 4,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "privacy",
+          "name": "privacy",
+          "label": "I have read and accept the privacy policy*",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "name": "newsletter",
+          "label": "Send me updates (optional)",
+          "required": false
+        }
+      ],
+      "submitLabel": "Send request",
+      "secondaryText": "<span class=\"text-sm\">Read our <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Privacy policy</a></span><br>We usually reply within 24/48 hours.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

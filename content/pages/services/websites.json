@@ -1,0 +1,184 @@
+{
+  "slug": "services/websites",
+  "seo": {
+    "title": "Conversion-Focused Websites for Small Businesses | Metis Web Agency",
+    "description": "We design and develop fast, clear websites built to generate enquiries: structure, copy, technical SEO, Core Web Vitals, and GA4/GTM key events to turn visits into leads.",
+    "canonicalUrl": "https://www.metiswebagency.com/services/websites"
+  },
+  "sections": [
+    {
+      "id": "cover-websites-en",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": { "radius": "justTopLeft", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Websites for SMEs & professionals",
+        "title": "A <b>website</b> shouldn’t just look good.<br>It must help people <b>find you</b> and send <b>real enquiries</b>.",
+        "subtitle": "We build solid foundations: clear message, essential pages, performance and clean tracking.",
+        "body": "We start from goals and audience, then turn strategy into a fast, credible website: structure, copy, CTA, technical SEO and measurement. The result is an online presence that works even when you’re not there.",
+        "tone": "primary"
+      },
+      "primaryCta": { "label": "Request a consultation", "href": "/contact" },
+      "secondaryCta": { "label": "See the method", "href": "/method" }
+    },
+
+    {
+      "id": "what-changes-en",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "What actually changes",
+        "title": "The goal isn’t <b>“being online”</b>.<br>It’s being <b>chosen</b>.",
+        "subtitle": "A strong website does three things: explain, guide, convert.",
+        "body": "When a website doesn’t generate leads, it’s usually one (or more) of these: unclear message, too many useless pages, weak CTA, slow performance, or no tracking. We bring clarity and build a simple path: from visit to enquiry.",
+        "columns": [
+          {
+            "title": "<b>Structure</b> people understand",
+            "subtitle": "Architecture + essential content",
+            "description": "We define what pages you truly need (and in what order), with a message aligned to your audience and goals."
+          },
+          {
+            "title": "<b>Performance</b> & technical SEO",
+            "subtitle": "Speed, accessibility, indexability",
+            "description": "We optimize Core Web Vitals, metadata, sitemap/robots and technical SEO foundations so you can be found on Google and AI answers."
+          },
+          {
+            "title": "<b>Conversion</b> & tracking",
+            "subtitle": "CTA, forms, GA4/GTM key events",
+            "description": "We set up events and key events so you know what works, where you lose leads, and what to improve next."
+          }
+        ],
+        "tone": "accent"
+      },
+      "primaryCta": { "label": "Let’s talk", "href": "/contact" },
+      "secondaryCta": { "label": "View packages", "href": "/packages" }
+    },
+
+    {
+      "id": "work-flow-en",
+      "type": "cover",
+      "layout": { "paddingY": "lg", "alignText": "right", "mediaPosition": "left" },
+      "background": "subtleGradients",
+      "content": {
+        "tone": "white",
+        "eyebrow": "How we work",
+        "title": "Website first. Then visibility.<br>Not the other way around.",
+        "subtitle": "If you send traffic to a confusing website, you’re paying to lose opportunities.",
+        "body": "We build message and foundations first. Then we activate SEO and campaigns with clean measurement. That’s how every euro spent has a reason—and you can decide when to scale or adjust."
+      },
+      "secondaryCta": { "label": "See the 3-step method", "href": "/method" }
+    },
+
+    {
+      "id": "website-types-en",
+      "type": "wall-card",
+      "header": {
+        "eyebrow": "Website types",
+        "title": "We choose the right structure (based on your goal)",
+        "subtitle": "There is no “perfect website”. There is the right website for your case.",
+        "body": "Every solution starts from goals and audience. Here are the most common options—we adapt them to your industry and budget."
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": { "label": "Request a consultation", "href": "/contact" },
+      "secondaryCta": { "label": "Explore packages", "href": "/packages" },
+      "items": [
+        {
+          "id": "web-one-page-en",
+          "eyebrow": "Essential",
+          "title": "A one-page that converts",
+          "description": "Ideal to start: one strong message, sections in a logical order, proof and clear CTA. Perfect for campaigns and local services.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "web-corporate-en",
+          "eyebrow": "Professional",
+          "title": "Corporate / business website",
+          "description": "For companies and studios: service pages, credible about page, SEO-friendly structure and content designed for qualified enquiries.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "web-local-services-en",
+          "eyebrow": "Local",
+          "title": "Website for local service businesses",
+          "description": "Built to win local searches: service pages, location intent, fast CTA, tracking and ongoing optimization over time.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "web-lead-system-en",
+          "eyebrow": "Lead",
+          "title": "Website + lead capture system",
+          "description": "Forms, basic automation, integrations (CRM, Calendly, WhatsApp), GA4 key events and reporting—so you handle enquiries without chaos.",
+          "cta": { "label": "Let’s talk", "href": "/contact" }
+        },
+        {
+          "id": "web-redesign-en",
+          "eyebrow": "Relaunch",
+          "title": "Redesign & optimization",
+          "description": "If the website exists but doesn’t work: audit, new content hierarchy, copy, CTA and performance. We fix what matters—not what just “looks nice”.",
+          "cta": { "label": "Audit my website", "href": "/contact" }
+        },
+        {
+          "id": "web-tech-seo-tracking-en",
+          "eyebrow": "Technical",
+          "title": "Technical SEO & tracking setup",
+          "description": "Indexability cleanup, redirects, sitemap/robots, metadata, GA4/GTM and key events. Essential before investing in Ads.",
+          "cta": { "label": "Set up tracking", "href": "/contact" }
+        }
+      ]
+    },
+
+    {
+      "id": "contact-websites-en",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": { "radius": "justRight", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Want to see if it makes sense for you?",
+        "title": "<b>Message us on WhatsApp</b>",
+        "subtitle": "We’ll tell you feasibility, timing and next steps.",
+        "description": "For a fast reply, send 3 things:<br><br><b>01</b> industry / service<br><b>02</b> goal (leads, sales, visibility)<br><b>03</b> website link (if any)."
+      },
+      "primaryCta": {
+        "label": "Chat on WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Prefer email or a call?",
+        "title": "<b>Tell us about your project</b>",
+        "description": "We’ll get back with a clear proposal—no fluff."
+      },
+      "fields": [
+        { "type": "text", "id": "name", "name": "name", "label": "Full name", "placeholder": "e.g., Elisabetta Monaco", "required": true },
+        { "type": "email", "id": "email", "name": "email", "label": "Email", "placeholder": "name@company.com", "required": true },
+        { "type": "text", "id": "phone", "name": "phone", "label": "Phone (optional)", "placeholder": "+39 ...", "required": false },
+        { "type": "text", "id": "company", "name": "company", "label": "Company / Business", "placeholder": "e.g., Studio / Company", "required": false },
+        { "type": "text", "id": "website", "name": "website", "label": "Website (if any)", "placeholder": "https://...", "required": false },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Goal & context",
+          "placeholder": "e.g., I want more enquiries from Google / I need a new website / I want to launch a campaign...",
+          "rows": 4,
+          "required": true
+        },
+        { "type": "checkbox", "id": "privacy", "name": "privacy", "label": "I have read and accept the privacy policy*", "required": true },
+        { "type": "checkbox", "id": "newsletter", "name": "newsletter", "label": "Send me updates (optional)", "required": false }
+      ],
+      "submitLabel": "Send request",
+      "secondaryText": "<span class=\"text-sm\">Read our <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Privacy policy</a></span><br>We usually reply within 24/48 hours.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

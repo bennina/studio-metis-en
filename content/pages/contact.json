@@ -1,0 +1,169 @@
+{
+  "slug": "contact",
+  "seo": {
+    "title": "Contact | Digital Consulting & Web Development for SMEs | Metis Web Agency",
+    "description": "Contact Metis Web Agency for digital consulting, websites, SEO/Ads and tracking. Tell us your goal and context—we’ll reply within 24–48 hours with clear next steps.",
+    "canonicalUrl": "https://www.metiswebagency.com/contact"
+  },
+  "sections": [
+    {
+      "id": "id-cover",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": {
+        "radius": "justTopLeft",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Contact",
+        "title": "<b>Let’s talk.</b><br>We’ll tell you quickly if it makes sense and where to start.",
+        "subtitle": "No endless calls: share 3 key details and we’ll respond with next steps.",
+        "body": "Reach us by email/phone or use the form. If you need a fast answer, WhatsApp is perfect.",
+        "tone": "primary"
+      },
+      "primaryCta": {
+        "label": "Request a consultation",
+        "href": "#form-contact"
+      },
+      "secondaryCta": {
+        "label": "Message us on WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      }
+    },
+    {
+      "id": "id-how-to-contact",
+      "type": "simple-content",
+      "layout": {
+        "radius": "justLeft",
+        "alignX": "left",
+        "alignY": "center"
+      },
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "How to reach us",
+        "columns": [
+          {
+            "title": "<span class='text-6xl font-bold'>Choose the easiest channel</span><br><br><span class='text-base opacity-80'>Fast reply, no fluff.</span>"
+          },
+          {
+            "title": "<b>WhatsApp</b> for quick questions.<br><b>Email / Form</b> for a more precise evaluation.<br><b>Phone</b> if you prefer to talk and clarify in 5 minutes."
+          },
+          {
+            "title": "<span class='text-2xl font-bold'>Direct contacts</span>",
+            "description": "contact@metiswebagency.com<br>+39 349 445 9317"
+          },
+          {
+            "title": "<span class='text-2xl font-bold'>Company details</span>",
+            "description": "Metis Web Agency by Elisabetta Monaco<br>Via Mongitore, 40 — Menfi (AG), Italy<br>VAT 02876000841"
+          }
+        ]
+      },
+      "primaryCta": {
+        "label": "Message us on WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      }
+    },
+    {
+      "id": "form-contact",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": {
+        "radius": "justRight",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Need a quick answer?",
+        "title": "<b>Message us on WhatsApp</b>",
+        "subtitle": "We’ll tell you feasibility, timing and next steps.",
+        "description": "For a fast reply, send 3 things:<br><br><b>01 —</b> industry<br><b>02 —</b> goal (leads / sales / visibility)<br><b>03 —</b> website link (if any)"
+      },
+      "primaryCta": {
+        "label": "Message us on WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Prefer a more precise evaluation?",
+        "title": "<b>Tell us about your project</b>",
+        "description": "We’ll get back with a clear proposal—no fluff."
+      },
+      "fields": [
+        {
+          "type": "text",
+          "id": "name",
+          "name": "name",
+          "label": "Full name",
+          "placeholder": "e.g., Full name",
+          "required": true
+        },
+        {
+          "type": "email",
+          "id": "email",
+          "name": "email",
+          "label": "Email",
+          "placeholder": "name@company.com",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "name": "phone",
+          "label": "Phone (for a callback)",
+          "placeholder": "e.g., +39 349 445 9317",
+          "required": true
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "name": "company",
+          "label": "Company / Business",
+          "placeholder": "e.g., Studio / Company",
+          "required": false
+        },
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "label": "Website (if any)",
+          "placeholder": "https://...",
+          "required": false
+        },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Goal & context",
+          "placeholder": "e.g., I want more leads from Google / I want to sell online / I need a website rebuild because it doesn’t convert...",
+          "rows": 4,
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "privacy",
+          "name": "privacy",
+          "label": "I have read and accept the privacy policy*",
+          "required": true
+        },
+        {
+          "type": "checkbox",
+          "id": "newsletter",
+          "name": "newsletter",
+          "label": "Send me updates (optional)",
+          "required": false
+        }
+      ],
+      "submitLabel": "Send request",
+      "secondaryText": "<span class=\"text-sm\">Read our <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Privacy policy</a></span><br>We usually reply within 24–48 hours.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}
