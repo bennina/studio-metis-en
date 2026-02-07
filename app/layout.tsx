@@ -2,6 +2,12 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
+import { JsonLd } from "@/components/atoms/JsonLd";
+import {
+  getOrganizationSchema,
+  getWebSiteSchema,
+  getLocalBusinessSchema,
+} from "@/lib/seo/jsonld";
 
 const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.metiswebagency.it")
   .replace(/\/$/, "");
@@ -118,11 +124,20 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const gtmId = process.env.NEXT_PUBLIC_GTM_ID || "GTM-5MQB66KP"; // metti il tuo vero ID
+  const gtmId = process.env.NEXT_PUBLIC_GTM_ID || "GTM-M72LCFTP"; // metti il tuo vero ID
 
   return (
-    <html lang="en">
+    <html lang="it">
       <head>
+        {/* JSON-LD Structured Data for SEO */}
+        <JsonLd
+          data={[
+            getOrganizationSchema(),
+            getWebSiteSchema(),
+            getLocalBusinessSchema(),
+          ]}
+        />
+
         {/* IUBENDA widget */}
         <Script
           id="iubenda"
@@ -143,12 +158,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
 
       <body>
+        {/* Skip Link per accessibilità WCAG 2.4.1 - Bypass Blocks */}
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[9999] focus:px-4 focus:py-2 focus:bg-primary-500 focus:text-white focus:rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-300 focus:shadow-lg focus:font-medium"
+        >
+          Vai al contenuto principale
+        </a>
+
         <noscript>
           <iframe
             src={`https://www.googletagmanager.com/ns.html?id=${gtmId}`}
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
+            title="Google Tag Manager"
           />
         </noscript>
 

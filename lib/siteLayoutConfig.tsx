@@ -50,12 +50,16 @@ export const navigationConfig: NavigationSectionProps = {
   layout: "burger",
   stickyMode: "always",
   primaryNavItems: [
-    { href: "/about", label: "About Us" },
-    { href: "/services", label: "Services" },
+    { href: "/chi-siamo", label: "Chi Siamo" },
+    { href: "/servizi", label: "Servizi" },
+    { href: "/pacchetti", label: "Pacchetti" },
+    { href: "/metodo", label: "Come lavoriamo" },
+    { href: "/risorse", label: "Risorse" },
+    { href: "/contatti", label: "Contatti" },
   ],
   socialLinks: socialLinks,
-  ctaLabel: "Contact",
-  ctaHref: "/contact",
+  ctaLabel: "Contattaci",
+  ctaHref: "/contatti",
 };
 
 export const footerConfig: FooterSectionProps = {
@@ -103,12 +107,12 @@ export const footerConfig: FooterSectionProps = {
   socialLinks: socialLinks,
   secondaryLinks: [
     {
-      href: "https://www.iubenda.com/privacy-policy/26089082",
+      href: "https://www.iubenda.com/privacy-policy/65260546",
       target: "_blank",
       label: "Privacy policy",
     },
     {
-      href: "https://www.iubenda.com/privacy-policy/26089082/cookie-policy",
+      href: "https://www.iubenda.com/privacy-policy/65260546/cookie-policy",
       target: "_blank",
       label: "Cookie policy",
     },

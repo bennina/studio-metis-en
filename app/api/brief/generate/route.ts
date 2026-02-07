@@ -1,37 +1,83 @@
 // app/api/brief/generate/route.ts
-import { NextResponse } from 'next/server';
-import type { NextRequest } from 'next/server';
-import type { BriefData } from '@/lib/brief/briefTypes';
-import { SERVICES, formatPrice, formatPriceUnit } from '@/lib/brief/pricingData';
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
+import type { BriefData } from "@/lib/brief/briefTypes";
+import {
+  SERVICES,
+  formatPrice,
+  formatPriceUnit,
+} from "@/lib/brief/pricingData";
+import { generateQuoteNumber, saveQuote } from "@/lib/db/quotes";
+import { sendQuoteNotificationEmail } from "@/lib/email/quoteEmail";
+
+export const runtime = "nodejs";
 
 /**
  * POST /api/brief/generate
  *
  * Genera un HTML del preventivo formattato per la stampa PDF.
- * Il client può usare window.print() per salvare come PDF.
+ * Salva il preventivo nel database e invia notifica email.
  */
 export async function POST(request: NextRequest) {
   try {
     const briefData: BriefData = await request.json();
 
+    // Genera numero preventivo univoco
+    let quoteNumber: string;
+    try {
+      quoteNumber = await generateQuoteNumber();
+    } catch {
+      // Fallback se DB non disponibile
+      quoteNumber = `PREV-${Date.now()}`;
+    }
+
     // Genera HTML per il preventivo
-    const html = generateBriefHTML(briefData);
+    const html = generateBriefHTML(briefData, quoteNumber);
+
+    // Salva nel database (in background, non bloccare la risposta)
+    saveQuoteAsync(briefData, quoteNumber, html);
 
     return new NextResponse(html, {
       headers: {
-        'Content-Type': 'text/html; charset=utf-8',
+        "Content-Type": "text/html; charset=utf-8",
+        "X-Quote-Number": quoteNumber,
       },
     });
   } catch (error) {
-    console.error('Error generating brief:', error);
+    console.error("Error generating brief:", error);
     return NextResponse.json(
-      { error: 'Errore nella generazione del preventivo' },
+      { error: "Errore nella generazione del preventivo" },
       { status: 500 }
     );
   }
 }
 
-function generateBriefHTML(data: BriefData): string {
+/**
+ * Salva preventivo e invia email in background
+ */
+async function saveQuoteAsync(
+  briefData: BriefData,
+  quoteNumber: string,
+  pdfHtml: string
+) {
+  try {
+    // Salva nel database
+    await saveQuote(briefData, quoteNumber);
+    console.log(`Quote ${quoteNumber} saved to database`);
+
+    // Invia email di notifica
+    await sendQuoteNotificationEmail({
+      briefData,
+      quoteNumber,
+      pdfHtml,
+    });
+    console.log(`Quote notification email sent for ${quoteNumber}`);
+  } catch (error) {
+    console.error("Error in background save/email:", error);
+  }
+}
+
+function generateBriefHTML(data: BriefData, quoteNumber: string): string {
   const selectedSiteService = data.selectedSiteType
     ? SERVICES.find((s) => s.id === data.selectedSiteType)
     : null;
@@ -48,31 +94,38 @@ function generateBriefHTML(data: BriefData): string {
       }
       return acc;
     },
-    {} as Record<string, Array<{ service: (typeof SERVICES)[0]; selected: (typeof data.selectedServices)[0] }>>
+    {} as Record<
+      string,
+      Array<{
+        service: (typeof SERVICES)[0];
+        selected: (typeof data.selectedServices)[0];
+      }>
+    >
   );
 
   const categoryLabels: Record<string, string> = {
-    tipologia_sito: 'Tipologia Sito',
-    infrastruttura: 'Infrastruttura',
-    contenuti: 'Contenuti',
-    brand: 'Brand & Identity',
-    funzionalita: 'Funzionalità',
-    tracking: 'Tracking & Analytics',
-    post_lancio: 'Post-Lancio',
+    tipologia_sito: "Tipologia Sito",
+    infrastruttura: "Infrastruttura",
+    contenuti: "Contenuti",
+    brand: "Brand & Identity",
+    funzionalita: "Funzionalità",
+    tracking: "Tracking & Analytics",
+    post_lancio: "Post-Lancio",
   };
 
   const discount = data.discountPercent || 0;
   const discountedTotal = data.total * (1 - discount / 100);
 
+  const today = new Date();
   const validUntil = new Date();
   validUntil.setDate(validUntil.getDate() + data.validityDays);
 
   return `<!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Preventivo - ${data.clientInfo.companyName || 'Draft'}</title>
+  <title>Preventivo ${quoteNumber} - ${data.clientInfo.companyName || "Draft"}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -106,15 +159,10 @@ function generateBriefHTML(data: BriefData): string {
     }
 
     @media print {
-      body {
-        padding: 20px;
-      }
-      .no-print {
-        display: none !important;
-      }
-      .page-break {
-        page-break-before: always;
-      }
+      body { padding: 20px; }
+      .no-print { display: none !important; }
+      .page-break { page-break-before: always; }
+      .signature-section { page-break-inside: avoid; }
     }
 
     .header {
@@ -126,19 +174,15 @@ function generateBriefHTML(data: BriefData): string {
       margin-bottom: 30px;
     }
 
-    .header-left {
-      flex: 1;
+    .header-left { flex: 1; }
+
+    .header-right {
+      text-align: right;
+      min-width: 200px;
     }
 
-    .logo {
-      width: 180px;
-      height: auto;
-    }
-
-    .logo svg {
-      width: 100%;
-      height: auto;
-    }
+    .logo { width: 180px; height: auto; }
+    .logo svg { width: 100%; height: auto; }
 
     .document-title {
       font-size: 32px;
@@ -152,9 +196,23 @@ function generateBriefHTML(data: BriefData): string {
       font-size: 14px;
     }
 
-    .section {
-      margin-bottom: 30px;
+    .quote-number {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--color-primary);
+      background: var(--color-neutral-100);
+      padding: 10px 15px;
+      border-radius: 6px;
+      display: inline-block;
+      margin-bottom: 10px;
     }
+
+    .quote-date {
+      font-size: 14px;
+      color: var(--color-neutral-700);
+    }
+
+    .section { margin-bottom: 30px; }
 
     .section-title {
       font-size: 18px;
@@ -177,7 +235,24 @@ function generateBriefHTML(data: BriefData): string {
       font-weight: 500;
     }
 
-    .info-value {
+    .info-value { font-size: 14px; }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    .company-info {
+      background: var(--color-neutral-100);
+      padding: 15px;
+      border-radius: 6px;
+      font-size: 13px;
+    }
+
+    .company-info h4 {
+      color: var(--color-primary);
+      margin-bottom: 10px;
       font-size: 14px;
     }
 
@@ -282,6 +357,93 @@ function generateBriefHTML(data: BriefData): string {
       font-size: 14px;
     }
 
+    .terms-section {
+      font-size: 12px;
+      color: var(--color-neutral-700);
+      margin-top: 30px;
+      padding: 20px;
+      background: var(--color-neutral-100);
+      border-radius: 6px;
+    }
+
+    .terms-section h3 {
+      font-size: 14px;
+      color: var(--color-primary);
+      margin-bottom: 10px;
+    }
+
+    .terms-section ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    .terms-section li {
+      margin-bottom: 5px;
+    }
+
+    .signature-section {
+      margin-top: 50px;
+      padding: 30px;
+      border: 2px solid var(--color-neutral-200);
+      border-radius: 8px;
+      background: #fafafa;
+    }
+
+    .signature-section h3 {
+      font-size: 16px;
+      color: var(--color-primary);
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .signature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+
+    .signature-box {
+      text-align: center;
+    }
+
+    .signature-box h4 {
+      font-size: 13px;
+      color: var(--color-neutral-700);
+      margin-bottom: 60px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .signature-line {
+      border-top: 1px solid var(--color-neutral-700);
+      padding-top: 10px;
+      font-size: 12px;
+      color: var(--color-neutral-700);
+    }
+
+    .signature-date {
+      margin-top: 15px;
+      font-size: 12px;
+      color: var(--color-neutral-700);
+    }
+
+    .signature-date input {
+      border: none;
+      border-bottom: 1px solid var(--color-neutral-700);
+      background: transparent;
+      width: 150px;
+      text-align: center;
+      font-family: inherit;
+    }
+
+    .acceptance-text {
+      text-align: center;
+      font-size: 13px;
+      color: var(--color-neutral-700);
+      margin-top: 20px;
+      font-style: italic;
+    }
+
     .footer {
       margin-top: 40px;
       padding-top: 20px;
@@ -290,9 +452,7 @@ function generateBriefHTML(data: BriefData): string {
       color: var(--color-neutral-700);
     }
 
-    .footer strong {
-      color: var(--color-primary-dark);
-    }
+    .footer strong { color: var(--color-primary-dark); }
 
     .validity {
       background: var(--color-primary);
@@ -342,8 +502,15 @@ function generateBriefHTML(data: BriefData): string {
       font-family: 'Barlow', sans-serif;
     }
 
-    .print-button:hover {
-      background: var(--color-primary-dark);
+    .print-button:hover { background: var(--color-primary-dark); }
+
+    .legal-info {
+      font-size: 11px;
+      color: var(--color-neutral-700);
+      margin-top: 30px;
+      padding: 15px;
+      border: 1px solid var(--color-neutral-200);
+      border-radius: 6px;
     }
   </style>
 </head>
@@ -351,41 +518,65 @@ function generateBriefHTML(data: BriefData): string {
   <div class="header">
     <div class="header-left">
       <div class="logo">
-       <img src="/images/logo.svg" alt="Metis web agency | Consulenza Digitale e Sviluppo Web" width="70" height="100" loading="eager" data-cmp-info="10">
-       </div>
-       <p class="font-sans text-lg font-medium [&amp;_b]:font-[600] text-primary-dark">di <b>Elisabetta Monaco</b></p>
-       <p class="font-sans text-lg font-medium [&amp;_b]:font-[600] text-primary-dark"><b>Sede operativa: </b>Via Mongitore, 40 - Menfi (AG) <br><b>Sede legale: </b>Via garibaldi, 56 - Menfi (AG) <br> 92013 Sicilia – Italia</p>
-       <div class="grid gap-2 mt-2">
-       <p><b class="tracking-[1px]">Email:</b> <a class="text-primary-600" href="mailto:info@metiswebagency.it">info@metiswebagency.it</a></p>
-       <p><b class="tracking-[1px]">Tel:</b> <a class="text-primary-600" href="tel:+393494459317">+39 3494459317</a></p>
-       <p><b class="tracking-[1px]">Ufficio:</b> <a class="text-primary-600" href="tel:+390925969901">0925 969901</a></p>
-       
+        <img src="/images/logo.svg" alt="Metis Web Agency" width="70" height="100" loading="eager">
       </div>
-      <h1 class="document-title">Preventivo</h1>
-      <p class="document-meta">
-        ${data.clientInfo.projectName ? `Progetto: ${data.clientInfo.projectName} | ` : ''}
-        Data: ${new Date().toLocaleDateString('it-IT')}
+      <p style="font-size: 14px; margin-top: 10px;"><strong>Metis Web Agency</strong> di <strong>Elisabetta Monaco</strong></p>
+      <p style="font-size: 12px; color: var(--color-neutral-700);">
+        Sede operativa: Via Mongitore, 40 - 92013 Menfi (AG)<br>
+        Sede legale: Via Garibaldi, 56 - 92013 Menfi (AG)<br>
+        Sicilia – Italia
+      </p>
+      <p style="font-size: 12px; margin-top: 8px;">
+        <strong>Email:</strong> <a href="mailto:info@metiswebagency.it" style="color: var(--color-primary);">info@metiswebagency.it</a><br>
+        <strong>Tel:</strong> <a href="tel:+393494459317" style="color: var(--color-primary);">+39 349 445 9317</a><br>
+        <strong>Ufficio:</strong> <a href="tel:+390925969901" style="color: var(--color-primary);">0925 969901</a>
+      </p>
+    </div>
+    <div class="header-right">
+      <div class="quote-number">${quoteNumber}</div>
+      <p class="quote-date">
+        <strong>Data:</strong> ${today.toLocaleDateString("it-IT", { day: "2-digit", month: "long", year: "numeric" })}
+      </p>
+      <p class="quote-date">
+        <strong>Valido fino al:</strong> ${validUntil.toLocaleDateString("it-IT", { day: "2-digit", month: "long", year: "numeric" })}
       </p>
     </div>
   </div>
 
+  <h1 class="document-title">Preventivo</h1>
+  <p class="document-meta">
+    ${data.clientInfo.projectName ? `Progetto: <strong>${data.clientInfo.projectName}</strong>` : ""}
+  </p>
+
   <div class="validity">
-    Preventivo valido fino al ${validUntil.toLocaleDateString('it-IT')}
+    ⏰ Preventivo valido fino al ${validUntil.toLocaleDateString("it-IT")}
   </div>
 
   <div class="section">
-    <h2 class="section-title">Informazioni Cliente</h2>
-    <div class="info-grid">
-      ${data.clientInfo.companyName ? `<div class="info-label">Azienda</div><div class="info-value">${data.clientInfo.companyName}</div>` : ''}
-      ${data.clientInfo.contactName ? `<div class="info-label">Referente</div><div class="info-value">${data.clientInfo.contactName}</div>` : ''}
-      ${data.clientInfo.contactEmail ? `<div class="info-label">Email</div><div class="info-value">${data.clientInfo.contactEmail}</div>` : ''}
-      ${data.clientInfo.contactPhone ? `<div class="info-label">Telefono</div><div class="info-value">${data.clientInfo.contactPhone}</div>` : ''}
-      ${data.clientInfo.sector ? `<div class="info-label">Settore</div><div class="info-value">${data.clientInfo.sector}</div>` : ''}
+    <div class="two-column">
+      <div class="company-info">
+        <h4>📋 Fornitore</h4>
+        <p><strong>Metis Web Agency</strong><br>
+        di Elisabetta Monaco<br>
+        P.IVA: [DA INSERIRE]<br>
+        Via Mongitore, 40<br>
+        92013 Menfi (AG) - Italia</p>
+      </div>
+      <div class="company-info">
+        <h4>👤 Cliente</h4>
+        <p>
+          ${data.clientInfo.companyName ? `<strong>${data.clientInfo.companyName}</strong><br>` : ""}
+          ${data.clientInfo.contactName ? `Att.ne: ${data.clientInfo.contactName}<br>` : ""}
+          ${data.clientInfo.contactEmail ? `Email: ${data.clientInfo.contactEmail}<br>` : ""}
+          ${data.clientInfo.contactPhone ? `Tel: ${data.clientInfo.contactPhone}<br>` : ""}
+          ${data.clientInfo.sector ? `Settore: ${data.clientInfo.sector}` : ""}
+        </p>
+      </div>
     </div>
   </div>
 
   <div class="section">
-    <h2 class="section-title">Dettaglio Servizi</h2>
+    <h2 class="section-title">📦 Dettaglio Servizi</h2>
     <table class="services-table">
       <thead>
         <tr>
@@ -395,7 +586,9 @@ function generateBriefHTML(data: BriefData): string {
         </tr>
       </thead>
       <tbody>
-        ${selectedSiteService ? `
+        ${
+          selectedSiteService
+            ? `
           <tr class="category-header">
             <td colspan="3">Tipologia Sito</td>
           </tr>
@@ -405,15 +598,15 @@ function generateBriefHTML(data: BriefData): string {
               <div class="service-desc">${selectedSiteService.description}</div>
               <div class="service-why">${selectedSiteService.whyNeeded}</div>
               <ul class="benefits-list">
-                ${selectedSiteService.benefits.map((b) => `<li>${b}</li>`).join('')}
+                ${selectedSiteService.benefits.map((b) => `<li>${b}</li>`).join("")}
               </ul>
             </td>
             <td>${formatPriceUnit(selectedSiteService.priceUnit)}</td>
-            <td class="price">
-              ${formatPrice(selectedSiteService.price)}
-            </td>
+            <td class="price">${formatPrice(selectedSiteService.price)}</td>
           </tr>
-        ` : ''}
+        `
+            : ""
+        }
 
         ${Object.entries(servicesByCategory)
           .map(
@@ -422,86 +615,136 @@ function generateBriefHTML(data: BriefData): string {
             <td colspan="3">${categoryLabels[category] || category}</td>
           </tr>
           ${items
-            .map(
-              ({ service, selected }) => {
-                const qty = selected.quantity || 1;
-                const price = service.price * qty;
-                return `
+            .map(({ service, selected }) => {
+              const qty = selected.quantity || 1;
+              const price = service.price * qty;
+              return `
             <tr>
               <td>
-                <div class="service-name">${service.name}${qty > 1 ? ` (x${qty})` : ''}</div>
+                <div class="service-name">${service.name}${qty > 1 ? ` (x${qty})` : ""}</div>
                 <div class="service-desc">${service.description}</div>
                 <div class="service-why">${service.whyNeeded}</div>
                 <ul class="benefits-list">
-                  ${service.benefits.map((b) => `<li>${b}</li>`).join('')}
+                  ${service.benefits.map((b) => `<li>${b}</li>`).join("")}
                 </ul>
               </td>
               <td>${formatPriceUnit(service.priceUnit)}</td>
-              <td class="price">
-                ${formatPrice(price)}
-              </td>
+              <td class="price">${formatPrice(price)}</td>
             </tr>
           `;
-              }
-            )
-            .join('')}
+            })
+            .join("")}
         `
           )
-          .join('')}
+          .join("")}
       </tbody>
     </table>
 
     <div class="totals">
       <div class="total-row">
-        <span>Subtotale una tantum</span>
+        <span>Subtotale servizi</span>
         <span>${formatPrice(data.total)}</span>
       </div>
-      ${discount > 0 ? `
+      ${
+        discount > 0
+          ? `
         <div class="total-row discount">
-          <span>Sconto ${discount}%${data.discountReason ? ` (${data.discountReason})` : ''}</span>
-          <span>-${formatPrice(data.total * discount / 100)}</span>
+          <span>Sconto ${discount}%${data.discountReason ? ` (${data.discountReason})` : ""}</span>
+          <span>-${formatPrice((data.total * discount) / 100)}</span>
         </div>
-      ` : ''}
+      `
+          : ""
+      }
       <div class="total-row grand-total">
-        <span>Totale</span>
+        <span>TOTALE (IVA esclusa)</span>
         <span>${formatPrice(discountedTotal)}</span>
       </div>
-      ${data.recurring > 0 ? `
+      ${
+        data.recurring > 0
+          ? `
         <div class="recurring-note">
-          <strong>Costi ricorrenti:</strong> ${formatPrice(data.recurring)} /periodo
-          <br><small>I costi ricorrenti includono servizi con fatturazione mensile, trimestrale o annuale.</small>
+          <strong>💳 Costi ricorrenti:</strong> ${formatPrice(data.recurring)} /periodo
+          <br><small>I costi ricorrenti includono servizi con fatturazione mensile, trimestrale o annuale. Tali costi si aggiungono al totale una tantum sopra indicato.</small>
         </div>
-      ` : ''}
+      `
+          : ""
+      }
     </div>
   </div>
 
-  ${data.paymentTerms ? `
+  ${
+    data.paymentTerms
+      ? `
     <div class="section">
-      <h2 class="section-title">Condizioni di Pagamento</h2>
+      <h2 class="section-title">💰 Condizioni di Pagamento</h2>
       <p>${data.paymentTerms}</p>
     </div>
-  ` : ''}
-
-  ${data.clientNotes ? `
+  `
+      : `
     <div class="section">
-      <h2 class="section-title">Note</h2>
+      <h2 class="section-title">💰 Condizioni di Pagamento</h2>
+      <p>50% all'accettazione del preventivo, 50% alla consegna del progetto.<br>
+      Pagamento tramite bonifico bancario entro 7 giorni dalla fattura.</p>
+    </div>
+  `
+  }
+
+  ${
+    data.clientNotes
+      ? `
+    <div class="section">
+      <h2 class="section-title">📝 Note</h2>
       <div class="notes-section">
-        ${data.clientNotes.replace(/\n/g, '<br>')}
+        ${data.clientNotes.replace(/\n/g, "<br>")}
       </div>
     </div>
-  ` : ''}
+  `
+      : ""
+  }
 
-  <div class="footer">
-    <p><strong>Metis Web Agency</strong></p>
-    <p>Email: info@metiswebagency.it | Web: www.metiswebagency.it</p>
-    <p style="margin-top: 10px;">
-      Questo preventivo è stato generato automaticamente ed è valido per ${data.validityDays} giorni dalla data di emissione.
-      I prezzi indicati sono al netto di IVA. Per accettazione, rispondere a questa email o contattarci.
+  <div class="terms-section">
+    <h3>📜 Termini e Condizioni</h3>
+    <ul>
+      <li>Il presente preventivo ha validità di <strong>${data.validityDays} giorni</strong> dalla data di emissione.</li>
+      <li>I prezzi indicati sono al netto di IVA (22%).</li>
+      <li>Le tempistiche di realizzazione saranno concordate dopo l'accettazione del preventivo.</li>
+      <li>Eventuali modifiche sostanziali al progetto potrebbero comportare variazioni di prezzo.</li>
+      <li>Il cliente si impegna a fornire tutti i materiali necessari (testi, immagini, loghi) nei tempi concordati.</li>
+      <li>I diritti di proprietà intellettuale del lavoro saranno trasferiti al cliente dopo il saldo completo.</li>
+      <li>Per controversie sarà competente il Foro di Sciacca (AG).</li>
+    </ul>
+  </div>
+
+  <div class="signature-section">
+    <h3>✍️ Per Accettazione</h3>
+    <p class="acceptance-text">
+      Il sottoscritto dichiara di aver preso visione e di accettare integralmente il presente preventivo e le relative condizioni.
+    </p>
+    <div class="signature-grid">
+      <div class="signature-box">
+        <h4>Il Fornitore</h4>
+        <div class="signature-line">Metis Web Agency</div>
+        <p class="signature-date">Data: ${today.toLocaleDateString("it-IT")}</p>
+      </div>
+      <div class="signature-box">
+        <h4>Il Cliente</h4>
+        <div class="signature-line">Firma e Timbro</div>
+        <p class="signature-date">Data: ____________________</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="legal-info">
+    <p><strong>Metis Web Agency</strong> di Elisabetta Monaco | P.IVA: [DA INSERIRE] | REA: [DA INSERIRE]</p>
+    <p>Sede: Via Mongitore, 40 - 92013 Menfi (AG) | Email: info@metiswebagency.it | Tel: +39 349 445 9317</p>
+    <p style="margin-top: 8px; font-size: 10px;">
+      Documento generato automaticamente il ${today.toLocaleDateString("it-IT")} alle ${today.toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit" })}.
+      Riferimento: ${quoteNumber}
     </p>
   </div>
 
   <button class="print-button no-print" onclick="window.print()">
-    Salva come PDF
+    🖨️ Salva come PDF
   </button>
 </body>
 </html>`;
