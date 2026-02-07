@@ -147,7 +147,7 @@ export const PageWrapper: FC<PageWrapperProps> = ({
   return (
     <>
       {navigationProps && <NavigationSection {...navigationProps} />}
-      <main className={'absolute top-0 w-full'}>
+      <main id="main-content" className={'absolute top-0 w-full'} tabIndex={-1}>
         {sections.map(renderSection)}
 
         {children}

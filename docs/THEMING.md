@@ -58,7 +58,7 @@ import { ThemeProvider } from '@metis-ui/core';
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="it">
       <body>
         <ThemeProvider>
           {children}

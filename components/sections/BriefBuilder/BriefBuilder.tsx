@@ -34,11 +34,6 @@ import {
   type BriefData,
   type SelectedService,
   createEmptyBrief,
-  TIMELINE_LABELS,
-  BUDGET_LABELS,
-  GOAL_LABELS,
-  SITE_STATUS_LABELS,
-  CONTENT_STATUS_LABELS,
 } from "@/lib/brief/briefTypes";
 import { getBriefBuilderClasses } from "./BriefBuilder.style";
 import { useTranslation, type Locale } from "@/lib/i18n";
@@ -404,7 +399,7 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
       case "info_cliente":
         return (
           <div className={classes.formGrid}>
-            <FormField id="projectName" label="Nome Progetto" required>
+            <FormField id="projectName" label={t("labels.projectName")} required>
               <Input
                 variant="glass"
                 name="projectName"
@@ -412,10 +407,10 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
                 onChange={(e) =>
                   updateClientInfo("projectName", e.target.value)
                 }
-                placeholder="es. Nuovo sito aziendale"
+                placeholder={t("placeholders.projectName")}
               />
             </FormField>
-            <FormField id="companyName" label="Azienda / Cliente" required>
+            <FormField id="companyName" label={t("labels.companyName")} required>
               <Input
                 variant="glass"
                 name="companyName"
@@ -423,19 +418,19 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
                 onChange={(e) =>
                   updateClientInfo("companyName", e.target.value)
                 }
-                placeholder="Nome azienda"
+                placeholder={t("placeholders.companyName")}
               />
             </FormField>
-            <FormField id="sector" label="Settore">
+            <FormField id="sector" label={t("labels.sector")}>
               <Input
                 variant="glass"
                 name="sector"
                 value={briefData.clientInfo.sector}
                 onChange={(e) => updateClientInfo("sector", e.target.value)}
-                placeholder="es. Edilizia, Consulenza, Retail..."
+                placeholder={t("placeholders.sector")}
               />
             </FormField>
-            <FormField id="contactName" label="Referente">
+            <FormField id="contactName" label={t("labels.contactName")}>
               <Input
                 variant="glass"
                 name="contactName"
@@ -443,10 +438,10 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
                 onChange={(e) =>
                   updateClientInfo("contactName", e.target.value)
                 }
-                placeholder="Nome e cognome"
+                placeholder={t("placeholders.contactName")}
               />
             </FormField>
-            <FormField id="contactEmail" label="Email">
+            <FormField id="contactEmail" label={t("labels.contactEmail")}>
               <Input
                 variant="glass"
                 type="email"
@@ -455,10 +450,10 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
                 onChange={(e) =>
                   updateClientInfo("contactEmail", e.target.value)
                 }
-                placeholder="email@azienda.it"
+                placeholder={t("placeholders.contactEmail")}
               />
             </FormField>
-            <FormField id="contactPhone" label="Telefono">
+            <FormField id="contactPhone" label={t("labels.contactPhone")}>
               <Input
                 variant="glass"
                 type="tel"
@@ -467,7 +462,7 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
                 onChange={(e) =>
                   updateClientInfo("contactPhone", e.target.value)
                 }
-                placeholder="+39 ..."
+                placeholder={t("placeholders.contactPhone")}
               />
             </FormField>
           </div>
@@ -478,14 +473,14 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
           <div className="space-y-lg">
             <div>
               <p className={classes.formLabel + " mb-md"}>
-                Situazione sito attuale
+                {t("siteStatus.title")}
               </p>
               <div className={classes.optionGrid}>
-                {Object.entries(SITE_STATUS_LABELS).map(([value, label]) =>
+                {(["no", "rebuild", "improve"] as const).map((value) =>
                   renderOptionCard(
-                    value as "no" | "rebuild" | "improve",
+                    value,
                     briefData.currentSituation.hasSite,
-                    label,
+                    t(`siteStatus.${value}`),
                     undefined,
                     (v) => updateSituation("hasSite", v),
                   ),
@@ -494,7 +489,7 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
             </div>
 
             {briefData.currentSituation.hasSite !== "no" && (
-              <FormField id="currentSiteUrl" label="URL sito attuale">
+              <FormField id="currentSiteUrl" label={t("labels.currentSiteUrl")}>
                 <Input
                   variant="glass"
                   name="currentSiteUrl"
@@ -502,7 +497,7 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
                   onChange={(e) =>
                     updateSituation("currentSiteUrl", e.target.value)
                   }
-                  placeholder="https://..."
+                  placeholder={t("placeholders.website")}
                 />
               </FormField>
             )}
@@ -533,9 +528,9 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
                       <Check size={14} className="text-white" />
                     )}
 
-                    
+
                   </div>
-                  <span className={briefData.currentSituation.hasDomain ? classes.optionTitle : classes.optionTitledSelected}>Ha già un dominio</span>
+                  <span className={briefData.currentSituation.hasDomain ? classes.optionTitle : classes.optionTitledSelected}>{t("situation.hasDomain")}</span>
                 </div>
               </div>
 
@@ -564,7 +559,7 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
                       <Check size={14} className="text-white" />
                     )}
                   </div>
-                  <span className={briefData.currentSituation.hasHosting ? classes.optionTitle : classes.optionTitledSelected}>Ha già un hosting</span>
+                  <span className={briefData.currentSituation.hasHosting ? classes.optionTitle : classes.optionTitledSelected}>{t("situation.hasHosting")}</span>
                 </div>
               </div>
 
@@ -594,7 +589,7 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
                     )}
                   </div>
                   <span className={briefData.currentSituation.hasEmail ? classes.optionTitle : classes.optionTitledSelected}>
-                    Ha email professionale
+                    {t("situation.hasEmail")}
                   </span>
                 </div>
               </div>
@@ -625,7 +620,7 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
                     )}
                   </div>
                   <span className={briefData.currentSituation.hasBrandIdentity ? classes.optionTitle : classes.optionTitledSelected}>
-                    Ha brand identity definita
+                    {t("situation.hasBrandIdentity")}
                   </span>
                 </div>
               </div>
@@ -633,14 +628,14 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
 
             <div>
               <p className={classes.formLabel + " mb-md"}>
-                Stato dei contenuti (testi, foto)
+                {t("contentStatus.title")}
               </p>
               <div className={classes.optionGrid}>
-                {Object.entries(CONTENT_STATUS_LABELS).map(([value, label]) =>
+                {(["none", "partial", "complete"] as const).map((value) =>
                   renderOptionCard(
-                    value as "none" | "partial" | "complete",
+                    value,
                     briefData.currentSituation.hasContent,
-                    label,
+                    t(`contentStatus.${value}`),
                     undefined,
                     (v) => updateSituation("hasContent", v),
                   ),
@@ -650,14 +645,14 @@ export const BriefBuilder: FC<BriefBuilderProps> = ({
 
             <FormField
               id="situationNotes"
-              label="Note sulla situazione attuale"
+              label={t("labels.situationNotes")}
             >
               <Textarea
                 className={classes.fields}
                 name="situationNotes"
                 value={briefData.currentSituation.notes || ""}
                 onChange={(e) => updateSituation("notes", e.target.value)}
-                placeholder="Informazioni aggiuntive..."
+                placeholder={t("placeholders.notes")}
                 rows={3}
               />
             </FormField>

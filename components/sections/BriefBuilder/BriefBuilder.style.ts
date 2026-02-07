@@ -16,7 +16,7 @@ export function getBriefBuilderClasses() {
     progressFill: 'h-full bg-primary-500 transition-all duration-300',
     progressSteps: [
       'flex gap-sm overflow-x-auto pb-sm -mx-md px-md',
-      'scrollbar-thin scrollbar-thumb-neutral-700 scrollbar-track-transparent',
+      'scrollbar-none [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none]',
     ].join(' '),
     progressStep: [
       'flex-shrink-0 px-md py-sm rounded-full text-sm',

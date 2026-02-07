@@ -294,7 +294,9 @@ export const NavigationSection: FC<NavigationSectionProps> = ({
         aria-controls="nav-menu-overlay"
         onClick={() => setIsMenuOpen((prev) => !prev)}
       >
+        {/* Decorative burger icon bars - hidden from assistive technology */}
         <div
+          aria-hidden="true"
           className={[
             "items-center",
             "justify-center",
@@ -310,6 +312,7 @@ export const NavigationSection: FC<NavigationSectionProps> = ({
           ].join(" ")}
         ></div>
         <div
+          aria-hidden="true"
           className={[
             "items-center",
             "justify-center",
@@ -323,6 +326,7 @@ export const NavigationSection: FC<NavigationSectionProps> = ({
           ].join(" ")}
         ></div>
         <div
+          aria-hidden="true"
           className={[
             "items-center",
             "justify-center",

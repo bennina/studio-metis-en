@@ -5,6 +5,7 @@ export * from './Flex';
 export * from './Radio';
 export * from './Stack';
 export * from './Divider';
+export * from './SkipLink';
 
 //TYPOGRAPHY
 export * from './Title';
@@ -24,5 +25,8 @@ export * from './Checkbox';
 
 //MEDIA
 export * from './Image';
+
+//SEO
+export * from './JsonLd';
 
 

@@ -7,3 +7,6 @@ export * from './TextMediaSection';
 export * from './WallCardSection';
 export * from "./QuizCardSection";
 export * from './BriefBuilder';
+export * from './BlogPostsSection';
+export * from './ServicesSection';
+export * from './PackagesSection';
