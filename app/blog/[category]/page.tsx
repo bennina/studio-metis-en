@@ -69,12 +69,12 @@ export default async function CategoryPage({ params }: PageProps) {
                 Torna al blog
               </a>
 
-              <Title variant="h1" tone="dark" className="mb-4">
+              <Title variant="h1" tone="default" className="mb-4">
                 {category.name}
               </Title>
 
               {category.description && (
-                <Paragraph size="lg" tone="dark">
+                <Paragraph size="lg" tone="default">
                   {category.description}
                 </Paragraph>
               )}

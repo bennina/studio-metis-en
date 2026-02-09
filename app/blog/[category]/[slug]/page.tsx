@@ -121,7 +121,7 @@ export default async function PostPage({ params }: PageProps) {
               </nav>
 
               {/* Titolo */}
-              <Title variant="h1" tone="dark" className="mb-6">
+              <Title variant="h1" tone="default" className="mb-6">
                 {post.title}
               </Title>
 

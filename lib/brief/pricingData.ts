@@ -800,7 +800,7 @@ export function calculateServicePrice(
   quantity: number = 1
 ): { min: number; max: number } {
   return {
-    min: service.priceMin * quantity,
-    max: service.priceMax * quantity,
+    min: service.price * quantity,
+    max: service.price * quantity,
   };
 }
