@@ -50,16 +50,12 @@ export const navigationConfig: NavigationSectionProps = {
   layout: "burger",
   stickyMode: "always",
   primaryNavItems: [
-    { href: "/chi-siamo", label: "Chi Siamo" },
-    { href: "/servizi", label: "Servizi" },
-    { href: "/pacchetti", label: "Pacchetti" },
-    { href: "/metodo", label: "Come lavoriamo" },
-    { href: "/risorse", label: "Risorse" },
-    { href: "/contatti", label: "Contatti" },
+    { href: "/about", label: "About" },
+    { href: "/services", label: "Services" },
   ],
   socialLinks: socialLinks,
-  ctaLabel: "Contattaci",
-  ctaHref: "/contatti",
+  ctaLabel: "Contact",
+  ctaHref: "/contact",
 };
 
 export const footerConfig: FooterSectionProps = {
