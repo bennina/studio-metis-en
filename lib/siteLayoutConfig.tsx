@@ -107,12 +107,12 @@ export const footerConfig: FooterSectionProps = {
   socialLinks: socialLinks,
   secondaryLinks: [
     {
-      href: "https://www.iubenda.com/privacy-policy/65260546",
+      href: "https://www.iubenda.com/privacy-policy/26089082",
       target: "_blank",
       label: "Privacy policy",
     },
     {
-      href: "https://www.iubenda.com/privacy-policy/65260546/cookie-policy",
+      href: "https://www.iubenda.com/privacy-policy/26089082/cookie-policy",
       target: "_blank",
       label: "Cookie policy",
     },

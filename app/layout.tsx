@@ -127,7 +127,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID || "GTM-M72LCFTP"; // metti il tuo vero ID
 
   return (
-    <html lang="it">
+    <html lang="en">
       <head>
         {/* JSON-LD Structured Data for SEO */}
         <JsonLd
@@ -144,6 +144,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           src="https://embeds.iubenda.com/widgets/fa194046-8776-44f0-b3c4-141a13ce15ce.js"
           strategy="beforeInteractive"
         />
+        
 
         {/* GTM */}
         <Script id="gtm" strategy="afterInteractive">
