@@ -34,6 +34,9 @@ import {
   type BriefData,
   type SelectedService,
   createEmptyBrief,
+  GOAL_LABELS,
+  TIMELINE_LABELS,
+  BUDGET_LABELS,
 } from "@/lib/brief/briefTypes";
 import { getBriefBuilderClasses } from "./BriefBuilder.style";
 import { useTranslation, type Locale } from "@/lib/i18n";

@@ -70,10 +70,10 @@ export default async function BlogPage() {
         <Section paddingY="lg" background="default">
           <Container>
             <div className="max-w-3xl">
-              <Title variant="h1" tone="dark" className="mb-4">
+              <Title variant="h1" tone="default" className="mb-4">
                 {config.title}
               </Title>
-              <Paragraph size="lg" tone="dark">
+              <Paragraph size="lg" tone="default">
                 {config.description}
               </Paragraph>
             </div>

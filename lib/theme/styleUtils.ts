@@ -35,7 +35,7 @@ export function createStyleGetter<
         return {
           ...defaultClasses,
           root: cn((defaultClasses as Record<string, string>).root, styleProps.className),
-        } as Record<TSlots, string>;
+        } as Record<TSlots | 'root', string>;
       }
       return defaultClasses;
     }

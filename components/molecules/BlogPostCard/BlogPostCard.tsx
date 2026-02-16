@@ -2,7 +2,7 @@
 import type { FC } from "react";
 import { Clock } from "lucide-react";
 import type { BlogPostWithCategory } from "@/lib/blog/types";
-import { formatDate } from "@/lib/blog";
+import { formatDate } from "@/lib/blog/utils";
 import {
   getBlogPostCardClasses,
   type BlogPostCardVariant,

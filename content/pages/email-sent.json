@@ -3,7 +3,8 @@
   "seo": {
     "title": "Message sent | Digital Consulting & Web Development for SMEs | Metis Web Agency",
     "description": "Thanks for reaching out. We’ll get back to you within 24–48 hours with next steps. If it’s urgent, message us on WhatsApp.",
-    "canonicalUrl": "https://www.metiswebagency.com/email-sent"
+    "canonicalUrl": "https://www.metiswebagency.com/email-sent",
+    "noIndex": true
   },
   "sections": [
     {
