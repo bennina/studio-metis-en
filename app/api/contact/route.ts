@@ -154,5 +154,5 @@ export async function POST(req: Request) {
   }
 
   // cambia pure la pagina di grazie se vuoi (es. /grazie)
-  return NextResponse.redirect(new URL("/email-inviata", base), 303);
+  return NextResponse.redirect(new URL("/email-sent", base), 303);
 }

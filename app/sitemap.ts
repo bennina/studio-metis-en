@@ -21,7 +21,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const paths = routes.map((parts) => "/" + parts.join("/"));
 
   // Extra pages non necessariamente presenti nei JSON (se poi la crei come JSON, rimane duplicata: la filtriamo)
-  const extras = ["/email-inviata"];
+  const extras = ["/email-sent"];
 
   const all = Array.from(new Set([...paths, ...extras]));
 
