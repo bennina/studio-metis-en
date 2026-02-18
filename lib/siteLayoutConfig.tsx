@@ -113,7 +113,7 @@ export const footerConfig: FooterSectionProps = {
       label: "Cookie policy",
     },
     {
-      href: "https://www.metiswebagency.it/",
+      href: "https://www.metiswebagency.com/",
       target: "_blank",
       label: "Metis web agency",
     },

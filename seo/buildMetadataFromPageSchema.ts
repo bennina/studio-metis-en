@@ -10,7 +10,7 @@ type PageSeo = {
   noIndex?: boolean;     // ✅ aggiungi
 };
 
-const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.metiswebagency.it/").replace(/\/$/, "");
+const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.metiswebagency.com/").replace(/\/$/, "");
 
 function abs(urlOrPath: string) {
   try {

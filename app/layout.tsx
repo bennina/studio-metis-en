@@ -9,7 +9,7 @@ import {
   getLocalBusinessSchema,
 } from "@/lib/seo/jsonld";
 
-const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.metiswebagency.it")
+const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.metiswebagency.com")
   .replace(/\/$/, "");
 
 export const viewport: Viewport = {

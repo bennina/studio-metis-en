@@ -17,7 +17,7 @@ import {
 import { getArticleSchema, getBreadcrumbSchema } from "@/lib/seo/jsonld";
 import { Clock, Calendar, User } from "lucide-react";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.metiswebagency.it";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.metiswebagency.com";
 
 type PageParams = { category: string; slug: string };
 type PageProps = { params: Promise<PageParams> };

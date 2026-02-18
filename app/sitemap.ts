@@ -3,7 +3,7 @@ import type { MetadataRoute } from "next";
 import { listAllRoutes } from "@/lib/pages";
 
 const SITE_URL =
-  (process.env.NEXT_PUBLIC_SITE_URL || "https://www.metiswebagency.it/").replace(
+  (process.env.NEXT_PUBLIC_SITE_URL || "https://www.metiswebagency.com/").replace(
     /\/$/,
     ""
   );

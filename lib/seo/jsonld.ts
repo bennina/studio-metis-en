@@ -1,7 +1,7 @@
 // lib/seo/jsonld.ts
 // JSON-LD Schema generators for improved SERP
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.metiswebagency.it";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.metiswebagency.com";
 
 export interface OrganizationSchema {
   "@context": "https://schema.org";

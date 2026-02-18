@@ -8,7 +8,7 @@ type PageSeo = {
   canonical?: string; // es. "/chi-siamo" o URL assoluto
 };
 
-const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.metiswebagency.it/")
+const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.metiswebagency.com/")
   .replace(/\/$/, "");
 
 function abs(urlOrPath: string) {

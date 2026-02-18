@@ -8,7 +8,7 @@ export const homePageSchema: PageSchema = {
     title: '',
     description:
       '',
-    canonicalUrl: 'https://www.metiswebagency.it/',
+    canonicalUrl: 'https://www.metiswebagency.com/',
     locale: 'it-IT',
     ogImage: ""
     
