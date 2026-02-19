@@ -1,0 +1,259 @@
+{
+  "slug": "packages",
+  "seo": {
+    "title": "Website Packages & Pricing for UK Small Businesses | From £1,495 | Metis Web Agency",
+    "description": "All-inclusive website packages for UK small businesses: strategy, professional copy, SEO, GA4 tracking — everything included. Starter from £1,495, Growth from £795, E-commerce from £4,995. No hidden costs.",
+    "canonicalUrl": "https://www.metiswebagency.com/packages"
+  },
+  "sections": [
+    {
+      "id": "cover-packages",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": { "radius": "justTopLeft", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Website packages — transparent pricing in GBP",
+        "title": "All-inclusive <b>website packages</b> for UK small businesses",
+        "subtitle": "Strategy + copy + SEO + tracking = one price. No hidden fees.",
+        "body": "Most agencies give you a website and leave the rest to you. We include everything: strategy, professional copywriting, technical SEO and conversion tracking — because a website without these is just a brochure.</br></br><b>Choose your starting point below, or tell us your goal and we'll recommend the right package.</b>",
+        "tone": "primary"
+      },
+      "primaryCta": { "label": "Get a free quote", "href": "/contact" },
+      "secondaryCta": { "label": "Chat on WhatsApp", "target": "_blank", "href": "https://wa.me/393494459317" }
+    },
+
+    {
+      "id": "packages-comparison",
+      "type": "wall-card",
+      "header": {
+        "tone": "secondary",
+        "eyebrow": "Three packages, one philosophy",
+        "title": "Pick the package that <b>matches your stage</b>",
+        "subtitle": "Every package includes strategy, copy, SEO and tracking. The difference is scope and complexity.",
+        "body": ""
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": { "label": "Get a free quote", "href": "/contact" },
+      "items": [
+        {
+          "id": "pkg-starter",
+          "eyebrow": "Most popular",
+          "title": "Starter Package — from £1,495",
+          "description": "<b>For businesses starting from scratch or replacing a DIY website.</b></br></br>Everything you need to launch a professional online presence that generates enquiries:</br></br>• Digital strategy & positioning workshop</br>• Up to 5 pages (Home, About, Services, Contact + 1)</br>• Professional SEO copywriting (we write everything)</br>• Responsive mobile-first design</br>• Technical SEO setup (metadata, sitemap, robots, schema)</br>• GA4 + GTM tracking & key events</br>• Contact forms with lead notifications</br>• Core Web Vitals optimisation</br>• 30-day post-launch support</br></br><b>Typical delivery: 3–4 weeks</b>",
+          "cta": { "label": "Get a quote for Starter", "href": "/contact" }
+        },
+        {
+          "id": "pkg-growth",
+          "eyebrow": "For existing websites",
+          "title": "Growth Package — from £795 + Ads",
+          "description": "<b>Your website exists but doesn't generate leads. Let's fix that.</b></br></br>We audit what's blocking results and fix the critical points:</br></br>• Full website & conversion audit</br>• Message, headline and CTA rewrite</br>• Key page redesign (up to 3 pages)</br>• GA4/GTM tracking setup & key events</br>• SEO quick wins (metadata, structure, internal links)</br>• Google Ads or Meta Ads setup & first campaign</br>• Landing page for lead generation</br>• Monthly reporting dashboard</br>• 30-day optimisation period</br></br><b>Typical delivery: 2–3 weeks</b>",
+          "cta": { "label": "Get a quote for Growth", "href": "/contact" }
+        },
+        {
+          "id": "pkg-ecommerce",
+          "eyebrow": "For online sales",
+          "title": "E-commerce Package — from £4,995",
+          "description": "<b>An online shop built to sell — not just display products.</b></br></br>Strategy, design and growth support for a real sales engine:</br></br>• E-commerce strategy & product structure</br>• Up to 20 products + category pages</br>• Professional product descriptions (SEO copy)</br>• Payment & shipping integration</br>• Conversion-optimised checkout flow</br>• GA4/GTM e-commerce tracking (add-to-cart, purchase)</br>• Technical SEO & product schema</br>• Email setup (order confirmations, abandoned cart)</br>• 60-day post-launch support</br></br><b>Typical delivery: 5–7 weeks</b>",
+          "cta": { "label": "Get a quote for E-commerce", "href": "/contact" }
+        }
+      ]
+    },
+
+    {
+      "id": "whats-always-included",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Included in every package — no exceptions",
+        "title": "What you'll <b>never</b> pay extra for",
+        "subtitle": "These are standard in all our packages. Other agencies call them 'add-ons'.",
+        "columns": [
+          {
+            "subtitle": "Strategy & planning",
+            "description": "Goal definition, audience mapping, value proposition, messaging framework and page structure — so the website has direction."
+          },
+          {
+            "subtitle": "Professional copywriting",
+            "description": "We write every headline, paragraph and CTA. Conversion-focused, SEO-optimised copy in British English. You review, we refine."
+          },
+          {
+            "subtitle": "On-page SEO",
+            "description": "Keyword research, metadata, heading hierarchy, internal linking, sitemap, robots.txt, image alt text and Core Web Vitals optimisation."
+          },
+          {
+            "subtitle": "GA4 & GTM tracking",
+            "description": "Analytics setup, form submissions, phone clicks, WhatsApp taps and custom key events — so you know what works from day one."
+          },
+          {
+            "subtitle": "Responsive design",
+            "description": "Mobile-first, tested across devices and browsers. Fast loading, accessible and built with clean, maintainable code."
+          },
+          {
+            "subtitle": "Post-launch support",
+            "description": "30 days of bug fixes, content tweaks and tracking adjustments after go-live. You're never left alone after launch."
+          }
+        ],
+        "tone": "accent"
+      },
+      "primaryCta": { "label": "See the all-inclusive package in detail", "href": "/all-inclusive-website-package" }
+    },
+
+    {
+      "id": "monthly-growth-addon",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Optional — Ongoing growth support",
+        "title": "Keep growing after launch — <b>from £395/month</b>",
+        "subtitle": "Websites don't 'work once'. They work when you improve them consistently.",
+        "body": "After launch, you can add a monthly growth retainer. We handle SEO improvements, content updates, Ads management, CRO tweaks and reporting — so results compound over time.</br></br><b>Month-to-month. Cancel anytime. No lock-in contracts.</b>",
+        "tone": "primary"
+      },
+      "primaryCta": { "label": "Ask about monthly support", "href": "/contact" },
+      "secondaryCta": { "label": "Learn more about growth support", "href": "/services/growth-support" }
+    },
+
+    {
+      "id": "how-it-works",
+      "type": "wall-card",
+      "header": {
+        "eyebrow": "How it works",
+        "title": "From first call to live website — <b>in 3–7 weeks</b>",
+        "subtitle": "A clear, predictable process you can rely on.",
+        "body": ""
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 4,
+        "gap": "sm",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": { "label": "Start with a free consultation", "href": "/contact" },
+      "items": [
+        {
+          "id": "step-1-discovery",
+          "eyebrow": "Week 1",
+          "title": "Discovery call",
+          "description": "We learn your goals, audience and budget. You get a clear proposal with scope, timeline and price — within 48 hours."
+        },
+        {
+          "id": "step-2-strategy",
+          "eyebrow": "Week 1–2",
+          "title": "Strategy & copy",
+          "description": "We define positioning, write all copy and plan the site structure. You review and approve before we touch a line of code."
+        },
+        {
+          "id": "step-3-build",
+          "eyebrow": "Week 2–4",
+          "title": "Design & development",
+          "description": "We build the site: responsive design, SEO, tracking and forms. You see progress and give feedback throughout."
+        },
+        {
+          "id": "step-4-launch",
+          "eyebrow": "Week 4+",
+          "title": "Launch & support",
+          "description": "We go live, verify tracking works, and enter the 30-day support period. Then we review initial data together."
+        }
+      ]
+    },
+
+    {
+      "id": "faq-packages",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Frequently asked questions",
+        "title": "Common questions about our <b>website packages</b>",
+        "subtitle": "",
+        "accordion": [
+          {
+            "title": "How much does a website cost for a small business in the UK?",
+            "content": "Our all-inclusive packages start from £1,495 for a 5-page website with strategy, professional copy, SEO and GA4 tracking included. Unlike many agencies, we don't charge extra for copywriting or analytics setup. For businesses with an existing website that needs fixing, our Growth package starts from £795."
+          },
+          {
+            "title": "What's included in 'all-inclusive'?",
+            "content": "Everything you need: strategy workshop, professional SEO copywriting (we write it all), responsive design, mobile optimisation, technical SEO, GA4/GTM tracking setup, contact forms and 30-day post-launch support. No hidden costs, no extras."
+          },
+          {
+            "title": "Do I need to write my own website copy?",
+            "content": "No. We write all the copy for you — headlines, service descriptions, about page, CTAs, everything. We start with a strategy session to understand your business, then deliver professional, conversion-focused copy in British English. You review and we refine until it's right."
+          },
+          {
+            "title": "How long does it take to build a website?",
+            "content": "Our Starter package typically takes 3–4 weeks from kick-off to launch. The Growth package is faster — usually 2–3 weeks. E-commerce projects take 5–7 weeks depending on the number of products and complexity. We always agree a timeline before starting."
+          },
+          {
+            "title": "Do you offer monthly payment plans?",
+            "content": "We offer flexible payment terms: typically 50% upfront and 50% on launch. For larger projects, we can discuss instalments. Our optional monthly growth retainer (from £395/month) is month-to-month with no lock-in contract."
+          },
+          {
+            "title": "Can you help with SEO and Google Ads after launch?",
+            "content": "Yes. Our monthly growth support package includes ongoing SEO, content updates, Ads management and conversion optimisation. You can add it after any package — or start with just the website and upgrade later."
+          },
+          {
+            "title": "What platform do you build on?",
+            "content": "We use modern frameworks (Next.js, React) for maximum performance and SEO. For e-commerce, we integrate with established platforms. We choose the right technology based on your needs — not a one-size-fits-all approach."
+          },
+          {
+            "title": "Do you work with businesses outside the UK?",
+            "content": "Yes. We're a remote-first agency and work with clients across Europe. Our team is based in Europe with native English copywriting capability, so we deliver UK-market-ready content regardless of location."
+          }
+        ],
+        "tone": "secondary"
+      }
+    },
+
+    {
+      "id": "contact-packages",
+      "type": "form-card",
+      "background": "secondaryGradients",
+      "layout": { "radius": "justRight", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "tone": "secondary",
+        "eyebrow": "Ready to get started?",
+        "title": "<b>Get a free, no-obligation quote</b>",
+        "subtitle": "Tell us your goal and we'll recommend the right package — with a clear price.",
+        "description": "For a fast reply, share:</br></br><b>01 —</b> your industry</br><b>02 —</b> your goal (leads / sales / visibility)</br><b>03 —</b> your budget range (optional)"
+      },
+      "primaryCta": {
+        "label": "Chat on WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Prefer a detailed proposal?",
+        "title": "<b>Tell us about your project</b>",
+        "description": "We'll reply within 24 hours with a clear proposal and pricing."
+      },
+      "fields": [
+        { "type": "text", "id": "name", "name": "name", "label": "Full name", "placeholder": "e.g., John Smith", "required": true },
+        { "type": "email", "id": "email", "name": "email", "label": "Email", "placeholder": "name@company.co.uk", "required": true },
+        { "type": "text", "id": "phone", "name": "phone", "label": "Phone", "placeholder": "e.g., 07700 900000", "required": true },
+        { "type": "text", "id": "company", "name": "company", "label": "Company / Business", "placeholder": "e.g., Smith & Co", "required": false },
+        { "type": "text", "id": "website", "name": "website", "label": "Current website (if any)", "placeholder": "https://...", "required": false },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "What do you need?",
+          "placeholder": "e.g., I need a new website for my plumbing business / I want to redesign my site to get more leads / I'm interested in the Starter package...",
+          "rows": 4,
+          "required": true
+        },
+        { "type": "checkbox", "id": "privacy", "name": "privacy", "label": "I have read and accept the privacy policy*", "required": true },
+        { "type": "checkbox", "id": "newsletter", "name": "newsletter", "label": "Send me occasional tips (optional)", "required": false }
+      ],
+      "submitLabel": "Get my free quote",
+      "secondaryText": "<span class=\"text-sm\">Read our <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Privacy policy</a></span><br>We reply within 24 hours. No spam, ever.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}
