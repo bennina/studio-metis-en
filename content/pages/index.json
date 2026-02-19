@@ -108,25 +108,14 @@
     {
       "id": "proof",
       "type": "simple-content",
+      "background": "primaryGradients",
+      "layout": { "radius": "justLeft", "alignX": "left", "alignY": "center" },
+      "paddingY": "xl",
       "content": {
         "eyebrow": "Selected work",
         "title": "Built with this method",
         "subtitle": "Different industries, same approach: goals first, then structure, copy and tracking.",
-        "columns": [
-          {
-            "subtitle": "Villa Luzzago — Hospitality",
-            "description": "Hotel and resort website. Clear structure, booking-oriented flow, strong brand presence. Built to convert visits into direct bookings."
-          },
-          {
-            "subtitle": "Audiofonetica — Healthcare",
-            "description": "Service-focused website. Trust-building structure, clear service descriptions, professional positioning. Built to reassure and generate enquiries."
-          },
-          {
-            "subtitle": "Picchi Machines — B2B Industry",
-            "description": "Industrial machinery website. Complex products explained simply, structured pages, lead generation focus. Built to make technical offerings accessible."
-          }
-        ],
-        "tone": "secondary"
+        "tone": "white"
       },
       "primaryCta": { "label": "See more work", "href": "/work" }
     },

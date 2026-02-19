@@ -169,25 +169,15 @@
     {
       "id": "proof",
       "type": "simple-content",
+      "background": "primaryGradients",
+      "layout": { "radius": "justLeft", "alignX": "left", "alignY": "center" },
+      "paddingY": "xl",
       "content": {
         "eyebrow": "Selected work",
         "title": "Websites we've built with this approach",
         "subtitle": "Different industries, same method: goals first, then structure, copy and tracking.",
-        "columns": [
-          {
-            "subtitle": "Hospitality — Villa Luzzago",
-            "description": "Website for a hotel and resort in Northern Italy. Clear structure, booking-oriented flow, strong brand presence across multiple properties (villa, restaurant, events venue). Built to communicate the experience and convert visits into direct bookings."
-          },
-          {
-            "subtitle": "Healthcare — Audiofonetica",
-            "description": "Service-focused website for a healthcare provider. Trust-building structure with clear service descriptions, professional positioning and conversion paths. Designed to reassure, explain and generate enquiries."
-          },
-          {
-            "subtitle": "B2B Industry — Picchi Machines",
-            "description": "B2B website for an industrial machinery company. Complex products explained simply, with structured service pages, clear navigation and lead generation focus. Built to make technical offerings accessible to buyers."
-          }
-        ],
-        "tone": "secondary"
+        
+        "tone": "white"
       },
       "primaryCta": { "label": "See more work", "href": "/work" },
       "secondaryCta": { "label": "Book a free call", "href": "/contact" }
@@ -200,7 +190,7 @@
         "eyebrow": "Frequently asked questions",
         "title": "Common questions about this package",
         "subtitle": "",
-        "accordion": [
+        "accordions": [
           {
             "title": "Why €3,000? What if I can get a website for €500?",
             "content": "You can — and it'll probably be a template with placeholder text, no strategy, no SEO and no tracking. You'll spend the next year wondering why nobody contacts you through it. Our price includes professional strategy, copywriting, technical SEO and analytics setup. It's a complete foundation, not just a design."
