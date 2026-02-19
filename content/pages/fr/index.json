@@ -1,0 +1,191 @@
+{
+  "slug": "fr",
+  "seo": {
+    "title": "Site Web Qui Fonctionne — Stratégie, Rédaction, SEO & Tracking pour 3 000 € | Metis Web Agency",
+    "description": "Site vitrine professionnel tout inclus pour PME : stratégie, rédaction professionnelle, bases SEO et tracking GA4 — 3 000 € prix fixe. On construit des sites qui génèrent des contacts, pas juste des vitrines.",
+    "canonicalUrl": "https://www.metiswebagency.com/fr"
+  },
+  "sections": [
+    {
+      "id": "hero-fr",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": { "radius": "justTopLeft", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Metis Web Agency — Site Vitrine Clé en Main",
+        "title": "Un site web qui <b>génère des contacts</b> — pas juste une vitrine",
+        "subtitle": "Stratégie + rédaction pro + SEO + tracking. Tout inclus. 3 000 €.",
+        "body": "On construit des sites pour les PME qui ont besoin de plus qu'un template. Stratégie, rédaction professionnelle, SEO technique et tracking de conversion — dans un seul pack, à un seul prix.</br></br><b>Pas de coûts cachés. Pas de textes à fournir. Pas de devinettes.</b>",
+        "tone": "primary"
+      },
+      "primaryCta": { "label": "Voir l'offre", "href": "/fr/offre" },
+      "secondaryCta": { "label": "Réserver un appel gratuit", "href": "/fr/contact" }
+    },
+
+    {
+      "id": "le-probleme",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Le problème qu'on résout",
+        "title": "Votre site devrait être votre <b>meilleur commercial</b>. C'est le cas ?",
+        "subtitle": "",
+        "columns": [
+          {
+            "subtitle": "La plupart des sites de PME échouent parce que :",
+            "description": "Le message est flou — les visiteurs ne comprennent pas ce que vous faites en 10 secondes.</br></br>Il n'y a pas de stratégie — les pages ont été ajoutées au hasard, sans plan.</br></br>Personne ne mesure rien — donc impossible de savoir si le site fonctionne."
+          },
+          {
+            "subtitle": "On corrige ça avec un seul pack :",
+            "description": "<b>Objectifs et positionnement</b> — pour que chaque page ait un but.</br></br><b>Rédaction professionnelle</b> — pour que les visiteurs comprennent et agissent.</br></br><b>SEO et tracking</b> — pour être trouvé et savoir ce qui marche."
+          }
+        ],
+        "tone": "accent"
+      },
+      "primaryCta": { "label": "Voir ce qui est inclus", "href": "/fr/offre" }
+    },
+
+    {
+      "id": "apercu-pack",
+      "type": "wall-card",
+      "header": {
+        "tone": "secondary",
+        "eyebrow": "Pack Fondation — 3 000 €",
+        "title": "Tout ce qu'il faut. <b>Rien de superflu.</b>",
+        "subtitle": "6 livrables, tout inclus dans un prix fixe.",
+        "body": ""
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": { "label": "Voir tous les détails", "href": "/fr/offre" },
+      "secondaryCta": { "label": "Réserver un appel gratuit", "href": "/fr/contact" },
+      "items": [
+        {
+          "id": "fr-del-01",
+          "eyebrow": "01",
+          "title": "Objectifs et priorités",
+          "description": "On définit ce que le site doit produire et ce qui est superflu."
+        },
+        {
+          "id": "fr-del-02",
+          "eyebrow": "02",
+          "title": "Cible et message",
+          "description": "Qui vous voulez toucher et ce qu'ils doivent comprendre en 10 secondes."
+        },
+        {
+          "id": "fr-del-03",
+          "eyebrow": "03",
+          "title": "Structure du site",
+          "description": "Pages essentielles, parcours clairs, CTA cohérents. Pas de superflu."
+        },
+        {
+          "id": "fr-del-04",
+          "eyebrow": "04",
+          "title": "Rédaction professionnelle",
+          "description": "On écrit tout. Des textes qui expliquent, différencient et convertissent."
+        },
+        {
+          "id": "fr-del-05",
+          "eyebrow": "05",
+          "title": "SEO et performance",
+          "description": "Fondations techniques pour être trouvé sur Google et la recherche IA."
+        },
+        {
+          "id": "fr-del-06",
+          "eyebrow": "06",
+          "title": "Configuration de la mesure",
+          "description": "GA4 + GTM avec les événements essentiels. Savoir si ça marche dès la semaine 1."
+        }
+      ]
+    },
+
+    {
+      "id": "preuves-fr",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Réalisations sélectionnées",
+        "title": "Construits avec cette méthode",
+        "subtitle": "Secteurs différents, même approche : objectifs d'abord, puis structure, rédaction et tracking.",
+        "columns": [
+          {
+            "subtitle": "Villa Luzzago — Hôtellerie",
+            "description": "Site pour un hôtel-resort. Structure claire, parcours orienté réservation, forte présence de marque. Conçu pour convertir les visites en réservations directes."
+          },
+          {
+            "subtitle": "Audiofonetica — Santé",
+            "description": "Site orienté services. Structure de confiance, descriptions claires, positionnement professionnel. Conçu pour rassurer et générer des demandes."
+          },
+          {
+            "subtitle": "Picchi Machines — Industrie B2B",
+            "description": "Site pour machines industrielles. Produits complexes expliqués simplement, pages structurées, focus génération de leads."
+          }
+        ],
+        "tone": "secondary"
+      },
+      "primaryCta": { "label": "Voir plus de réalisations", "href": "/fr/realisations" }
+    },
+
+    {
+      "id": "pourquoi-nous",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Pourquoi Metis",
+        "title": "On n'est pas une agence « full-service ». <b>On fait une chose bien.</b>",
+        "subtitle": "",
+        "body": "On ne vend pas de community management, d'ateliers de branding ni de « transformation digitale ». On construit des sites web qui fonctionnent — avec stratégie, rédaction professionnelle, SEO solide et tracking propre. C'est tout.</br></br>On travaille à distance avec des PME en Europe. Anglais et français. Une seule personne gère votre projet de A à Z — pas de chefs de projet intermédiaires, pas de relais, pas de surprises.",
+        "tone": "accent"
+      },
+      "secondaryCta": { "label": "À propos", "href": "/fr/a-propos" }
+    },
+
+    {
+      "id": "cta-home-fr",
+      "type": "form-card",
+      "background": "primaryGradients",
+      "layout": { "radius": "justRight", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "tone": "primary",
+        "eyebrow": "Prochaine étape",
+        "title": "<b>Réservez un appel gratuit de 30 minutes</b>",
+        "subtitle": "Pas de pitch, pas de pression. On écoute et on vous dit si c'est fait pour vous.",
+        "description": "Si ça colle, proposition claire sous 48 heures.</br>Si ce n'est pas le bon fit, on vous le dit honnêtement."
+      },
+      "primaryCta": {
+        "label": "Nous écrire sur WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Vous préférez l'email ?",
+        "title": "<b>Parlez-nous de votre projet</b>",
+        "description": "Réponse sous 24 heures."
+      },
+      "fields": [
+        { "type": "text", "id": "name", "name": "name", "label": "Nom complet", "placeholder": "ex. Marie Dupont", "required": true },
+        { "type": "email", "id": "email", "name": "email", "label": "Email", "placeholder": "nom@entreprise.fr", "required": true },
+        { "type": "text", "id": "phone", "name": "phone", "label": "Téléphone (optionnel)", "placeholder": "ex. 06 12 34 56 78", "required": false },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "De quoi avez-vous besoin ?",
+          "placeholder": "ex. Je lance un cabinet de conseil et j'ai besoin d'un site pro / Mon site actuel ne génère pas de contacts / Le Pack Fondation m'intéresse...",
+          "rows": 4,
+          "required": true
+        },
+        { "type": "checkbox", "id": "privacy", "name": "privacy", "label": "J'ai lu et j'accepte la politique de confidentialité*", "required": true }
+      ],
+      "submitLabel": "Envoyer le message",
+      "secondaryText": "<span class=\"text-sm\">Consultez notre <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Politique de confidentialité</a></span><br>Réponse sous 24 heures. Pas de spam.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

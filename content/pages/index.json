@@ -1,51 +1,60 @@
 {
   "slug": "",
   "seo": {
-    "title": "Web Design & Digital Strategy for Small Businesses UK | Metis Web Agency",
-    "description": "All-inclusive web design for UK small businesses: strategy, conversion-focused website, SEO copywriting, GA4 tracking and lead generation — from £1,495. No hidden costs, no DIY.",
+    "title": "Website That Works — Strategy, Copy, SEO & Tracking for €3,000 | Metis Web Agency",
+    "description": "All-inclusive website package for small businesses: strategy, professional copywriting, SEO foundations and GA4 tracking — €3,000 fixed price. We build websites that generate enquiries, not just exist online.",
     "canonicalUrl": "https://www.metiswebagency.com/"
   },
   "sections": [
     {
-      "id": "hero-metis-en",
+      "id": "hero",
       "type": "cover",
       "background": "primaryGradients",
       "layout": { "radius": "justTopLeft", "alignX": "left", "alignY": "bottom" },
       "paddingY": "none",
       "content": {
         "isFirst": true,
-        "eyebrow": "Metis Web Agency — Web Design for UK Small Businesses",
-        "title": "Your website should <b>generate leads</b> — not just <b>exist</b>",
-        "subtitle": "All-inclusive web design: strategy, copy, SEO & tracking — one price, no surprises.",
-        "body": "We build websites that actually work for UK small businesses. Strategy first, then a fast, clear site with professional copy, technical SEO and GA4 tracking built in.</br></br><b>Everything you need to turn visitors into enquiries — from £1,495.</b>",
+        "eyebrow": "Metis Web Agency — All-Inclusive Website Package",
+        "title": "A website that <b>generates enquiries</b> — not just looks good",
+        "subtitle": "Strategy + professional copy + SEO + tracking. All included. €3,000.",
+        "body": "We build websites for small businesses that need more than a template. Strategy, professional copywriting, technical SEO and conversion tracking — in one package, at one price.</br></br><b>No hidden costs. No DIY copy. No guessing if it works.</b>",
         "tone": "primary"
       },
-      "primaryCta": { "label": "Get a free quote", "href": "/contact" },
-      "secondaryCta": { "label": "See packages & pricing", "href": "/packages" }
+      "primaryCta": { "label": "See the offer", "href": "/offer" },
+      "secondaryCta": { "label": "Book a free call", "href": "/contact" }
     },
 
     {
-      "id": "proof-bar-en",
+      "id": "the-problem",
       "type": "simple-content",
       "content": {
-        "eyebrow": "Why UK businesses choose us",
-        "title": "Website + copy + SEO + tracking. <b>All included.</b>",
-        "subtitle": "Most agencies charge extra for copywriting, SEO and analytics. We don't.",
-        "body": "We're a remote-first agency working with SMEs across the UK. We combine strategy, web development, persuasive copy and clean tracking into one package — so you get a complete lead-generation system, not a collection of disconnected services.",
+        "eyebrow": "The problem we solve",
+        "title": "Your website should be your <b>best salesperson</b>. Is it?",
+        "subtitle": "",
+        "columns": [
+          {
+            "subtitle": "Most small business websites fail because:",
+            "description": "The message is unclear — visitors don't understand what you do in 10 seconds.</br></br>There's no strategy behind it — pages were added randomly, without a plan.</br></br>Nobody tracks anything — so you can't tell if the site is working or not."
+          },
+          {
+            "subtitle": "We fix this with one focused package:",
+            "description": "<b>Goals & positioning</b> — so every page has a purpose.</br></br><b>Professional copy</b> — so visitors understand and act.</br></br><b>SEO & tracking</b> — so you get found and know what works."
+          }
+        ],
         "tone": "accent"
       },
-      "secondaryCta": { "label": "Learn about us", "href": "/about" }
+      "primaryCta": { "label": "See exactly what's included", "href": "/offer" }
     },
 
     {
-      "id": "method-pillars-en",
+      "id": "what-you-get-preview",
       "type": "wall-card",
       "header": {
         "tone": "secondary",
-        "eyebrow": "How we help UK businesses grow",
-        "title": "<b>One method</b><br>from strategy to measurable results",
-        "subtitle": "A connected system — not random services.",
-        "body": "Results come from a process: define direction, build conversion-ready pages, then drive qualified traffic and track outcomes. Here's how we do it."
+        "eyebrow": "Foundation Website Package — €3,000",
+        "title": "Everything you need. <b>Nothing you don't.</b>",
+        "subtitle": "6 deliverables, all included in one fixed price.",
+        "body": ""
       },
       "layout": {
         "align": "left",
@@ -54,140 +63,99 @@
         "gap": "md",
         "ctaPlacement": "footer"
       },
-      "primaryCta": { "label": "View all services", "href": "/services" },
-      "secondaryCta": { "label": "See packages & pricing", "href": "/packages" },
+      "primaryCta": { "label": "See full details", "href": "/offer" },
+      "secondaryCta": { "label": "Book a free call", "href": "/contact" },
       "items": [
         {
-          "id": "services-strategy-en",
-          "eyebrow": "Step 1 — Strategy",
-          "title": "Goals, audience & positioning",
-          "description": "We define your target market, value proposition and messaging. Everything else flows from this — so nothing is wasted.",
-          "cta": { "label": "Learn more", "href": "/services/digital-strategy" }
+          "id": "hp-del-01",
+          "eyebrow": "01",
+          "title": "Goals & priorities",
+          "description": "We define what the site must achieve and what is unnecessary."
         },
         {
-          "id": "services-web-en",
-          "eyebrow": "Step 2 — Build",
-          "title": "Websites & landing pages that convert",
-          "description": "Fast, clear websites with professional copy, strong CTAs and GA4/GTM tracking. Built for enquiries, not just aesthetics.",
-          "cta": { "label": "Learn more", "href": "/services/websites" }
+          "id": "hp-del-02",
+          "eyebrow": "02",
+          "title": "Target & message",
+          "description": "Who you're reaching and what they must understand in 10 seconds."
         },
         {
-          "id": "services-growth-en",
-          "eyebrow": "Step 3 — Grow",
-          "title": "SEO, Ads & performance tracking",
-          "description": "We bring qualified traffic with SEO and Google/Meta Ads, then optimise using clean analytics — so decisions are driven by data.",
-          "cta": { "label": "Learn more", "href": "/services/seo-ads-tracking" }
+          "id": "hp-del-03",
+          "eyebrow": "03",
+          "title": "Site structure",
+          "description": "Essential pages, clear paths, coherent CTAs. No bloat."
+        },
+        {
+          "id": "hp-del-04",
+          "eyebrow": "04",
+          "title": "Professional copy",
+          "description": "We write everything. Text that explains, differentiates and converts."
+        },
+        {
+          "id": "hp-del-05",
+          "eyebrow": "05",
+          "title": "SEO & performance",
+          "description": "Technical foundations to get found on Google and AI search."
+        },
+        {
+          "id": "hp-del-06",
+          "eyebrow": "06",
+          "title": "Measurement setup",
+          "description": "GA4 + GTM with essential events. Know if it's working from week one."
         }
       ]
     },
 
     {
-      "id": "all-inclusive-en",
+      "id": "proof",
       "type": "simple-content",
       "content": {
-        "eyebrow": "All-inclusive web design UK",
-        "title": "Everything you need in <b>one package</b>, from <b>£1,495</b>",
-        "subtitle": "No hidden costs. No DIY copywriting. No 'extras' you discover later.",
+        "eyebrow": "Selected work",
+        "title": "Built with this method",
+        "subtitle": "Different industries, same approach: goals first, then structure, copy and tracking.",
         "columns": [
           {
-            "subtitle": "What's included as standard",
-            "description": "Strategy & positioning — Professional SEO copy — Responsive website design — Mobile-first development — GA4 & GTM tracking setup — Technical SEO (metadata, sitemap, Core Web Vitals) — Contact forms & lead capture — 30-day post-launch support"
+            "subtitle": "Villa Luzzago — Hospitality",
+            "description": "Hotel and resort website. Clear structure, booking-oriented flow, strong brand presence. Built to convert visits into direct bookings."
           },
           {
-            "subtitle": "What you'll never pay extra for",
-            "description": "Copywriting (we write it) — Basic on-page SEO — Analytics setup — SSL certificate — Performance optimisation — Responsive mobile design — Initial keyword research"
+            "subtitle": "Audiofonetica — Healthcare",
+            "description": "Service-focused website. Trust-building structure, clear service descriptions, professional positioning. Built to reassure and generate enquiries."
+          },
+          {
+            "subtitle": "Picchi Machines — B2B Industry",
+            "description": "Industrial machinery website. Complex products explained simply, structured pages, lead generation focus. Built to make technical offerings accessible."
           }
         ],
-        "tone": "primary"
+        "tone": "secondary"
       },
-      "primaryCta": { "label": "See all packages", "href": "/packages" },
-      "secondaryCta": { "label": "Get a free quote", "href": "/contact" }
+      "primaryCta": { "label": "See more work", "href": "/work" }
     },
 
     {
-      "id": "packages-en",
-      "type": "wall-card",
-      "header": {
-        "tone": "primary",
-        "eyebrow": "Website packages — transparent pricing",
-        "title": "Choose the package that fits your business",
-        "subtitle": "Clear scope, GBP pricing, no hidden fees.",
-        "body": "Every package includes strategy, copy, SEO and tracking. Pick the one that matches where you are today — or tell us your goal and we'll recommend the right path."
-      },
-      "items": [
-        {
-          "id": "package-starter-en",
-          "eyebrow": "Starting from scratch",
-          "title": "Starter — build your online presence",
-          "description": "Strategy, messaging, a conversion-ready website (up to 5 pages), professional copy, technical SEO and GA4 tracking.</br></br><b>Everything you need to launch and start generating enquiries.</b>",
-          "meta": { "priceLabel": "from", "priceValue": "£1,495" },
-          "cta": { "label": "See what's included", "href": "/packages" }
-        },
-        {
-          "id": "package-growth-en",
-          "eyebrow": "Website exists, leads don't",
-          "title": "Growth — fix and activate your website",
-          "description": "Website audit, message rewrite, CTA optimisation, GA4/GTM tracking and a lead-gen plan with SEO or Ads.</br></br><b>Turn your existing site into a lead machine.</b>",
-          "meta": { "priceLabel": "from", "priceValue": "£795 + Ads" },
-          "cta": { "label": "View details", "href": "/packages" }
-        },
-        {
-          "id": "package-ecommerce-en",
-          "eyebrow": "Selling online",
-          "title": "E-commerce — built to sell",
-          "description": "Strategy, product structure, conversion-optimised e-commerce, payment/shipping setup, SEO and ongoing optimisation.</br></br><b>A shop that grows — not just a catalogue.</b>",
-          "meta": { "priceLabel": "from", "priceValue": "£4,995" },
-          "cta": { "label": "View details", "href": "/packages" }
-        }
-      ],
-      "layout": {
-        "align": "left",
-        "columnsMobile": 1,
-        "columnsDesktop": 3,
-        "gap": "sm",
-        "ctaPlacement": "footer"
-      },
-      "secondaryCta": { "label": "Compare all packages", "href": "/packages" }
-    },
-
-    {
-      "id": "proof-process-en",
+      "id": "why-us",
       "type": "simple-content",
       "content": {
-        "eyebrow": "What makes us different",
-        "title": "A clear process, <b>built for lead generation</b>",
-        "subtitle": "Deliverables you can understand, results you can track.",
-        "columns": [
-          {
-            "subtitle": "01 — Strategy before design",
-            "description": "We don't jump to pixels. We start with your goals, audience and message — so the website has direction from day one."
-          },
-          {
-            "subtitle": "02 — Copy & SEO included",
-            "description": "Professional, conversion-focused copy and on-page SEO are included in every package. You don't write a word — unless you want to."
-          },
-          {
-            "subtitle": "03 — Tracking from launch",
-            "description": "GA4/GTM events, conversion tracking and a simple dashboard — so you know what's working from the first week."
-          }
-        ],
+        "eyebrow": "Why Metis",
+        "title": "We're not a 'full-service agency'. <b>We do one thing well.</b>",
+        "subtitle": "",
+        "body": "We don't sell social media management, branding workshops or 'digital transformation'. We build websites that work — with strategy, professional copy, solid SEO and clean tracking. That's it.</br></br>We work remotely with small businesses across Europe. English and French. One person manages your project from start to finish — no account managers, no handoffs, no surprises.",
         "tone": "accent"
       },
-      "secondaryCta": { "label": "See how we work", "href": "/services" }
+      "secondaryCta": { "label": "About us", "href": "/about" }
     },
 
     {
-      "id": "contact-form-en",
+      "id": "cta-home",
       "type": "form-card",
-      "background": "secondaryGradients",
+      "background": "primaryGradients",
       "layout": { "radius": "justRight", "alignX": "left", "alignY": "bottom" },
       "paddingY": "none",
       "content": {
-        "tone": "secondary",
-        "eyebrow": "Ready to talk?",
-        "title": "<b>Get a free quote in 24 hours</b>",
-        "subtitle": "Tell us your goal — we'll tell you if it makes sense, the cost and next steps.",
-        "description": "For a fast reply, share 3 things:</br></br><b>01 —</b> your industry</br><b>02 —</b> your goal (leads / sales / visibility)</br><b>03 —</b> your website link (if any)."
+        "tone": "primary",
+        "eyebrow": "Next step",
+        "title": "<b>Book a free 30-minute call</b>",
+        "subtitle": "No pitch, no pressure. We'll listen and tell you if this is right for you.",
+        "description": "If it's a fit, you'll receive a clear proposal within 48 hours.</br>If it's not, we'll tell you honestly."
       },
       "primaryCta": {
         "label": "Message us on WhatsApp",
@@ -195,30 +163,27 @@
         "href": "https://wa.me/393494459317"
       },
       "form": {
-        "eyebrow": "Prefer a detailed proposal?",
+        "eyebrow": "Prefer email?",
         "title": "<b>Tell us about your project</b>",
-        "description": "We'll reply within 24 hours with a clear, no-obligation proposal."
+        "description": "We reply within 24 hours."
       },
       "fields": [
         { "type": "text", "id": "name", "name": "name", "label": "Full name", "placeholder": "e.g., John Smith", "required": true },
-        { "type": "email", "id": "email", "name": "email", "label": "Email", "placeholder": "name@company.co.uk", "required": true },
-        { "type": "text", "id": "phone", "name": "phone", "label": "Phone", "placeholder": "e.g., 07700 900000", "required": true },
-        { "type": "text", "id": "company", "name": "company", "label": "Company / Business", "placeholder": "e.g., Smith & Co", "required": false },
-        { "type": "text", "id": "website", "name": "website", "label": "Website (if any)", "placeholder": "https://...", "required": false },
+        { "type": "email", "id": "email", "name": "email", "label": "Email", "placeholder": "name@company.com", "required": true },
+        { "type": "text", "id": "phone", "name": "phone", "label": "Phone (optional)", "placeholder": "e.g., +44 7700 900000", "required": false },
         {
           "type": "textarea",
           "id": "message",
           "name": "message",
           "label": "What do you need?",
-          "placeholder": "e.g., I need a new website to generate leads / my current site doesn't convert / I want an all-inclusive package...",
+          "placeholder": "e.g., I need a website for my consulting business / My current site doesn't generate leads / I saw the Foundation package and want to know more...",
           "rows": 4,
           "required": true
         },
-        { "type": "checkbox", "id": "privacy", "name": "privacy", "label": "I have read and accept the privacy policy*", "required": true },
-        { "type": "checkbox", "id": "newsletter", "name": "newsletter", "label": "Send me occasional tips (optional)", "required": false }
+        { "type": "checkbox", "id": "privacy", "name": "privacy", "label": "I have read and accept the privacy policy*", "required": true }
       ],
-      "submitLabel": "Get my free quote",
-      "secondaryText": "<span class=\"text-sm\">Read our <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Privacy policy</a></span><br>We reply within 24 hours. No spam, ever.",
+      "submitLabel": "Send message",
+      "secondaryText": "<span class=\"text-sm\">Read our <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Privacy policy</a></span><br>We reply within 24 hours. No spam.",
       "formMethod": "post",
       "formAction": "/api/contact"
     }

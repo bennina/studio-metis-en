@@ -1,0 +1,287 @@
+{
+  "slug": "offer",
+  "seo": {
+    "title": "Foundation Website Package — €3,000 | Strategy + Copy + SEO + Tracking | Metis Web Agency",
+    "description": "All-inclusive website package for small businesses: strategy, positioning, professional copy, technical SEO and GA4 tracking — €3,000 fixed price. Everything you need to launch a website that works.",
+    "canonicalUrl": "https://www.metiswebagency.com/offer"
+  },
+  "sections": [
+    {
+      "id": "hero-offer",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": { "radius": "justTopLeft", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Foundation Website Package — €3,000 fixed price",
+        "title": "A website built to <b>generate enquiries</b> — not just exist online",
+        "subtitle": "Strategy, copy, SEO and tracking. All included. One price.",
+        "body": "Most agencies hand you a nice-looking website and walk away. You're left writing the text yourself, guessing about SEO, and hoping something happens.</br></br>We do it differently. We start from your goals and audience, write professional copy, build the site with solid SEO foundations and set up tracking — so you know what works from week one.</br></br><b>Fixed price: €3,000. No hidden costs. No surprises.</b>",
+        "tone": "primary"
+      },
+      "primaryCta": { "label": "Book a free call", "href": "/contact" },
+      "secondaryCta": { "label": "See what's included", "href": "#what-you-get" }
+    },
+
+    {
+      "id": "who-this-is-for",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Is this for you?",
+        "title": "This package is for <b>small businesses</b> that need a website that <b>actually works</b>",
+        "subtitle": "",
+        "columns": [
+          {
+            "subtitle": "You're a good fit if:",
+            "description": "You're launching a business and need a professional online presence — not a DIY template.</br></br>Or you have a website that looks outdated, says nothing clear, and doesn't bring you leads.</br></br>You want someone to handle strategy, writing and technical setup — not just 'design'."
+          },
+          {
+            "subtitle": "This is NOT for you if:",
+            "description": "You need an e-commerce with hundreds of products.</br></br>You want to write all the text yourself and just need someone to 'make it pretty'.</br></br>You're looking for the cheapest option — we focus on doing it right, not doing it cheap."
+          }
+        ],
+        "tone": "accent"
+      }
+    },
+
+    {
+      "id": "what-you-get",
+      "type": "wall-card",
+      "header": {
+        "tone": "secondary",
+        "eyebrow": "What you get — everything included",
+        "title": "6 deliverables. One package. <b>€3,000.</b>",
+        "subtitle": "This is not a list of 'options'. Everything below is included as standard.",
+        "body": ""
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": { "label": "Book a free call", "href": "/contact" },
+      "items": [
+        {
+          "id": "del-01-goals",
+          "eyebrow": "01",
+          "title": "Goals & priorities",
+          "description": "We define what the website must achieve (leads, enquiries, credibility) and what is unnecessary. No vague objectives — concrete outcomes you can measure."
+        },
+        {
+          "id": "del-02-target",
+          "eyebrow": "02",
+          "title": "Target & message",
+          "description": "Who are you trying to reach? What must they understand in 10 seconds? We define tone, angle and the core message that drives every page."
+        },
+        {
+          "id": "del-03-structure",
+          "eyebrow": "03",
+          "title": "Site structure",
+          "description": "Essential pages, clear user paths, coherent CTAs. No endless menus, no duplicate pages. Every click has a purpose."
+        },
+        {
+          "id": "del-04-copy",
+          "eyebrow": "04",
+          "title": "Professional copy",
+          "description": "We write every word. Text that explains your value, differentiates you from competitors, and drives action. No empty slogans, no filler."
+        },
+        {
+          "id": "del-05-seo",
+          "eyebrow": "05",
+          "title": "SEO & performance foundations",
+          "description": "Technical and content foundations to get found: site structure, metadata, Core Web Vitals, accessibility. Built for Google and AI search from day one."
+        },
+        {
+          "id": "del-06-tracking",
+          "eyebrow": "06",
+          "title": "Measurement setup",
+          "description": "GA4 + GTM configured with essential events: form submissions, phone clicks, key page views. So you know if the website is working — not guessing."
+        }
+      ]
+    },
+
+    {
+      "id": "timeline",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Timeline & process",
+        "title": "From kickoff to live site — <b>4 to 6 weeks</b>",
+        "subtitle": "A clear, predictable process. You always know what's happening and what's next.",
+        "columns": [
+          {
+            "subtitle": "Week 1 — Discovery & strategy",
+            "description": "60-minute kickoff call. We define goals, audience, positioning and site structure. You share your materials (logo, photos, references). We deliver: strategic brief + sitemap."
+          },
+          {
+            "subtitle": "Week 2–3 — Copy & content",
+            "description": "We write all page copy based on strategy. You review and give feedback. One revision round included. We deliver: final approved copy for all pages."
+          },
+          {
+            "subtitle": "Week 3–5 — Design & development",
+            "description": "We build the website: responsive design, performance, SEO setup, tracking. You see progress on a staging link and give feedback."
+          },
+          {
+            "subtitle": "Week 5–6 — Launch & handover",
+            "description": "Final review, go-live, tracking verification. We hand over credentials and documentation. 14-day post-launch support for fixes and adjustments."
+          }
+        ],
+        "tone": "secondary"
+      },
+      "primaryCta": { "label": "Book a free call", "href": "/contact" }
+    },
+
+    {
+      "id": "what-we-need",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "What we need from you",
+        "title": "Your time commitment: <b>about 4–5 hours total</b>",
+        "subtitle": "We do the heavy lifting. But the best websites are built with your input.",
+        "body": "<b>Before we start:</b> logo files, brand colours (if any), photos/images, competitor references, access to domain and hosting.</br></br><b>During the project:</b> 1 kickoff call (60 min), copy review and feedback (2–3 hours spread over 2 weeks), final approval before launch.</br></br><b>If you don't have a logo or photos:</b> we can recommend partners or work with stock — just let us know upfront.",
+        "tone": "accent"
+      }
+    },
+
+    {
+      "id": "not-included",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "What's NOT included (to avoid any ambiguity)",
+        "title": "We believe in <b>clear scope</b>",
+        "subtitle": "These are outside this package. If you need them, we'll quote separately.",
+        "columns": [
+          {
+            "subtitle": "Not included",
+            "description": "Logo design or brand identity creation</br>Professional photography or video production</br>E-commerce / online shop functionality</br>Ongoing Ads management (Google/Meta)</br>Content marketing or blog writing (post-launch)</br>Custom integrations (CRM, booking systems, etc.)</br>Multilingual website (additional languages quoted separately)"
+          },
+          {
+            "subtitle": "Available as add-ons",
+            "description": "<b>Monthly growth support</b> — SEO, content and Ads optimisation from €395/month</br></br><b>Additional pages</b> — €250/page (copy + design + SEO)</br></br><b>Landing page for campaigns</b> — from €500</br></br><b>Logo & basic brand identity</b> — from €800"
+          }
+        ],
+        "tone": "accent"
+      }
+    },
+
+    {
+      "id": "proof",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Selected work",
+        "title": "Websites we've built with this approach",
+        "subtitle": "Different industries, same method: goals first, then structure, copy and tracking.",
+        "columns": [
+          {
+            "subtitle": "Hospitality — Villa Luzzago",
+            "description": "Website for a hotel and resort in Northern Italy. Clear structure, booking-oriented flow, strong brand presence across multiple properties (villa, restaurant, events venue). Built to communicate the experience and convert visits into direct bookings."
+          },
+          {
+            "subtitle": "Healthcare — Audiofonetica",
+            "description": "Service-focused website for a healthcare provider. Trust-building structure with clear service descriptions, professional positioning and conversion paths. Designed to reassure, explain and generate enquiries."
+          },
+          {
+            "subtitle": "B2B Industry — Picchi Machines",
+            "description": "B2B website for an industrial machinery company. Complex products explained simply, with structured service pages, clear navigation and lead generation focus. Built to make technical offerings accessible to buyers."
+          }
+        ],
+        "tone": "secondary"
+      },
+      "primaryCta": { "label": "See more work", "href": "/work" },
+      "secondaryCta": { "label": "Book a free call", "href": "/contact" }
+    },
+
+    {
+      "id": "faq-offer",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Frequently asked questions",
+        "title": "Common questions about this package",
+        "subtitle": "",
+        "accordion": [
+          {
+            "title": "Why €3,000? What if I can get a website for €500?",
+            "content": "You can — and it'll probably be a template with placeholder text, no strategy, no SEO and no tracking. You'll spend the next year wondering why nobody contacts you through it. Our price includes professional strategy, copywriting, technical SEO and analytics setup. It's a complete foundation, not just a design."
+          },
+          {
+            "title": "Can you work in my language?",
+            "content": "We deliver websites in English and French. If you need other languages, we can work with professional translators — quoted separately. The strategy and structure work is language-independent."
+          },
+          {
+            "title": "I'm not in your country — can we work remotely?",
+            "content": "Yes. We work 100% remotely with clients across Europe. Calls via Google Meet or Zoom, async communication via email or WhatsApp, and a staging link where you see progress. Most clients never need an in-person meeting."
+          },
+          {
+            "title": "What CMS/platform do you use?",
+            "content": "We use modern frameworks (Next.js/React) for performance and SEO. If you need a CMS to edit content yourself, we can integrate one. We choose the right tool based on your needs — we're not locked into WordPress or any single platform."
+          },
+          {
+            "title": "What if I want changes after launch?",
+            "content": "The package includes 14 days of post-launch support for fixes and minor adjustments. After that, you can request changes on a per-task basis or add our monthly growth support (from €395/month) for ongoing improvements."
+          },
+          {
+            "title": "How do payments work?",
+            "content": "50% upfront to start, 50% before launch. We send a clear invoice with VAT details. For EU B2B clients with a valid VAT number, reverse charge applies."
+          },
+          {
+            "title": "How long until the website is live?",
+            "content": "Typically 4–6 weeks from kickoff. The biggest variable is your feedback time on copy review. If you're responsive, we can often deliver faster."
+          },
+          {
+            "title": "Do you also handle Ads and ongoing SEO?",
+            "content": "Not in this package — and that's deliberate. We believe in building the foundation first. Once the website is solid, you can add our monthly growth support for ongoing SEO, content and Ads management. But the website must work on its own first."
+          }
+        ],
+        "tone": "secondary"
+      }
+    },
+
+    {
+      "id": "final-cta",
+      "type": "form-card",
+      "background": "primaryGradients",
+      "layout": { "radius": "justRight", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "tone": "primary",
+        "eyebrow": "Next step",
+        "title": "<b>Book a free 30-minute call</b>",
+        "subtitle": "No pitch, no pressure. We'll listen to your situation and tell you honestly if this package is right for you.",
+        "description": "If it's a fit, you'll receive a clear proposal within 48 hours.</br>If it's not, we'll tell you — and suggest what might work better."
+      },
+      "primaryCta": {
+        "label": "Message us on WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Prefer email?",
+        "title": "<b>Tell us about your project</b>",
+        "description": "We'll get back within 24 hours."
+      },
+      "fields": [
+        { "type": "text", "id": "name", "name": "name", "label": "Full name", "placeholder": "e.g., John Smith", "required": true },
+        { "type": "email", "id": "email", "name": "email", "label": "Email", "placeholder": "name@company.com", "required": true },
+        { "type": "text", "id": "phone", "name": "phone", "label": "Phone (optional)", "placeholder": "e.g., +44 7700 900000", "required": false },
+        { "type": "text", "id": "company", "name": "company", "label": "Company / Business", "placeholder": "e.g., Smith & Co", "required": false },
+        { "type": "text", "id": "website", "name": "website", "label": "Current website (if any)", "placeholder": "https://...", "required": false },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Tell us about your situation",
+          "placeholder": "e.g., I'm launching a consulting business and need a professional website / My current site is outdated and doesn't generate enquiries / I'm interested in the Foundation package...",
+          "rows": 4,
+          "required": true
+        },
+        { "type": "checkbox", "id": "privacy", "name": "privacy", "label": "I have read and accept the privacy policy*", "required": true }
+      ],
+      "submitLabel": "Send message",
+      "secondaryText": "<span class=\"text-sm\">Read our <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Privacy policy</a></span><br>We reply within 24 hours. No spam, no newsletters unless you ask.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

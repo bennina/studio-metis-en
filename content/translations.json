@@ -1,0 +1,30 @@
+{
+  "_comment": "Translation map for hreflang generation. Each key is a page ID. x-default points to EN version.",
+  "pages": {
+    "home": {
+      "en": "/",
+      "fr": "/fr",
+      "x-default": "/"
+    },
+    "offer": {
+      "en": "/offer",
+      "fr": "/fr/offre",
+      "x-default": "/offer"
+    },
+    "work": {
+      "en": "/work",
+      "fr": "/fr/realisations",
+      "x-default": "/work"
+    },
+    "about": {
+      "en": "/about",
+      "fr": "/fr/a-propos",
+      "x-default": "/about"
+    },
+    "contact": {
+      "en": "/contact",
+      "fr": "/fr/contact",
+      "x-default": "/contact"
+    }
+  }
+}
