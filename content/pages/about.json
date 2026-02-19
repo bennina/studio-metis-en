@@ -26,7 +26,7 @@
       },
       "secondaryCta": {
         "label": "See how we work",
-        "href": "/method"
+        "href": "/offer"
       }
     },
     {
@@ -76,7 +76,7 @@
       },
       "primaryCta": {
         "label": "See how we work",
-        "href": "/method"
+        "href": "/offer"
       }
     },
     {
@@ -91,7 +91,7 @@
       },
       "secondaryCta": {
         "label": "Learn how it works",
-        "href": "/lp/a-luxury-for-all"
+        "href": "/offer"
       }
     },
     {
@@ -143,7 +143,7 @@
           "description": "We align goals and priorities, define audience and message. We structure what matters and decide what’s really needed to get results.",
           "cta": {
             "label": "See strategy",
-            "href": "/method#strategy"
+            "href": "/offer#what-you-get"
           }
         },
         {
@@ -153,7 +153,7 @@
           "description": "We build a website or landing with copy, CTAs and tracking (GA4/GTM). The foundation must be fast, clear and designed to turn visits into enquiries.",
           "cta": {
             "label": "See development",
-            "href": "/method#build"
+            "href": "/offer#what-you-get"
           }
         },
         {
@@ -163,13 +163,13 @@
           "description": "We activate SEO and/or Ads, measure what works and optimize. The goal: grow results and reduce waste over time.",
           "cta": {
             "label": "See growth & Ads",
-            "href": "/method#growth"
+            "href": "/offer#what-you-get"
           }
         }
       ],
       "primaryCta": {
         "label": "Explore the method",
-        "href": "/method"
+        "href": "/offer"
       }
     },
     {

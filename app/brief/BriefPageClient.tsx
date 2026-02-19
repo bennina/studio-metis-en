@@ -42,10 +42,7 @@ export function BriefPageClient() {
       <div className="min-h-screen bg-neutral-900">
         {/* Language selector header */}
         <div className="fixed top-4 right-4 z-50">
-          <LanguageSelector
-            variant="minimal"
-            className="bg-neutral-800/80 backdrop-blur-sm rounded-lg p-1"
-          />
+          <LanguageSelector />
         </div>
         <BriefBuilder onGenerate={handleGenerate} locale={locale} />
       </div>

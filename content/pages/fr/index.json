@@ -21,7 +21,7 @@
         "tone": "primary"
       },
       "primaryCta": { "label": "Voir l'offre", "href": "/fr/offre" },
-      "secondaryCta": { "label": "Réserver un appel gratuit", "href": "/fr/contact" }
+      "secondaryCta": { "label": "Réserver un appel gratuit", "href": "/contact" }
     },
 
     {
@@ -64,7 +64,7 @@
         "ctaPlacement": "footer"
       },
       "primaryCta": { "label": "Voir tous les détails", "href": "/fr/offre" },
-      "secondaryCta": { "label": "Réserver un appel gratuit", "href": "/fr/contact" },
+      "secondaryCta": { "label": "Réserver un appel gratuit", "href": "/contact" },
       "items": [
         {
           "id": "fr-del-01",
@@ -128,7 +128,7 @@
         ],
         "tone": "secondary"
       },
-      "primaryCta": { "label": "Voir plus de réalisations", "href": "/fr/realisations" }
+      "primaryCta": { "label": "Voir plus de réalisations", "href": "/work" }
     },
 
     {
@@ -141,7 +141,7 @@
         "body": "On ne vend pas de community management, d'ateliers de branding ni de « transformation digitale ». On construit des sites web qui fonctionnent — avec stratégie, rédaction professionnelle, SEO solide et tracking propre. C'est tout.</br></br>On travaille à distance avec des PME en Europe. Anglais et français. Une seule personne gère votre projet de A à Z — pas de chefs de projet intermédiaires, pas de relais, pas de surprises.",
         "tone": "accent"
       },
-      "secondaryCta": { "label": "À propos", "href": "/fr/a-propos" }
+      "secondaryCta": { "label": "À propos", "href": "/about" }
     },
 
     {

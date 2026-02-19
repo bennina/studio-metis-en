@@ -1,82 +1,136 @@
 'use client';
 
+import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from './I18nProvider';
 import type { Locale } from './types';
 
-const LOCALE_LABELS: Record<Locale, { label: string; flag: string }> = {
-  it: { label: 'Italiano', flag: '🇮🇹' },
-  en: { label: 'English', flag: '🇬🇧' },
-  fr: { label: 'Français', flag: '🇫🇷' },
-};
+const LOCALES: Locale[] = ['it', 'en', 'fr'];
 
 interface LanguageSelectorProps {
   className?: string;
-  variant?: 'dropdown' | 'buttons' | 'minimal';
 }
 
-export function LanguageSelector({
-  className = '',
-  variant = 'buttons',
-}: LanguageSelectorProps) {
+/**
+ * Language Switcher Badge
+ *
+ * Closed: circular badge showing current locale code (e.g. "EN").
+ * Open:   pill expands to show all available locales;
+ *         the active one stays highlighted in a filled circle on the left.
+ */
+export function LanguageSelector({ className = '' }: LanguageSelectorProps) {
   const { locale, setLocale } = useTranslation();
+  const [isOpen, setIsOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
 
-  if (variant === 'minimal') {
-    return (
-      <div className={`flex items-center gap-1 ${className}`}>
-        {(Object.keys(LOCALE_LABELS) as Locale[]).map((loc) => (
+  // Close on outside click
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) {
+        setIsOpen(false);
+      }
+    }
+    if (isOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [isOpen]);
+
+  // Close on Escape
+  useEffect(() => {
+    function handleEscape(e: KeyboardEvent) {
+      if (e.key === 'Escape') setIsOpen(false);
+    }
+    if (isOpen) {
+      document.addEventListener('keydown', handleEscape);
+    }
+    return () => document.removeEventListener('keydown', handleEscape);
+  }, [isOpen]);
+
+  const handleSelect = (loc: Locale) => {
+    setLocale(loc);
+    setIsOpen(false);
+  };
+
+  const otherLocales = LOCALES.filter((l) => l !== locale);
+
+  return (
+    <div ref={ref} className={`relative inline-flex ${className}`}>
+      {/* ── Expanded pill (open state) ── */}
+      <div
+        className={[
+          'flex items-center',
+          'bg-[var(--color-primary-900)]',
+          'rounded-full',
+          'transition-all duration-300 ease-in-out',
+          isOpen ? 'gap-6 pl-1 pr-6 py-1' : 'gap-0 p-0',
+          isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none',
+        ].join(' ')}
+        role="radiogroup"
+        aria-label="Select language"
+      >
+        {/* Active locale — circle badge */}
+        <button
+          type="button"
+          onClick={() => setIsOpen(false)}
+          className={[
+            'flex items-center justify-center',
+            'w-12 h-12 rounded-full',
+            'bg-[var(--color-primary-700)]',
+            'border-2 border-[var(--color-primary-500)]',
+            'text-[var(--color-primary-200)]',
+            'text-sm font-semibold uppercase',
+            'transition-transform duration-200',
+          ].join(' ')}
+          aria-checked="true"
+          role="radio"
+          aria-label={locale}
+        >
+          {locale}
+        </button>
+
+        {/* Other locales */}
+        {otherLocales.map((loc) => (
           <button
             key={loc}
-            onClick={() => setLocale(loc)}
-            className={`px-2 py-1 text-xs uppercase rounded transition-colors ${
-              locale === loc
-                ? 'bg-primary-500 text-white'
-                : 'text-neutral-400 hover:text-white hover:bg-neutral-700'
-            }`}
+            type="button"
+            onClick={() => handleSelect(loc)}
+            className={[
+              'text-[var(--color-primary-300)]',
+              'text-sm font-semibold uppercase',
+              'hover:text-[var(--color-primary-100)]',
+              'transition-colors duration-150',
+              'cursor-pointer',
+            ].join(' ')}
+            role="radio"
+            aria-checked="false"
+            aria-label={loc}
           >
             {loc}
           </button>
         ))}
       </div>
-    );
-  }
 
-  if (variant === 'dropdown') {
-    return (
-      <select
-        value={locale}
-        onChange={(e) => setLocale(e.target.value as Locale)}
-        className={`bg-neutral-800 text-white border border-neutral-600 rounded px-3 py-2 text-sm ${className}`}
+      {/* ── Collapsed badge (closed state) ── */}
+      <button
+        type="button"
+        onClick={() => setIsOpen(true)}
+        className={[
+          'flex items-center justify-center',
+          'w-12 h-12 rounded-full',
+          'bg-[var(--color-primary-900)]',
+          'border-2 border-[var(--color-primary-700)]',
+          'text-[var(--color-primary-200)]',
+          'text-sm font-semibold uppercase',
+          'transition-all duration-300 ease-in-out',
+          'hover:border-[var(--color-primary-500)]',
+          'hover:bg-[var(--color-primary-800)]',
+          isOpen ? 'opacity-0 pointer-events-none absolute' : 'opacity-100',
+        ].join(' ')}
+        aria-label={`Current language: ${locale}. Click to change.`}
+        aria-expanded={isOpen}
       >
-        {(Object.entries(LOCALE_LABELS) as [Locale, { label: string; flag: string }][]).map(
-          ([loc, { label, flag }]) => (
-            <option key={loc} value={loc}>
-              {flag} {label}
-            </option>
-          )
-        )}
-      </select>
-    );
-  }
-
-  // Default: buttons
-  return (
-    <div className={`flex items-center gap-2 ${className}`}>
-      {(Object.entries(LOCALE_LABELS) as [Locale, { label: string; flag: string }][]).map(
-        ([loc, { label, flag }]) => (
-          <button
-            key={loc}
-            onClick={() => setLocale(loc)}
-            className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
-              locale === loc
-                ? 'bg-primary-500 text-white'
-                : 'bg-neutral-800 text-neutral-300 hover:bg-neutral-700 hover:text-white'
-            }`}
-          >
-            <span>{flag}</span>
-            <span>{label}</span>
-          </button>
-        )
-      )}
+        {locale}
+      </button>
     </div>
   );
 }
