@@ -1,0 +1,19 @@
+{
+  "_comment": "301 redirects from old service pages to new one-offer architecture",
+  "redirects": [
+    { "source": "/services", "destination": "/offer", "permanent": true },
+    { "source": "/services/websites", "destination": "/offer", "permanent": true },
+    { "source": "/services/digital-strategy", "destination": "/offer", "permanent": true },
+    { "source": "/services/landing-pages-lead-generation", "destination": "/offer", "permanent": true },
+    { "source": "/services/seo-copy-content", "destination": "/offer", "permanent": true },
+    { "source": "/services/ads-tracking", "destination": "/offer", "permanent": true },
+    { "source": "/services/growth-support", "destination": "/offer", "permanent": true },
+    { "source": "/packages", "destination": "/offer", "permanent": true },
+    { "source": "/packages/start-right", "destination": "/offer", "permanent": true },
+    { "source": "/packages/make-your-website-work", "destination": "/offer", "permanent": true },
+    { "source": "/packages/ecommerce-with-a-method", "destination": "/offer", "permanent": true },
+    { "source": "/web-design-for-small-businesses", "destination": "/offer", "permanent": true },
+    { "source": "/all-inclusive-website-package", "destination": "/offer", "permanent": true },
+    { "source": "/method", "destination": "/offer", "permanent": true }
+  ]
+}

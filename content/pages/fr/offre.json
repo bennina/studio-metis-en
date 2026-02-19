@@ -1,0 +1,287 @@
+{
+  "slug": "fr/offre",
+  "seo": {
+    "title": "Pack Fondation — Site Vitrine Clé en Main à 3 000 € | Stratégie + Rédaction + SEO | Metis Web Agency",
+    "description": "Site vitrine professionnel tout inclus pour PME : stratégie, rédaction, SEO technique et suivi GA4 — 3 000 € prix fixe. Pas de coûts cachés, pas de texte à fournir.",
+    "canonicalUrl": "https://www.metiswebagency.com/fr/offre"
+  },
+  "sections": [
+    {
+      "id": "hero-offre",
+      "type": "cover",
+      "background": "primaryGradients",
+      "layout": { "radius": "justTopLeft", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Pack Fondation — 3 000 € prix fixe",
+        "title": "Un site web conçu pour <b>générer des contacts</b> — pas juste exister en ligne",
+        "subtitle": "Stratégie, rédaction, SEO et tracking. Tout inclus. Un seul prix.",
+        "body": "La plupart des agences livrent un joli site et disparaissent. Vous vous retrouvez à écrire les textes vous-même, sans SEO, sans mesure, en espérant que ça marche.</br></br>Nous faisons l'inverse. On part de vos objectifs et de votre cible, on rédige les textes professionnels, on construit le site avec des bases SEO solides et on configure le tracking — pour que vous sachiez ce qui fonctionne dès la première semaine.</br></br><b>Prix fixe : 3 000 €. Pas de coûts cachés. Pas de surprises.</b>",
+        "tone": "primary"
+      },
+      "primaryCta": { "label": "Réserver un appel gratuit", "href": "/fr/contact" },
+      "secondaryCta": { "label": "Voir ce qui est inclus", "href": "#ce-que-vous-obtenez" }
+    },
+
+    {
+      "id": "pour-qui",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "C'est pour vous ?",
+        "title": "Ce pack est pour les <b>PME</b> qui veulent un site qui <b>travaille vraiment</b>",
+        "subtitle": "",
+        "columns": [
+          {
+            "subtitle": "Vous êtes au bon endroit si :",
+            "description": "Vous lancez une activité et avez besoin d'un site professionnel — pas d'un template bricolé.</br></br>Ou vous avez un site vieillissant, qui ne dit rien de clair et ne vous ramène aucun contact.</br></br>Vous voulez quelqu'un qui gère stratégie, rédaction et technique — pas juste le « design »."
+          },
+          {
+            "subtitle": "Ce n'est PAS pour vous si :",
+            "description": "Vous avez besoin d'un e-commerce avec des centaines de produits.</br></br>Vous voulez écrire tous les textes vous-même et cherchez juste un exécutant graphique.</br></br>Vous cherchez le prix le plus bas — nous misons sur le travail bien fait, pas sur le moins cher."
+          }
+        ],
+        "tone": "accent"
+      }
+    },
+
+    {
+      "id": "ce-que-vous-obtenez",
+      "type": "wall-card",
+      "header": {
+        "tone": "secondary",
+        "eyebrow": "Ce que vous obtenez — tout est inclus",
+        "title": "6 livrables. Un seul pack. <b>3 000 €.</b>",
+        "subtitle": "Ce n'est pas une liste d'options. Tout ce qui suit est inclus en standard.",
+        "body": ""
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "primaryCta": { "label": "Réserver un appel gratuit", "href": "/fr/contact" },
+      "items": [
+        {
+          "id": "del-01-objectifs",
+          "eyebrow": "01",
+          "title": "Objectifs et priorités",
+          "description": "On définit ce que le site doit produire (contacts, demandes, crédibilité) et ce qui est superflu. Pas d'objectifs vagues — des résultats concrets et mesurables."
+        },
+        {
+          "id": "del-02-cible",
+          "eyebrow": "02",
+          "title": "Cible et message",
+          "description": "Qui voulez-vous toucher ? Que doit-il comprendre en 10 secondes ? On définit le ton, l'angle et le message central qui guide chaque page."
+        },
+        {
+          "id": "del-03-structure",
+          "eyebrow": "03",
+          "title": "Structure du site",
+          "description": "Pages essentielles, parcours clairs, CTA cohérents. Pas de menu infini, pas de pages en double. Chaque clic a un but."
+        },
+        {
+          "id": "del-04-redaction",
+          "eyebrow": "04",
+          "title": "Rédaction professionnelle",
+          "description": "On écrit chaque mot. Des textes qui expliquent votre valeur, vous différencient et poussent à l'action. Sans slogans creux, sans remplissage."
+        },
+        {
+          "id": "del-05-seo",
+          "eyebrow": "05",
+          "title": "Bases SEO et performance",
+          "description": "Fondations techniques et éditoriales pour être trouvé : structure, métadonnées, Core Web Vitals, accessibilité. Conçu pour Google et la recherche IA dès le premier jour."
+        },
+        {
+          "id": "del-06-mesure",
+          "eyebrow": "06",
+          "title": "Configuration de la mesure",
+          "description": "GA4 + GTM configurés avec les événements essentiels : soumissions de formulaire, clics téléphone, pages clés. Pour savoir si ça marche — pas deviner."
+        }
+      ]
+    },
+
+    {
+      "id": "calendrier",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Calendrier et processus",
+        "title": "Du lancement au site en ligne — <b>4 à 6 semaines</b>",
+        "subtitle": "Un processus clair et prévisible. Vous savez toujours où on en est.",
+        "columns": [
+          {
+            "subtitle": "Semaine 1 — Découverte et stratégie",
+            "description": "Appel de lancement de 60 minutes. On définit objectifs, audience, positionnement et structure du site. Vous partagez vos éléments (logo, photos, références). Livrable : brief stratégique + plan de site."
+          },
+          {
+            "subtitle": "Semaine 2–3 — Rédaction et contenu",
+            "description": "On rédige tous les textes des pages. Vous relisez et donnez votre retour. Un tour de corrections inclus. Livrable : textes finaux validés pour toutes les pages."
+          },
+          {
+            "subtitle": "Semaine 3–5 — Design et développement",
+            "description": "On construit le site : design responsive, performance, SEO, tracking. Vous suivez l'avancée via un lien de prévisualisation."
+          },
+          {
+            "subtitle": "Semaine 5–6 — Lancement et transmission",
+            "description": "Revue finale, mise en ligne, vérification du tracking. Transmission des accès et documentation. Support post-lancement de 14 jours."
+          }
+        ],
+        "tone": "secondary"
+      },
+      "primaryCta": { "label": "Réserver un appel gratuit", "href": "/fr/contact" }
+    },
+
+    {
+      "id": "ce-quon-attend-de-vous",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Ce qu'on attend de vous",
+        "title": "Votre investissement en temps : <b>environ 4–5 heures au total</b>",
+        "subtitle": "On fait le gros du travail. Mais les meilleurs sites se construisent avec votre implication.",
+        "body": "<b>Avant de commencer :</b> fichiers logo, couleurs de marque (si existantes), photos/images, références concurrentes, accès domaine et hébergement.</br></br><b>Pendant le projet :</b> 1 appel de lancement (60 min), relecture et retour sur les textes (2–3 heures réparties sur 2 semaines), validation finale avant mise en ligne.</br></br><b>Si vous n'avez pas de logo ou de photos :</b> on peut recommander des partenaires ou travailler avec des banques d'images — dites-le nous dès le départ.",
+        "tone": "accent"
+      }
+    },
+
+    {
+      "id": "non-inclus",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Ce qui n'est PAS inclus (pour éviter toute ambiguïté)",
+        "title": "On croit au <b>périmètre clair</b>",
+        "subtitle": "Ces éléments sont en dehors du pack. Si vous en avez besoin, on chiffre séparément.",
+        "columns": [
+          {
+            "subtitle": "Non inclus",
+            "description": "Création de logo ou identité de marque</br>Photographie ou production vidéo professionnelle</br>Fonctionnalité e-commerce / boutique en ligne</br>Gestion publicitaire (Google/Meta Ads)</br>Marketing de contenu ou blog (après lancement)</br>Intégrations personnalisées (CRM, réservation, etc.)</br>Site multilingue (langues supplémentaires devisées séparément)"
+          },
+          {
+            "subtitle": "Disponible en option",
+            "description": "<b>Support croissance mensuel</b> — SEO, contenu et optimisation Ads à partir de 395 €/mois</br></br><b>Pages supplémentaires</b> — 250 €/page (rédaction + design + SEO)</br></br><b>Landing page pour campagnes</b> — à partir de 500 €</br></br><b>Logo et identité de base</b> — à partir de 800 €"
+          }
+        ],
+        "tone": "accent"
+      }
+    },
+
+    {
+      "id": "preuves",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Réalisations sélectionnées",
+        "title": "Des sites construits avec cette méthode",
+        "subtitle": "Secteurs différents, même approche : objectifs d'abord, puis structure, rédaction et tracking.",
+        "columns": [
+          {
+            "subtitle": "Hôtellerie — Villa Luzzago",
+            "description": "Site web pour un hôtel-resort en Italie du Nord. Structure claire, parcours orienté réservation, forte présence de marque sur plusieurs propriétés (villa, restaurant, espace événementiel). Conçu pour communiquer l'expérience et convertir les visites en réservations directes."
+          },
+          {
+            "subtitle": "Santé — Audiofonetica",
+            "description": "Site orienté services pour un prestataire de santé. Structure bâtie sur la confiance, descriptions de services claires, positionnement professionnel et parcours de conversion. Conçu pour rassurer, expliquer et générer des demandes."
+          },
+          {
+            "subtitle": "Industrie B2B — Picchi Machines",
+            "description": "Site B2B pour un fabricant de machines industrielles. Des produits complexes expliqués simplement, pages structurées, navigation claire et orientation génération de leads. Conçu pour rendre des offres techniques accessibles aux acheteurs."
+          }
+        ],
+        "tone": "secondary"
+      },
+      "primaryCta": { "label": "Voir d'autres réalisations", "href": "/fr/realisations" },
+      "secondaryCta": { "label": "Réserver un appel gratuit", "href": "/fr/contact" }
+    },
+
+    {
+      "id": "faq-offre",
+      "type": "simple-content",
+      "content": {
+        "eyebrow": "Questions fréquentes",
+        "title": "Questions courantes sur ce pack",
+        "subtitle": "",
+        "accordion": [
+          {
+            "title": "Pourquoi 3 000 € ? Je peux avoir un site pour 500 €.",
+            "content": "C'est possible — et ce sera probablement un template avec du texte placeholder, sans stratégie, sans SEO et sans tracking. Vous passerez l'année suivante à vous demander pourquoi personne ne vous contacte. Notre prix inclut la stratégie professionnelle, la rédaction, le SEO technique et la mesure. C'est une fondation complète, pas juste un design."
+          },
+          {
+            "title": "Vous travaillez en quelle langue ?",
+            "content": "Nous livrons des sites en anglais et en français. Si vous avez besoin d'autres langues, nous pouvons travailler avec des traducteurs professionnels — devisés séparément. La stratégie et la structure fonctionnent indépendamment de la langue."
+          },
+          {
+            "title": "Je ne suis pas dans votre pays — on peut travailler à distance ?",
+            "content": "Oui. Nous travaillons 100% à distance avec des clients dans toute l'Europe. Appels via Google Meet ou Zoom, communication asynchrone par email ou WhatsApp, et un lien de prévisualisation pour suivre l'avancée. La plupart de nos clients n'ont jamais besoin de réunion en personne."
+          },
+          {
+            "title": "Quel CMS/plateforme utilisez-vous ?",
+            "content": "Nous utilisons des frameworks modernes (Next.js/React) pour la performance et le SEO. Si vous avez besoin d'un CMS pour modifier le contenu vous-même, on peut l'intégrer. On choisit l'outil adapté à vos besoins — sans être enfermés dans WordPress ou une plateforme unique."
+          },
+          {
+            "title": "Et si je veux des modifications après le lancement ?",
+            "content": "Le pack inclut 14 jours de support post-lancement pour les corrections et ajustements mineurs. Ensuite, vous pouvez demander des modifications au cas par cas ou ajouter notre support croissance mensuel (à partir de 395 €/mois) pour des améliorations continues."
+          },
+          {
+            "title": "Comment fonctionnent les paiements ?",
+            "content": "50% à la commande pour démarrer, 50% avant la mise en ligne. Facture claire avec TVA. Pour les clients B2B en UE avec un numéro de TVA valide, autoliquidation applicable."
+          },
+          {
+            "title": "En combien de temps le site est-il en ligne ?",
+            "content": "En général 4 à 6 semaines après le lancement du projet. La variable principale, c'est votre temps de retour sur la relecture des textes. Si vous êtes réactif, on peut souvent livrer plus vite."
+          },
+          {
+            "title": "Vous gérez aussi les Ads et le SEO continu ?",
+            "content": "Pas dans ce pack — et c'est volontaire. On croit qu'il faut d'abord construire la fondation. Une fois le site solide, vous pouvez ajouter notre support croissance mensuel pour le SEO continu, le contenu et la gestion Ads. Mais le site doit fonctionner seul d'abord."
+          }
+        ],
+        "tone": "secondary"
+      }
+    },
+
+    {
+      "id": "cta-final",
+      "type": "form-card",
+      "background": "primaryGradients",
+      "layout": { "radius": "justRight", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "tone": "primary",
+        "eyebrow": "Prochaine étape",
+        "title": "<b>Réservez un appel gratuit de 30 minutes</b>",
+        "subtitle": "Pas de pitch, pas de pression. On écoute votre situation et on vous dit honnêtement si ce pack est fait pour vous.",
+        "description": "Si ça colle, vous recevez une proposition claire sous 48 heures.</br>Si ce n'est pas le bon fit, on vous le dit — et on vous oriente vers ce qui fonctionnerait mieux."
+      },
+      "primaryCta": {
+        "label": "Nous écrire sur WhatsApp",
+        "target": "_blank",
+        "href": "https://wa.me/393494459317"
+      },
+      "form": {
+        "eyebrow": "Vous préférez l'email ?",
+        "title": "<b>Parlez-nous de votre projet</b>",
+        "description": "Réponse sous 24 heures."
+      },
+      "fields": [
+        { "type": "text", "id": "name", "name": "name", "label": "Nom complet", "placeholder": "ex. Marie Dupont", "required": true },
+        { "type": "email", "id": "email", "name": "email", "label": "Email", "placeholder": "nom@entreprise.fr", "required": true },
+        { "type": "text", "id": "phone", "name": "phone", "label": "Téléphone (optionnel)", "placeholder": "ex. 06 12 34 56 78", "required": false },
+        { "type": "text", "id": "company", "name": "company", "label": "Entreprise / Activité", "placeholder": "ex. Cabinet Dupont", "required": false },
+        { "type": "text", "id": "website", "name": "website", "label": "Site actuel (si existant)", "placeholder": "https://...", "required": false },
+        {
+          "type": "textarea",
+          "id": "message",
+          "name": "message",
+          "label": "Parlez-nous de votre situation",
+          "placeholder": "ex. Je lance un cabinet de conseil et j'ai besoin d'un site pro / Mon site actuel est daté et ne génère pas de contacts / Le Pack Fondation m'intéresse...",
+          "rows": 4,
+          "required": true
+        },
+        { "type": "checkbox", "id": "privacy", "name": "privacy", "label": "J'ai lu et j'accepte la politique de confidentialité*", "required": true }
+      ],
+      "submitLabel": "Envoyer le message",
+      "secondaryText": "<span class=\"text-sm\">Consultez notre <a href=\"https://www.iubenda.com/privacy-policy/26089082\" target=\"_blank\" class=\"underline underline-offset-4 hover:text-[var(--color-primary-900)]\">Politique de confidentialité</a></span><br>Réponse sous 24 heures. Pas de spam.",
+      "formMethod": "post",
+      "formAction": "/api/contact"
+    }
+  ]
+}

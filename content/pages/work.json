@@ -1,0 +1,170 @@
+{
+  "slug": "work",
+  "seo": {
+    "title": "Selected Work — Websites Built With Strategy | Metis Web Agency",
+    "description": "Selected website projects across hospitality, healthcare, B2B industry, education and more. Real work, real results — built with strategy, copy and tracking.",
+    "canonicalUrl": "https://www.metiswebagency.com/work"
+  },
+  "sections": [
+    {
+      "id": "hero-work",
+      "type": "cover",
+      "background": "secondaryGradients",
+      "layout": { "radius": "justTopLeft", "alignX": "left", "alignY": "bottom" },
+      "paddingY": "none",
+      "content": {
+        "isFirst": true,
+        "eyebrow": "Selected work",
+        "title": "Websites built with <b>strategy, copy and tracking</b>",
+        "subtitle": "Different industries. Same method: goals first, then structure, content and measurement.",
+        "body": "We don't show spec work or design concepts. These are real projects for real businesses — each built with the same approach: understand the goal, write clear copy, build solid foundations, and set up tracking to know if it works.",
+        "tone": "secondary"
+      },
+      "primaryCta": { "label": "See the offer", "href": "/offer" },
+      "secondaryCta": { "label": "Book a free call", "href": "/contact" }
+    },
+
+    {
+      "id": "work-hospitality",
+      "type": "wall-card",
+      "header": {
+        "tone": "secondary",
+        "eyebrow": "Hospitality & Tourism",
+        "title": "Websites that communicate the experience and convert",
+        "subtitle": "",
+        "body": ""
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "items": [
+        {
+          "id": "work-villaluzzago",
+          "eyebrow": "Hotel / Resort",
+          "title": "Villa Luzzago",
+          "description": "Hospitality website with clear structure, booking-oriented flow and strong brand presence across multiple properties.",
+          "cta": { "label": "Visit website", "href": "https://www.villaluzzago.it/", "target": "_blank" }
+        },
+        {
+          "id": "work-bellavista",
+          "eyebrow": "Hospitality group",
+          "title": "Bellavista Collection",
+          "description": "Multi-property presentation with clean information hierarchy and coherent brand experience.",
+          "cta": { "label": "Visit website", "href": "https://www.bellavistacollection.com/", "target": "_blank" }
+        },
+        {
+          "id": "work-arzaga",
+          "eyebrow": "Golf / Resort",
+          "title": "Arzaga Golf",
+          "description": "Experience-focused site with strong visual storytelling and structured content.",
+          "cta": { "label": "Visit website", "href": "https://www.arzagagolf.it/", "target": "_blank" }
+        }
+      ]
+    },
+
+    {
+      "id": "work-industry",
+      "type": "wall-card",
+      "header": {
+        "tone": "primary",
+        "eyebrow": "Industry & B2B",
+        "title": "Complex products explained simply",
+        "subtitle": "",
+        "body": ""
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "items": [
+        {
+          "id": "work-picchi",
+          "eyebrow": "Industrial machinery",
+          "title": "Picchi Machines",
+          "description": "B2B site focused on product clarity and lead generation. Technical offerings made accessible.",
+          "cta": { "label": "Visit website", "href": "https://www.picchimachines.it/", "target": "_blank" }
+        },
+        {
+          "id": "work-primak",
+          "eyebrow": "Industry",
+          "title": "Primak",
+          "description": "Corporate website with structured offer and clear navigation.",
+          "cta": { "label": "Visit website", "href": "https://www.primak.it", "target": "_blank" }
+        },
+        {
+          "id": "work-fergra",
+          "eyebrow": "Industry",
+          "title": "Fergra",
+          "description": "Service and product presentation with direct inquiry path.",
+          "cta": { "label": "Visit website", "href": "https://fergra.it/", "target": "_blank" }
+        }
+      ]
+    },
+
+    {
+      "id": "work-healthcare",
+      "type": "wall-card",
+      "header": {
+        "tone": "accent",
+        "eyebrow": "Healthcare & Pharma",
+        "title": "Trust-first websites built with clarity",
+        "subtitle": "",
+        "body": ""
+      },
+      "layout": {
+        "align": "left",
+        "columnsMobile": 1,
+        "columnsDesktop": 3,
+        "gap": "md",
+        "ctaPlacement": "footer"
+      },
+      "items": [
+        {
+          "id": "work-audiofonetica",
+          "eyebrow": "Healthcare",
+          "title": "Audiofonetica",
+          "description": "Service-focused website with trust-building structure and clear conversion paths.",
+          "cta": { "label": "Visit website", "href": "https://www.audiofonetica.it/", "target": "_blank" }
+        },
+        {
+          "id": "work-giuliani",
+          "eyebrow": "Pharma",
+          "title": "Giuliani Pharma",
+          "description": "Corporate pharma presence with brand and product ecosystem.",
+          "cta": { "label": "Visit website", "href": "https://www.giulianipharma.com/", "target": "_blank" }
+        },
+        {
+          "id": "work-monoderma",
+          "eyebrow": "Skincare",
+          "title": "Monoderma",
+          "description": "Brand website built for clarity and trust in the skincare space.",
+          "cta": { "label": "Visit website", "href": "https://www.monoderma.com/", "target": "_blank" }
+        }
+      ]
+    },
+
+    {
+      "id": "work-cta",
+      "type": "simple-content",
+      "background": "primaryGradients",
+      "layout": { "radius": "justLeft", "alignX": "left", "alignY": "center" },
+      "paddingY": "xl",
+      "content": {
+        "tone": "white",
+        "eyebrow": "Your project could be next",
+        "title": "Ready to build a website that works?",
+        "subtitle": "Foundation Website Package — €3,000. Strategy, copy, SEO and tracking included.",
+        "body": ""
+      },
+      "primaryCta": { "label": "See the offer", "href": "/offer" },
+      "secondaryCta": { "label": "Book a free call", "href": "/contact" }
+    }
+  ]
+}
