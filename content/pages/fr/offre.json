@@ -20,7 +20,7 @@
         "body": "La plupart des agences livrent un joli site et disparaissent. Vous vous retrouvez à écrire les textes vous-même, sans SEO, sans mesure, en espérant que ça marche.</br></br>Nous faisons l'inverse. On part de vos objectifs et de votre cible, on rédige les textes professionnels, on construit le site avec des bases SEO solides et on configure le tracking — pour que vous sachiez ce qui fonctionne dès la première semaine.</br></br><b>Prix fixe : 3 000 €. Pas de coûts cachés. Pas de surprises.</b>",
         "tone": "primary"
       },
-      "primaryCta": { "label": "Réserver un appel gratuit", "href": "/fr/contact" },
+      "primaryCta": { "label": "Réserver un appel gratuit", "href": "/contact" },
       "secondaryCta": { "label": "Voir ce qui est inclus", "href": "#ce-que-vous-obtenez" }
     },
 
@@ -62,7 +62,7 @@
         "gap": "md",
         "ctaPlacement": "footer"
       },
-      "primaryCta": { "label": "Réserver un appel gratuit", "href": "/fr/contact" },
+      "primaryCta": { "label": "Réserver un appel gratuit", "href": "/contact" },
       "items": [
         {
           "id": "del-01-objectifs",
@@ -130,7 +130,7 @@
         ],
         "tone": "secondary"
       },
-      "primaryCta": { "label": "Réserver un appel gratuit", "href": "/fr/contact" }
+      "primaryCta": { "label": "Réserver un appel gratuit", "href": "/contact" }
     },
 
     {
@@ -189,8 +189,8 @@
         ],
         "tone": "secondary"
       },
-      "primaryCta": { "label": "Voir d'autres réalisations", "href": "/fr/realisations" },
-      "secondaryCta": { "label": "Réserver un appel gratuit", "href": "/fr/contact" }
+      "primaryCta": { "label": "Voir d'autres réalisations", "href": "/work" },
+      "secondaryCta": { "label": "Réserver un appel gratuit", "href": "/contact" }
     },
 
     {
