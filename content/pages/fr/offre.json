@@ -175,16 +175,16 @@
         "subtitle": "Secteurs différents, même approche : objectifs d'abord, puis structure, rédaction et tracking.",
         "columns": [
           {
-            "subtitle": "Hôtellerie — Villa Luzzago",
-            "description": "Site web pour un hôtel-resort en Italie du Nord. Structure claire, parcours orienté réservation, forte présence de marque sur plusieurs propriétés (villa, restaurant, espace événementiel). Conçu pour communiquer l'expérience et convertir les visites en réservations directes."
+            "subtitle": "Construction — F.lli Termine",
+            "description": "Une entreprise de construction nouvelle qui avait besoin d'une identité professionnelle de zéro. Identité de marque complète, site React et stratégie marketing intégrée. De zéro à une marque reconnue en 4 mois."
           },
           {
-            "subtitle": "Santé — Audiofonetica",
-            "description": "Site orienté services pour un prestataire de santé. Structure bâtie sur la confiance, descriptions de services claires, positionnement professionnel et parcours de conversion. Conçu pour rassurer, expliquer et générer des demandes."
+            "subtitle": "SaaS Automobile — eMotori",
+            "description": "Un site existant qui paraissait dépassé. Au lieu d'une reconstruction coûteuse, nous avons fait un restyling stratégique : refonte graphique, optimisation WordPress et boost de performance."
           },
           {
-            "subtitle": "Industrie B2B — Picchi Machines",
-            "description": "Site B2B pour un fabricant de machines industrielles. Des produits complexes expliqués simplement, pages structurées, navigation claire et orientation génération de leads. Conçu pour rendre des offres techniques accessibles aux acheteurs."
+            "subtitle": "Produit IA — eChat",
+            "description": "Un produit IA pour les revendeurs de pièces automobiles. Le défi : expliquer un produit complexe clairement en 10 secondes. Solution : vidéo, maquettes réelles, bénéfices tangibles et landing page optimisée."
           }
         ],
         "tone": "secondary"

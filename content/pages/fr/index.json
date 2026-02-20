@@ -114,16 +114,16 @@
         "subtitle": "Secteurs différents, même approche : objectifs d'abord, puis structure, rédaction et tracking.",
         "columns": [
           {
-            "subtitle": "Villa Luzzago — Hôtellerie",
-            "description": "Site pour un hôtel-resort. Structure claire, parcours orienté réservation, forte présence de marque. Conçu pour convertir les visites en réservations directes."
+            "subtitle": "F.lli Termine — Construction",
+            "description": "Une entreprise de construction nouvelle qui avait besoin d'une identité professionnelle de zéro. Identité de marque complète, site React et stratégie marketing intégrée. De zéro à une marque reconnue en 4 mois."
           },
           {
-            "subtitle": "Audiofonetica — Santé",
-            "description": "Site orienté services. Structure de confiance, descriptions claires, positionnement professionnel. Conçu pour rassurer et générer des demandes."
+            "subtitle": "eMotori — Refonte intelligente",
+            "description": "Un site existant qui paraissait dépassé. Au lieu d'une reconstruction coûteuse, nous avons fait un restyling stratégique : refonte graphique, optimisation WordPress et boost de performance."
           },
           {
-            "subtitle": "Picchi Machines — Industrie B2B",
-            "description": "Site pour machines industrielles. Produits complexes expliqués simplement, pages structurées, focus génération de leads."
+            "subtitle": "eChat — Produit SaaS IA",
+            "description": "Un produit IA pour les revendeurs de pièces automobiles. Le défi : expliquer un produit complexe clairement en 10 secondes. Solution : vidéo, maquettes réelles, bénéfices tangibles."
           }
         ],
         "tone": "secondary"

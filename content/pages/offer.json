@@ -175,16 +175,16 @@
         "subtitle": "Different industries, same method: goals first, then structure, copy and tracking.",
         "columns": [
           {
-            "subtitle": "Hospitality — Villa Luzzago",
-            "description": "Website for a hotel and resort in Northern Italy. Clear structure, booking-oriented flow, strong brand presence across multiple properties (villa, restaurant, events venue). Built to communicate the experience and convert visits into direct bookings."
+            "subtitle": "Construction — F.lli Termine",
+            "description": "A new construction company that needed a professional identity from scratch. Full brand identity, React website and integrated marketing strategy. From zero to a recognisable brand in 4 months."
           },
           {
-            "subtitle": "Healthcare — Audiofonetica",
-            "description": "Service-focused website for a healthcare provider. Trust-building structure with clear service descriptions, professional positioning and conversion paths. Designed to reassure, explain and generate enquiries."
+            "subtitle": "Automotive SaaS — eMotori",
+            "description": "An existing website that looked outdated. Instead of a costly rebuild, we did a strategic restyling: graphic redesign, WordPress optimisation and performance boost."
           },
           {
-            "subtitle": "B2B Industry — Picchi Machines",
-            "description": "B2B website for an industrial machinery company. Complex products explained simply, with structured service pages, clear navigation and lead generation focus. Built to make technical offerings accessible to buyers."
+            "subtitle": "AI Product — eChat",
+            "description": "An AI product for automotive parts dealers. The challenge: explain a complex product clearly in 10 seconds. Solution: video, real mockups, tangible benefits and an optimised landing page."
           }
         ],
         "tone": "secondary"

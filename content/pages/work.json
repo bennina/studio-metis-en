@@ -10,7 +10,11 @@
       "id": "hero-work",
       "type": "cover",
       "background": "secondaryGradients",
-      "layout": { "radius": "justTopLeft", "alignX": "left", "alignY": "bottom" },
+      "layout": {
+        "radius": "justTopLeft",
+        "alignX": "left",
+        "alignY": "bottom"
+      },
       "paddingY": "none",
       "content": {
         "isFirst": true,
@@ -25,7 +29,7 @@
     },
 
     {
-      "id": "work-cases",
+      "id": "casy-studio-termine",
       "type": "wall-card",
       "header": {
         "tone": "primary",
@@ -45,25 +49,38 @@
       "secondaryCta": { "label": "Book a free call", "href": "/contact" },
       "items": [
         {
-          "id": "work-villaluzzago",
-          "eyebrow": "Hospitality",
-          "title": "Villa Luzzago",
-          "description": "Hotel and resort website with clear structure, booking-oriented flow and strong brand presence across multiple properties (villa, restaurant, events venue). Built to communicate the experience and convert visits into direct bookings.",
-          "cta": { "label": "Visit website", "href": "https://www.villaluzzago.it/", "target": "_blank" }
+          "id": "casy-studio-termine",
+          "eyebrow": "Da zero a brand riconoscibile in 4 mesi",
+          "title": "L'impresa edile dei <b>Fratelli Termine</b>, ha affidato a noi <em>la sua immagine</em>",
+          "subtitle": "Brand identity completa + Sito React + Strategia marketing integrata",
+          "description": "F.lli Termine sono un'impresa nuova che viene da un lavoro tramandato di generazioni. Oggi ha un'identità forte, un sito professionale e un sistema per acquisire clienti online.",
+          "cta": {
+            "label": "Visita il sito",
+            "href": "https://www.terminecostruzioni.it/",
+            "external": "true"
+          }
         },
         {
-          "id": "work-audiofonetica",
-          "eyebrow": "Healthcare",
-          "title": "Audiofonetica",
-          "description": "Service-focused website for a healthcare provider. Trust-building structure with clear service descriptions, professional positioning and conversion paths. Designed to reassure, explain and generate enquiries.",
-          "cta": { "label": "Visit website", "href": "https://www.audiofonetica.it/", "target": "_blank" }
+          "eyebrow": "Restyling intelligente",
+          "title": "Un sito datato <b>trasformato</b> senza rifare tutto <em>da zero</em>",
+          "subtitle": "Redesign grafico + Ottimizzazione WordPress + Performance boost",
+          "description": "eMotori aveva un sito funzionante ma vecchio. Invece di rebuild costoso, abbiamo fatto restyling strategico",
+          "cta": {
+            "label": "Visita il sito",
+            "href": "https://www.emotori.com/",
+            "external": "true"
+          }
         },
         {
-          "id": "work-picchi",
-          "eyebrow": "B2B Industry",
-          "title": "Picchi Machines",
-          "description": "B2B website for an industrial machinery company. Complex products explained simply, with structured service pages, clear navigation and lead generation focus. Built to make technical offerings accessible to buyers.",
-          "cta": { "label": "Visit website", "href": "https://www.picchimachines.it/", "target": "_blank" }
+          "eyebrow": "SaaS da zero: design che spiega e converte",
+          "title": "Come <b>spiegare un prodotto AI complesso</b> in modo <em>chiaro e convincente</em>",
+          "subtitle": "Design WordPress + Video demo + Landing page ottimizzata",
+          "description": "eChat è un'AI per ricambisti automotive. Il challenge: far capire il valore in 10 secondi. Soluzione: video, mockup reali, benefit tangibili.",
+          "cta": {
+            "label": "Visita il sito",
+            "href": "https://www.emotori.com/",
+            "external": "true"
+          }
         }
       ]
     },
