@@ -1,23 +1,24 @@
 {
-  "name": "@metis-ui/core",
+  "name": "athometis",
   "version": "2.0.0",
   "private": false,
-  "description": "Metis UI - React/Next.js component library with atomic design and theming support",
+  "description": "Athometis UI - React/Next.js component library with atomic design and theming support",
   "author": "Metis Web Agency <info@metiswebagency.it>",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/metis-web-agency/metis-ui"
+    "url": "https://github.com/bennina/studio-metis"
   },
   "keywords": [
-    "react",
-    "nextjs",
-    "ui",
-    "components",
+    "athometis",
     "atomic-design",
+    "components",
+    "design-system",
+    "nextjs",
+    "react",
     "tailwindcss",
     "theme",
-    "design-system"
+    "ui"
   ],
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -48,12 +49,7 @@
       "import": "./dist/components/sections/index.mjs",
       "require": "./dist/components/sections/index.js"
     },
-    "./styles.css": "./dist/styles.css",
-    "./license": {
-      "types": "./dist/license/index.d.ts",
-      "import": "./dist/license/index.mjs",
-      "require": "./dist/license/index.js"
-    }
+    "./styles.css": "./dist/styles.css"
   },
   "files": [
     "dist",
@@ -108,5 +104,6 @@
     "next": "^16.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
-  }
+  },
+  "homepage": "https://github.com/bennina/studio-metis"
 }
