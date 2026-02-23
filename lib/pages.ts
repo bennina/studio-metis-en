@@ -3,9 +3,8 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import type { PageSchema } from "@/schema/pageSchema";
 
-// Preferiamo content/pages; se non esiste, fallback su schema/pages.
+// Athometis usa esclusivamente contenuti JSON in `content/pages`.
 const CONTENT_DIR = path.join(process.cwd(), "content/pages");
-const SCHEMA_DIR = path.join(process.cwd(), "schema/pages");
 
 type IndexEntry = {
   slug: string; // "" | "chi-siamo" | "servizi/bonus"
@@ -22,10 +21,11 @@ async function exists(p: string): Promise<boolean> {
 }
 
 async function getPagesDir(): Promise<string> {
-  if (process.env.PAGES_DIR) return path.join(process.cwd(), process.env.PAGES_DIR);
-  if (await exists(CONTENT_DIR)) return CONTENT_DIR;
-  if (await exists(SCHEMA_DIR)) return SCHEMA_DIR;
-  // fallback "best effort"
+  // Manteniamo il supporto a PAGES_DIR soltanto se punta a una cartella contenente JSON.
+  if (process.env.PAGES_DIR) {
+    return path.join(process.cwd(), process.env.PAGES_DIR);
+  }
+
   return CONTENT_DIR;
 }
 
@@ -112,6 +112,12 @@ async function getIndex(): Promise<{ pagesDir: string; entries: IndexEntry[] }> 
 
   if (_cache && _cache.pagesDir === pagesDir && now - _cache.at < ttl) {
     return { pagesDir: _cache.pagesDir, entries: _cache.entries };
+  }
+
+  if (!(await exists(pagesDir))) {
+    console.warn(
+      `[pages] Directory non trovata: ${pagesDir}. Athometis richiede contenuti JSON in content/pages.`,
+    );
   }
 
   const entries = (await exists(pagesDir)) ? await buildIndex(pagesDir) : [];

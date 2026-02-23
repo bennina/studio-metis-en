@@ -1,12 +1,9 @@
 // index.ts
-// @metis-ui/core - Main entry point
+// athometis - Main entry point
 
 // Theme system
 export * from './lib/theme';
 
-// License system
-export * from './lib/license';
-export { LicenseProvider, useLicense, withLicense } from './lib/license/useLicense';
 
 // Componenti e layout principali
 export * from './components';

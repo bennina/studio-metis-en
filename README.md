@@ -50,6 +50,9 @@ tar -czf deploy.tgz -C deploy .
 Nel progetto consumer:
 
 ```bash
-pnpm add ../percorso/a/athometis-ui
+# pnpm
+pnpm add github:bennina/studio-metis
 
-
+# npm
+npm install github:bennina/studio-metis
+```
